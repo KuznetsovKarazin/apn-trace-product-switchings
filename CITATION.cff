@@ -1,4 +1,5 @@
-cff-version: 1.2.0
+version: 1.0.2
+date-released: 2026-08-04
 message: "If you use this software or the exact certificates, please cite this release."
 title: "APN Trace-Product Switchings: Code and Exact Certificates"
 type: software
@@ -19,3 +20,5 @@ keywords:
   - trace switching
   - projective geometry
   - reproducible research
+
+

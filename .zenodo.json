@@ -1,33 +1,25 @@
 {
   "title": "APN Trace-Product Switchings: Code and Exact Certificates",
-  "description": "Reproducible code, canonical JSON results, exact finite certificates, and manuscript sources supporting the dimension-rigidity and projective-classification results for trace-product switchings of the Gold APN function.",
+  "description": "Reproducible code, canonical results, exact finite certificates, and supporting material for the dimension-rigidity and projective-classification results on trace-product switchings of the Gold APN function.",
+  "version": "1.0.2",
+  "publication_date": "2026-08-04",
   "creators": [
     {
       "name": "Kuznetsov, Oleksandr",
       "orcid": "0000-0003-2331-6326",
-      "affiliation": "eCampus University; V.N. Karazin Kharkiv National University"
+      "affiliation": "eCampus University; V. N. Karazin Kharkiv National University"
     }
   ],
-  "license": "MIT",
   "upload_type": "software",
   "access_right": "open",
+  "license": "mit",
+  "language": "eng",
   "keywords": [
     "APN functions",
     "Gold function",
     "finite fields",
-    "trace switching",
-    "projective geometry"
-  ],
-  "related_identifiers": [
-    {
-      "identifier": "https://github.com/KuznetsovKarazin/apn-trace-product-switchings",
-      "relation": "isSupplementTo",
-      "scheme": "url"
-    },
-    {
-      "identifier": "https://arxiv.org/abs/2606.11967",
-      "relation": "isRelatedTo",
-      "scheme": "url"
-    }
+    "trace-product switching",
+    "projective geometry",
+    "reproducible research"
   ]
 }
