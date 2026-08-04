@@ -1,9 +1,8 @@
-version: 1.0.2
-date-released: 2026-08-04
+cff-version: 1.2.0
 message: "If you use this software or the exact certificates, please cite this release."
 title: "APN Trace-Product Switchings: Code and Exact Certificates"
 type: software
-version: 1.0.0
+version: 1.0.2
 date-released: 2026-08-04
 repository-code: "https://github.com/KuznetsovKarazin/apn-trace-product-switchings"
 url: "https://github.com/KuznetsovKarazin/apn-trace-product-switchings"
@@ -12,13 +11,11 @@ authors:
   - family-names: Kuznetsov
     given-names: Oleksandr
     orcid: "https://orcid.org/0000-0003-2331-6326"
-    affiliation: "eCampus University; V.N. Karazin Kharkiv National University"
+    affiliation: "eCampus University; V. N. Karazin Kharkiv National University"
 keywords:
   - APN functions
   - Gold function
   - finite fields
-  - trace switching
+  - trace-product switching
   - projective geometry
   - reproducible research
-
-
