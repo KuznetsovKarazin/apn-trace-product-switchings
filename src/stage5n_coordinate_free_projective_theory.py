@@ -47,7 +47,7 @@ def main() -> int:
     )
     args = parser.parse_args()
 
-    root = Path(__file__).resolve().parents[2]
+    root = Path(__file__).resolve().parents[1]
     stage5j_path = args.stage5j if args.stage5j.is_absolute() else root / args.stage5j
     output_path = args.output if args.output.is_absolute() else root / args.output
     stage5j = json.loads(stage5j_path.read_text(encoding="utf-8"))

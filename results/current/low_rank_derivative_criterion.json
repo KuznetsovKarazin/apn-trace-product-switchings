@@ -1,0 +1,637 @@
+{
+  "schema": "apn-low-rank-derivative-criterion-v1",
+  "date": "2026-08-02",
+  "scope": "Exact rank-one/rank-two derivative update criterion, validated against five archived scalar-family APN scans",
+  "provenance": {
+    "canonical_kernels_file": "results/evidence/canonical_switching_kernels.json",
+    "canonical_kernels_sha256": "c4d37b6a00a72a8bfa34aa4bc1a45b5b894d9a8a43ec2573a3965408070276f4",
+    "archived_scalar_scan_file": "results/evidence/scalar_family_completion/scalar_family_apn_scan.json",
+    "archived_scalar_scan_sha256": "d61ebc2e367412e9ab095fce961f39da54ff96b54299e2f4861a5adee9af4a83"
+  },
+  "criterion": {
+    "base_derivative": "L_a^F(x)=F(x+a)+F(x)+F(a)",
+    "APN_base_condition": "ker L_a^F=<a> for every a!=0",
+    "perturbation": "Delta=sum_i v_i q_i",
+    "boolean_derivatives": "ell_{a,i}(x)=q_i(x+a)+q_i(x)+q_i(a)",
+    "failure_condition": "There exist a!=0 and y!=0 such that U(y) is in im L_a^F and R_a((L_a^F)^(-1)U(y))=y.",
+    "well_defined_reason": "Two preimages differ by a and ell_{a,i}(a)=0, so the recovered Boolean derivative vector is independent of the preimage.",
+    "rank_one_specialization": "For Delta=v q, failure at a occurs exactly when v is in im L_a^F and ell_{a,q}((L_a^F)^(-1)v)=1.",
+    "complexity": "After precomputing the 255 derivative image/preimage tables, a rank-r candidate needs at most 255*(2^r-1) small lookups."
+  },
+  "families": [
+    {
+      "id": "X3-Q0",
+      "gold_exponent": 3,
+      "parameter_mode": "direct_single_coefficient",
+      "components": [
+        [
+          1,
+          "q0"
+        ]
+      ],
+      "base_component_output_rank": 1,
+      "parameter_count_tested": 255,
+      "accepted_parameters": [
+        36,
+        136,
+        172
+      ],
+      "accepted_parameters_hex": [
+        "0x24",
+        "0x88",
+        "0xac"
+      ],
+      "accepted_parameter_orders": {
+        "0x24": 85,
+        "0x88": 255,
+        "0xac": 255
+      },
+      "archived_bruteforce_parameters_hex": [
+        "0x24",
+        "0x88",
+        "0xac"
+      ],
+      "exact_match_with_archived_bruteforce_scan": true,
+      "component_rank_distribution": {
+        "1": 255
+      },
+      "rejected_first_witness_a_histogram": {
+        "0x01": 64,
+        "0x03": 48,
+        "0x05": 36,
+        "0x07": 24,
+        "0x08": 20,
+        "0x0a": 14,
+        "0x0b": 12,
+        "0x09": 9,
+        "0x0c": 6,
+        "0x0f": 4,
+        "0x0d": 4,
+        "0x13": 2,
+        "0x1a": 2,
+        "0x0e": 2,
+        "0x1f": 1,
+        "0x11": 1,
+        "0x1b": 1,
+        "0x26": 1,
+        "0x1d": 1
+      },
+      "sample_rejected_witnesses": [
+        {
+          "parameter": 1,
+          "parameter_hex": "0x01",
+          "witness": {
+            "a": 1,
+            "a_hex": "0x01",
+            "y": 1,
+            "preimage_x": 188,
+            "preimage_x_hex": "0xbc",
+            "output_combination": 1,
+            "output_combination_hex": "0x01"
+          }
+        },
+        {
+          "parameter": 2,
+          "parameter_hex": "0x02",
+          "witness": {
+            "a": 1,
+            "a_hex": "0x01",
+            "y": 1,
+            "preimage_x": 42,
+            "preimage_x_hex": "0x2a",
+            "output_combination": 2,
+            "output_combination_hex": "0x02"
+          }
+        },
+        {
+          "parameter": 3,
+          "parameter_hex": "0x03",
+          "witness": {
+            "a": 11,
+            "a_hex": "0x0b",
+            "y": 1,
+            "preimage_x": 133,
+            "preimage_x_hex": "0x85",
+            "output_combination": 3,
+            "output_combination_hex": "0x03"
+          }
+        },
+        {
+          "parameter": 4,
+          "parameter_hex": "0x04",
+          "witness": {
+            "a": 1,
+            "a_hex": "0x01",
+            "y": 1,
+            "preimage_x": 40,
+            "preimage_x_hex": "0x28",
+            "output_combination": 4,
+            "output_combination_hex": "0x04"
+          }
+        },
+        {
+          "parameter": 5,
+          "parameter_hex": "0x05",
+          "witness": {
+            "a": 5,
+            "a_hex": "0x05",
+            "y": 1,
+            "preimage_x": 154,
+            "preimage_x_hex": "0x9a",
+            "output_combination": 5,
+            "output_combination_hex": "0x05"
+          }
+        }
+      ]
+    },
+    {
+      "id": "X3-R2",
+      "gold_exponent": 3,
+      "parameter_mode": "global_field_multiplier",
+      "components": [
+        [
+          61,
+          "q1"
+        ],
+        [
+          36,
+          "q0"
+        ]
+      ],
+      "base_component_output_rank": 2,
+      "parameter_count_tested": 255,
+      "accepted_parameters": [
+        1,
+        189
+      ],
+      "accepted_parameters_hex": [
+        "0x01",
+        "0xbd"
+      ],
+      "accepted_parameter_orders": {
+        "0x01": 1,
+        "0xbd": 3
+      },
+      "archived_bruteforce_parameters_hex": [
+        "0x01",
+        "0xbd"
+      ],
+      "exact_match_with_archived_bruteforce_scan": true,
+      "component_rank_distribution": {
+        "2": 255
+      },
+      "rejected_first_witness_a_histogram": {
+        "0x01": 88,
+        "0x02": 44,
+        "0x03": 41,
+        "0x04": 19,
+        "0x05": 18,
+        "0x06": 15,
+        "0x07": 11,
+        "0x08": 4,
+        "0x0c": 3,
+        "0x0f": 3,
+        "0x0b": 3,
+        "0x0a": 2,
+        "0x0d": 1,
+        "0x09": 1
+      },
+      "sample_rejected_witnesses": [
+        {
+          "parameter": 2,
+          "parameter_hex": "0x02",
+          "witness": {
+            "a": 1,
+            "a_hex": "0x01",
+            "y": 2,
+            "preimage_x": 8,
+            "preimage_x_hex": "0x08",
+            "output_combination": 72,
+            "output_combination_hex": "0x48"
+          }
+        },
+        {
+          "parameter": 3,
+          "parameter_hex": "0x03",
+          "witness": {
+            "a": 2,
+            "a_hex": "0x02",
+            "y": 1,
+            "preimage_x": 161,
+            "preimage_x_hex": "0xa1",
+            "output_combination": 71,
+            "output_combination_hex": "0x47"
+          }
+        },
+        {
+          "parameter": 4,
+          "parameter_hex": "0x04",
+          "witness": {
+            "a": 1,
+            "a_hex": "0x01",
+            "y": 1,
+            "preimage_x": 84,
+            "preimage_x_hex": "0x54",
+            "output_combination": 244,
+            "output_combination_hex": "0xf4"
+          }
+        },
+        {
+          "parameter": 5,
+          "parameter_hex": "0x05",
+          "witness": {
+            "a": 2,
+            "a_hex": "0x02",
+            "y": 1,
+            "preimage_x": 153,
+            "preimage_x_hex": "0x99",
+            "output_combination": 201,
+            "output_combination_hex": "0xc9"
+          }
+        },
+        {
+          "parameter": 6,
+          "parameter_hex": "0x06",
+          "witness": {
+            "a": 3,
+            "a_hex": "0x03",
+            "y": 1,
+            "preimage_x": 228,
+            "preimage_x_hex": "0xe4",
+            "output_combination": 142,
+            "output_combination_hex": "0x8e"
+          }
+        }
+      ]
+    },
+    {
+      "id": "X9-Q0",
+      "gold_exponent": 9,
+      "parameter_mode": "global_field_multiplier",
+      "components": [
+        [
+          242,
+          "q0"
+        ]
+      ],
+      "base_component_output_rank": 1,
+      "parameter_count_tested": 255,
+      "accepted_parameters": [
+        1
+      ],
+      "accepted_parameters_hex": [
+        "0x01"
+      ],
+      "accepted_parameter_orders": {
+        "0x01": 1
+      },
+      "archived_bruteforce_parameters_hex": [
+        "0x01"
+      ],
+      "exact_match_with_archived_bruteforce_scan": true,
+      "component_rank_distribution": {
+        "1": 255
+      },
+      "rejected_first_witness_a_histogram": {
+        "0x01": 64,
+        "0x05": 40,
+        "0x03": 32,
+        "0x07": 30,
+        "0x08": 20,
+        "0x0a": 16,
+        "0x0c": 10,
+        "0x09": 10,
+        "0x0b": 10,
+        "0x0d": 5,
+        "0x0f": 4,
+        "0x1c": 2,
+        "0x0e": 2,
+        "0x11": 2,
+        "0x15": 1,
+        "0x13": 1,
+        "0x17": 1,
+        "0x18": 1,
+        "0x1a": 1,
+        "0x1d": 1,
+        "0x1f": 1
+      },
+      "sample_rejected_witnesses": [
+        {
+          "parameter": 2,
+          "parameter_hex": "0x02",
+          "witness": {
+            "a": 10,
+            "a_hex": "0x0a",
+            "y": 1,
+            "preimage_x": 48,
+            "preimage_x_hex": "0x30",
+            "output_combination": 255,
+            "output_combination_hex": "0xff"
+          }
+        },
+        {
+          "parameter": 3,
+          "parameter_hex": "0x03",
+          "witness": {
+            "a": 8,
+            "a_hex": "0x08",
+            "y": 1,
+            "preimage_x": 242,
+            "preimage_x_hex": "0xf2",
+            "output_combination": 13,
+            "output_combination_hex": "0x0d"
+          }
+        },
+        {
+          "parameter": 4,
+          "parameter_hex": "0x04",
+          "witness": {
+            "a": 21,
+            "a_hex": "0x15",
+            "y": 1,
+            "preimage_x": 73,
+            "preimage_x_hex": "0x49",
+            "output_combination": 229,
+            "output_combination_hex": "0xe5"
+          }
+        },
+        {
+          "parameter": 5,
+          "parameter_hex": "0x05",
+          "witness": {
+            "a": 10,
+            "a_hex": "0x0a",
+            "y": 1,
+            "preimage_x": 81,
+            "preimage_x_hex": "0x51",
+            "output_combination": 23,
+            "output_combination_hex": "0x17"
+          }
+        },
+        {
+          "parameter": 6,
+          "parameter_hex": "0x06",
+          "witness": {
+            "a": 8,
+            "a_hex": "0x08",
+            "y": 1,
+            "preimage_x": 71,
+            "preimage_x_hex": "0x47",
+            "output_combination": 26,
+            "output_combination_hex": "0x1a"
+          }
+        }
+      ]
+    },
+    {
+      "id": "X9-Q2",
+      "gold_exponent": 9,
+      "parameter_mode": "global_field_multiplier",
+      "components": [
+        [
+          12,
+          "q2"
+        ]
+      ],
+      "base_component_output_rank": 1,
+      "parameter_count_tested": 255,
+      "accepted_parameters": [
+        1
+      ],
+      "accepted_parameters_hex": [
+        "0x01"
+      ],
+      "accepted_parameter_orders": {
+        "0x01": 1
+      },
+      "archived_bruteforce_parameters_hex": [
+        "0x01"
+      ],
+      "exact_match_with_archived_bruteforce_scan": true,
+      "component_rank_distribution": {
+        "1": 255
+      },
+      "rejected_first_witness_a_histogram": {
+        "0x03": 64,
+        "0x02": 64,
+        "0x04": 32,
+        "0x05": 24,
+        "0x06": 18,
+        "0x08": 11,
+        "0x07": 10,
+        "0x0b": 7,
+        "0x0a": 6,
+        "0x0e": 5,
+        "0x09": 3,
+        "0x10": 2,
+        "0x0f": 2,
+        "0x12": 2,
+        "0x18": 1,
+        "0x15": 1,
+        "0x11": 1,
+        "0x1a": 1
+      },
+      "sample_rejected_witnesses": [
+        {
+          "parameter": 2,
+          "parameter_hex": "0x02",
+          "witness": {
+            "a": 3,
+            "a_hex": "0x03",
+            "y": 1,
+            "preimage_x": 28,
+            "preimage_x_hex": "0x1c",
+            "output_combination": 24,
+            "output_combination_hex": "0x18"
+          }
+        },
+        {
+          "parameter": 3,
+          "parameter_hex": "0x03",
+          "witness": {
+            "a": 2,
+            "a_hex": "0x02",
+            "y": 1,
+            "preimage_x": 29,
+            "preimage_x_hex": "0x1d",
+            "output_combination": 20,
+            "output_combination_hex": "0x14"
+          }
+        },
+        {
+          "parameter": 4,
+          "parameter_hex": "0x04",
+          "witness": {
+            "a": 7,
+            "a_hex": "0x07",
+            "y": 1,
+            "preimage_x": 243,
+            "preimage_x_hex": "0xf3",
+            "output_combination": 48,
+            "output_combination_hex": "0x30"
+          }
+        },
+        {
+          "parameter": 5,
+          "parameter_hex": "0x05",
+          "witness": {
+            "a": 5,
+            "a_hex": "0x05",
+            "y": 1,
+            "preimage_x": 200,
+            "preimage_x_hex": "0xc8",
+            "output_combination": 60,
+            "output_combination_hex": "0x3c"
+          }
+        },
+        {
+          "parameter": 6,
+          "parameter_hex": "0x06",
+          "witness": {
+            "a": 3,
+            "a_hex": "0x03",
+            "y": 1,
+            "preimage_x": 200,
+            "preimage_x_hex": "0xc8",
+            "output_combination": 40,
+            "output_combination_hex": "0x28"
+          }
+        }
+      ]
+    },
+    {
+      "id": "X9-R2",
+      "gold_exponent": 9,
+      "parameter_mode": "global_field_multiplier",
+      "components": [
+        [
+          111,
+          "q1"
+        ],
+        [
+          242,
+          "q0"
+        ]
+      ],
+      "base_component_output_rank": 2,
+      "parameter_count_tested": 255,
+      "accepted_parameters": [
+        1
+      ],
+      "accepted_parameters_hex": [
+        "0x01"
+      ],
+      "accepted_parameter_orders": {
+        "0x01": 1
+      },
+      "archived_bruteforce_parameters_hex": [
+        "0x01"
+      ],
+      "exact_match_with_archived_bruteforce_scan": true,
+      "component_rank_distribution": {
+        "2": 255
+      },
+      "rejected_first_witness_a_histogram": {
+        "0x01": 88,
+        "0x03": 40,
+        "0x02": 36,
+        "0x04": 20,
+        "0x06": 15,
+        "0x05": 11,
+        "0x0a": 10,
+        "0x08": 10,
+        "0x09": 8,
+        "0x07": 7,
+        "0x0b": 3,
+        "0x0c": 2,
+        "0x0f": 2,
+        "0x0d": 1,
+        "0x11": 1
+      },
+      "sample_rejected_witnesses": [
+        {
+          "parameter": 2,
+          "parameter_hex": "0x02",
+          "witness": {
+            "a": 10,
+            "a_hex": "0x0a",
+            "y": 2,
+            "preimage_x": 48,
+            "preimage_x_hex": "0x30",
+            "output_combination": 255,
+            "output_combination_hex": "0xff"
+          }
+        },
+        {
+          "parameter": 3,
+          "parameter_hex": "0x03",
+          "witness": {
+            "a": 6,
+            "a_hex": "0x06",
+            "y": 1,
+            "preimage_x": 241,
+            "preimage_x_hex": "0xf1",
+            "output_combination": 177,
+            "output_combination_hex": "0xb1"
+          }
+        },
+        {
+          "parameter": 4,
+          "parameter_hex": "0x04",
+          "witness": {
+            "a": 3,
+            "a_hex": "0x03",
+            "y": 3,
+            "preimage_x": 141,
+            "preimage_x_hex": "0x8d",
+            "output_combination": 66,
+            "output_combination_hex": "0x42"
+          }
+        },
+        {
+          "parameter": 5,
+          "parameter_hex": "0x05",
+          "witness": {
+            "a": 10,
+            "a_hex": "0x0a",
+            "y": 3,
+            "preimage_x": 118,
+            "preimage_x_hex": "0x76",
+            "output_combination": 223,
+            "output_combination_hex": "0xdf"
+          }
+        },
+        {
+          "parameter": 6,
+          "parameter_hex": "0x06",
+          "witness": {
+            "a": 7,
+            "a_hex": "0x07",
+            "y": 3,
+            "preimage_x": 169,
+            "preimage_x_hex": "0xa9",
+            "output_combination": 99,
+            "output_combination_hex": "0x63"
+          }
+        }
+      ]
+    }
+  ],
+  "all_five_families_match_archived_bruteforce_scan": true,
+  "x3_q0_GF4_coset_structure": {
+    "accepted_plus_zero_closed_under_xor": true,
+    "dimension_over_F2": 2,
+    "base_alpha_hex": "0x24",
+    "lambda_hex": "0xbd",
+    "lambda_order": 3,
+    "alpha_times_lambda_hex": "0x88",
+    "alpha_times_lambda_squared_hex": "0xac",
+    "interpretation": "The three nonzero X3-Q0 coefficients are exactly alpha*GF(4)^*, with alpha=0x24 and lambda=0xbd of order three."
+  },
+  "main_conclusions": [
+    "The low-rank derivative criterion reproduces exactly every accepted scalar parameter in all five archived families.",
+    "No Groebner basis and no exhaustive differential table are needed once derivative preimages are cached.",
+    "The X3-Q0 accepted set {0x24,0x88,0xac} is the multiplicative coset 0x24*GF(4)^*; together with zero it is a two-dimensional F_2 subspace.",
+    "The criterion is suitable for symbolic analysis of q0,q1,q2 and for symmetry-guided synthesis of new low-rank APN switchings."
+  ]
+}

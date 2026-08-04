@@ -1,0 +1,189 @@
+{
+  "character_expansion": "h_n(theta)=1/16 sum_{u,v in GF(4)} chi_4(u) S_{u,v}(theta).",
+  "character_sum_theorem": {
+    "axis_degree": 6,
+    "off_axis_degree": 4,
+    "references": [
+      "G. Lachaud, Theoretical Computer Science 94 (1992), 295-310.",
+      "H. Stichtenoth, Algebraic Function Fields and Codes, 2nd ed., Springer, 2009."
+    ],
+    "statement": "For a smooth projective curve C/F_q of genus g and a reduced rational phase f with pole orders m_P prime to p, |sum_{P not poles} psi(f(P))| <= (2g-2+sum_P(m_P+1))*sqrt(q)."
+  },
+  "curve_geometry": {
+    "axis_polar_divisor": "P_1+P_lambda+P_lambda^2 (three simple poles)",
+    "genus": 1,
+    "infinity_count": 3,
+    "infinity_points": "[t:1:0] for t in mu_3=GF(4)^*",
+    "non_coboundary": "A function h^2+h+c has even pole order at every pole of h, so a rational function with a simple pole cannot have this form.",
+    "off_axis_cancellation": "At t=v/u the numerator uX+vY is the flex tangent; substitution X=tY gives theta Z^3, hence intersection multiplicity 3.",
+    "off_axis_polar_divisor": "The two remaining infinity points, each simple.",
+    "smoothness": "The partials are X^2,Y^2,theta Z^2; they have no common projective zero."
+  },
+  "date": "2026-08-02",
+  "error_accounting": {
+    "axis_each": 6,
+    "axis_pairs": 6,
+    "hasse": 2,
+    "off_axis_each": 4,
+    "off_axis_pairs": 9,
+    "total": 74
+  },
+  "finite_bridge": [
+    {
+      "all_nonzero_represented": true,
+      "minimum_h": 46,
+      "n": 10
+    },
+    {
+      "all_nonzero_represented": true,
+      "minimum_h": 208,
+      "n": 12
+    }
+  ],
+  "lower_bound": "h_n(theta) >= (q-2-74 sqrt(q))/16",
+  "proof_status": "manuscript-grade proof written; n=10,12 remain explicit exact finite bridge lemmas",
+  "provenance": {
+    "dimension_scan": "results/current/trace_switch_dimension_scan.json",
+    "sha256": "3d30dd7c91b6e2b82126d9ddbbfc021ef902bcf410c0f77a5010a2f1c8d42f8a"
+  },
+  "schema": "manuscript-uniform-theorem-v1",
+  "theorem": "For every even n>=10 and theta!=0, h_n(theta)>0; hence x^3+theta Q is not APN.",
+  "threshold": [
+    {
+      "lower_bound": -84.125,
+      "n": 10,
+      "numerator": -1346,
+      "positive": false,
+      "q": 1024,
+      "sqrt_q": 32
+    },
+    {
+      "lower_bound": -40.125,
+      "n": 12,
+      "numerator": -642,
+      "positive": false,
+      "q": 4096,
+      "sqrt_q": 64
+    },
+    {
+      "lower_bound": 431.875,
+      "n": 14,
+      "numerator": 6910,
+      "positive": true,
+      "q": 16384,
+      "sqrt_q": 128
+    },
+    {
+      "lower_bound": 2911.875,
+      "n": 16,
+      "numerator": 46590,
+      "positive": true,
+      "q": 65536,
+      "sqrt_q": 256
+    },
+    {
+      "lower_bound": 14015.875,
+      "n": 18,
+      "numerator": 224254,
+      "positive": true,
+      "q": 262144,
+      "sqrt_q": 512
+    },
+    {
+      "lower_bound": 60799.875,
+      "n": 20,
+      "numerator": 972798,
+      "positive": true,
+      "q": 1048576,
+      "sqrt_q": 1024
+    },
+    {
+      "lower_bound": 252671.875,
+      "n": 22,
+      "numerator": 4042750,
+      "positive": true,
+      "q": 4194304,
+      "sqrt_q": 2048
+    },
+    {
+      "lower_bound": 1029631.875,
+      "n": 24,
+      "numerator": 16474110,
+      "positive": true,
+      "q": 16777216,
+      "sqrt_q": 4096
+    },
+    {
+      "lower_bound": 4156415.875,
+      "n": 26,
+      "numerator": 66502654,
+      "positive": true,
+      "q": 67108864,
+      "sqrt_q": 8192
+    },
+    {
+      "lower_bound": 16701439.875,
+      "n": 28,
+      "numerator": 267223038,
+      "positive": true,
+      "q": 268435456,
+      "sqrt_q": 16384
+    },
+    {
+      "lower_bound": 66957311.875,
+      "n": 30,
+      "numerator": 1071316990,
+      "positive": true,
+      "q": 1073741824,
+      "sqrt_q": 32768
+    },
+    {
+      "lower_bound": 268132351.875,
+      "n": 32,
+      "numerator": 4290117630,
+      "positive": true,
+      "q": 4294967296,
+      "sqrt_q": 65536
+    },
+    {
+      "lower_bound": 1073135615.875,
+      "n": 34,
+      "numerator": 17170169854,
+      "positive": true,
+      "q": 17179869184,
+      "sqrt_q": 131072
+    },
+    {
+      "lower_bound": 4293754879.875,
+      "n": 36,
+      "numerator": 68700078078,
+      "positive": true,
+      "q": 68719476736,
+      "sqrt_q": 262144
+    },
+    {
+      "lower_bound": 17177444351.875,
+      "n": 38,
+      "numerator": 274839109630,
+      "positive": true,
+      "q": 274877906944,
+      "sqrt_q": 524288
+    },
+    {
+      "lower_bound": 68714627071.875,
+      "n": 40,
+      "numerator": 1099434033150,
+      "positive": true,
+      "q": 1099511627776,
+      "sqrt_q": 1048576
+    }
+  ],
+  "validation": {
+    "constant_74": true,
+    "finite_bridge_closed": true,
+    "non_coboundary_argument_recorded": true,
+    "pole_divisors_recorded": true,
+    "positive_from_n14": true,
+    "smooth_curve_argument_recorded": true
+  }
+}

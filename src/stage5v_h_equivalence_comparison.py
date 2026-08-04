@@ -199,7 +199,7 @@ def main() -> None:
         },
     }
 
-    root = Path(__file__).resolve().parents[2]
+    root = Path(__file__).resolve().parents[1]
     output = root / "results/current/h_equivalence_criterion_comparison.json"
     output.write_text(json.dumps(result, indent=2, sort_keys=True) + "\n", encoding="utf-8")
     print(json.dumps({

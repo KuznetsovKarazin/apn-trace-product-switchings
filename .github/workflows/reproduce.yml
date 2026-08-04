@@ -1,17 +1,43 @@
 name: reproduce-core-certificates
+
 on:
   push:
   pull_request:
+
 jobs:
   test:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
+
       - uses: actions/setup-python@v5
         with:
           python-version: '3.12'
-      - run: pip install -r requirements.txt
-      - run: python src/stage5p_kummer_n6_certificate.py
-      - run: python src/stage5s_projective_equivalence_partition.py
-      - run: python src/stage5t_compact_orbit_certificates.py
-      - run: python src/stage5y_publication_uniform_bound_correction.py
+          cache: 'pip'
+
+      - name: Install Python dependencies
+        run: pip install -r requirements.txt
+
+      - name: Verify committed canonical outputs
+        run: python src/verify_release.py
+
+      - name: Reproduce the n=6 Kummer certificate
+        run: python src/stage5p_kummer_n6_certificate.py
+
+      - name: Reproduce the projective EA/CCZ partition
+        run: python src/stage5s_projective_equivalence_partition.py
+
+      - name: Reproduce compact Frobenius-orbit certificates
+        run: python src/stage5t_compact_orbit_certificates.py
+
+      - name: Reproduce the H-equivalence comparison
+        run: python src/stage5v_h_equivalence_comparison.py
+
+      - name: Reproduce the corrected uniform bound record
+        run: python src/stage5y_publication_uniform_bound_correction.py
+
+      - name: Verify reproduced hashes
+        run: python src/verify_release.py
+
+      - name: Require byte-identical canonical outputs
+        run: git diff --exit-code -- results/current

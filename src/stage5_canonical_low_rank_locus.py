@@ -725,7 +725,7 @@ def main() -> int:
     )
     args = parser.parse_args()
 
-    root = Path(__file__).resolve().parents[2]
+    root = Path(__file__).resolve().parents[1]
     resolve = lambda path: path if path.is_absolute() else root / path
     kernels_path = resolve(args.kernels)
     signatures_path = resolve(args.signatures)

@@ -58,7 +58,7 @@ def main() -> int:
     )
     args = parser.parse_args()
 
-    root = Path(__file__).resolve().parents[2]
+    root = Path(__file__).resolve().parents[1]
     resolve = lambda p: p if p.is_absolute() else root / p
     stage5h_path = resolve(args.stage5h)
     output_path = resolve(args.output)

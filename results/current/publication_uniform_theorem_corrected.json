@@ -1,0 +1,170 @@
+{
+  "correction": {
+    "corrected_lower_bound": "h_n(theta) >= (q-11-74 sqrt(q))/16",
+    "geometry": "At the cancelled infinity point the phase is regular with value 0, so the complete sum contains a contribution +1 that is absent from the affine sum.",
+    "issue": "The earlier draft applied the complete-curve 4*sqrt(q) bound directly to the affine off-axis sum.",
+    "off_axis_affine_bound": "|S_aff| <= 4*sqrt(q)+1",
+    "old_lower_bound": "h_n(theta) >= (q-2-74 sqrt(q))/16",
+    "theorem_unchanged": true
+  },
+  "date": "2026-08-02",
+  "error_accounting": {
+    "axis_each": 6,
+    "axis_pairs": 6,
+    "constant_term": 11,
+    "hasse": 2,
+    "off_axis_affine_additive_constant_each": 1,
+    "off_axis_each_complete": 4,
+    "off_axis_pairs": 9,
+    "sqrt_constant": 74
+  },
+  "finite_bridge": [
+    {
+      "minimum_h": 46,
+      "n": 10
+    },
+    {
+      "minimum_h": 208,
+      "n": 12
+    }
+  ],
+  "schema": "publication-uniform-theorem-corrected-v1",
+  "theorem": "For every even n>=10 and theta!=0, h_n(theta)>0; hence x^3+theta Q is not APN.",
+  "threshold": [
+    {
+      "lower_bound": -84.6875,
+      "n": 10,
+      "numerator": -1355,
+      "positive": false,
+      "q": 1024,
+      "sqrt_q": 32
+    },
+    {
+      "lower_bound": -40.6875,
+      "n": 12,
+      "numerator": -651,
+      "positive": false,
+      "q": 4096,
+      "sqrt_q": 64
+    },
+    {
+      "lower_bound": 431.3125,
+      "n": 14,
+      "numerator": 6901,
+      "positive": true,
+      "q": 16384,
+      "sqrt_q": 128
+    },
+    {
+      "lower_bound": 2911.3125,
+      "n": 16,
+      "numerator": 46581,
+      "positive": true,
+      "q": 65536,
+      "sqrt_q": 256
+    },
+    {
+      "lower_bound": 14015.3125,
+      "n": 18,
+      "numerator": 224245,
+      "positive": true,
+      "q": 262144,
+      "sqrt_q": 512
+    },
+    {
+      "lower_bound": 60799.3125,
+      "n": 20,
+      "numerator": 972789,
+      "positive": true,
+      "q": 1048576,
+      "sqrt_q": 1024
+    },
+    {
+      "lower_bound": 252671.3125,
+      "n": 22,
+      "numerator": 4042741,
+      "positive": true,
+      "q": 4194304,
+      "sqrt_q": 2048
+    },
+    {
+      "lower_bound": 1029631.3125,
+      "n": 24,
+      "numerator": 16474101,
+      "positive": true,
+      "q": 16777216,
+      "sqrt_q": 4096
+    },
+    {
+      "lower_bound": 4156415.3125,
+      "n": 26,
+      "numerator": 66502645,
+      "positive": true,
+      "q": 67108864,
+      "sqrt_q": 8192
+    },
+    {
+      "lower_bound": 16701439.3125,
+      "n": 28,
+      "numerator": 267223029,
+      "positive": true,
+      "q": 268435456,
+      "sqrt_q": 16384
+    },
+    {
+      "lower_bound": 66957311.3125,
+      "n": 30,
+      "numerator": 1071316981,
+      "positive": true,
+      "q": 1073741824,
+      "sqrt_q": 32768
+    },
+    {
+      "lower_bound": 268132351.3125,
+      "n": 32,
+      "numerator": 4290117621,
+      "positive": true,
+      "q": 4294967296,
+      "sqrt_q": 65536
+    },
+    {
+      "lower_bound": 1073135615.3125,
+      "n": 34,
+      "numerator": 17170169845,
+      "positive": true,
+      "q": 17179869184,
+      "sqrt_q": 131072
+    },
+    {
+      "lower_bound": 4293754879.3125,
+      "n": 36,
+      "numerator": 68700078069,
+      "positive": true,
+      "q": 68719476736,
+      "sqrt_q": 262144
+    },
+    {
+      "lower_bound": 17177444351.3125,
+      "n": 38,
+      "numerator": 274839109621,
+      "positive": true,
+      "q": 274877906944,
+      "sqrt_q": 524288
+    },
+    {
+      "lower_bound": 68714627071.3125,
+      "n": 40,
+      "numerator": 1099434033141,
+      "positive": true,
+      "q": 1099511627776,
+      "sqrt_q": 1048576
+    }
+  ],
+  "validation": {
+    "dimension_scan_sha256": "3d30dd7c91b6e2b82126d9ddbbfc021ef902bcf410c0f77a5010a2f1c8d42f8a",
+    "n10_bridge": true,
+    "n12_bridge": true,
+    "old_json_sha256": "03ae1fa8acb53a24b134d2f5b22fde265900dd175fa114fb75cf9e4d1bc37180",
+    "positive_from_n14": true
+  }
+}

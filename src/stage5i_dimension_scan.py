@@ -274,7 +274,7 @@ def main() -> int:
     if any(n <= 0 or n % 2 for n in dimensions):
         raise ValueError("all dimensions must be positive and even")
 
-    root = Path(__file__).resolve().parents[2]
+    root = Path(__file__).resolve().parents[1]
     output_path = args.output if args.output.is_absolute() else root / args.output
 
     rows = []

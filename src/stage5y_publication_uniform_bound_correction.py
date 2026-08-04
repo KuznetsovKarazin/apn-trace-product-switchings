@@ -17,7 +17,7 @@ def sha256(path: Path) -> str:
 
 
 def main() -> None:
-    root = Path(__file__).resolve().parents[2]
+    root = Path(__file__).resolve().parents[1]
     old_path = root / "results/current/manuscript_uniform_theorem.json"
     scan_path = root / "results/current/trace_switch_dimension_scan.json"
     out_path = root / "results/current/publication_uniform_theorem_corrected.json"

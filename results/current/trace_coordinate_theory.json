@@ -1,0 +1,430 @@
+{
+  "date": "2026-08-02",
+  "field": {
+    "GF4_hex": [
+      "0x00",
+      "0x01",
+      "0xbc",
+      "0xbd"
+    ],
+    "lambda_hex": "0xbd",
+    "lambda_order": 3,
+    "polynomial_basis_dual_hex": [
+      "0x29",
+      "0xb0",
+      "0x58",
+      "0x05",
+      "0xa6",
+      "0x53",
+      "0xa4",
+      "0x52"
+    ],
+    "representation": "GF(2)[z]/(0x11B)"
+  },
+  "interpretation": [
+    "The cube fibres are forced by trace-coordinate normalization, not accidental field constants.",
+    "The order-5 slopes arise because q1 is Q_r after normalizing q0, with r in GF(16)^* of order 5.",
+    "The excluded third cube lift is obstructed by exactly 12 bad derivative subspaces, forming four GF(4)^*-scaling orbits.",
+    "The unique x^9 rank-two point is the componentwise cube image of the three formal x^3 lifts; the trace selector removes one lift before cubing."
+  ],
+  "provenance": {
+    "kernels_file": "results/evidence/canonical_switching_kernels.json",
+    "kernels_sha256": "c4d37b6a00a72a8bfa34aa4bc1a45b5b894d9a8a43ec2573a3965408070276f4",
+    "locus_file": "results/current/canonical_low_rank_locus.json",
+    "locus_sha256": "5ae514b7420403cccf8a75abe9aa2c42411846637e5a6ff376942060ac9a3c37"
+  },
+  "rank_one_theorem_dimension_8": {
+    "coordinate_statement": "x^3+mu*Q_c is APN iff mu*c^3 in GF(4)^*, equivalently mu^3=c^(-9).",
+    "derivative_geometry": {
+      "bad_subspace_condition": "A bad derivative corresponds to a 2D F2-subspace V with product prod(V)=theta and rank(T|V)=2.",
+      "distinct_section_products": 252,
+      "multiplicity_distribution": {
+        "10": 16,
+        "12": 24,
+        "15": 88,
+        "16": 16,
+        "18": 48,
+        "19": 24,
+        "24": 20,
+        "27": 8,
+        "7": 8
+      },
+      "section_count": 4096,
+      "section_parameterization": "If rank(T|V)=2, the inverse section has phi(y)=r*y+s*y^2 with T(r)=1,T(s)=0 and prod(V)=r^3+s^3.",
+      "section_product_set": "GF(256) \\ GF(4)",
+      "squarefree_product_exponents": [
+        0,
+        3,
+        6,
+        9,
+        12,
+        15,
+        18,
+        21,
+        24,
+        27,
+        30,
+        33,
+        36,
+        39,
+        42,
+        45,
+        48,
+        51,
+        54,
+        57,
+        60,
+        63,
+        66,
+        69,
+        72,
+        75,
+        78,
+        81,
+        84,
+        87,
+        90,
+        93,
+        96,
+        99,
+        102,
+        105,
+        108,
+        111,
+        114,
+        117,
+        120,
+        123,
+        126,
+        129,
+        132,
+        135,
+        138,
+        141,
+        144,
+        147,
+        150,
+        153,
+        156,
+        159,
+        162,
+        165,
+        168,
+        171,
+        174,
+        177,
+        180,
+        183,
+        186,
+        189,
+        192,
+        195,
+        198,
+        201,
+        204,
+        207,
+        210,
+        213,
+        216,
+        219,
+        222,
+        225,
+        228,
+        231,
+        234,
+        237,
+        240,
+        243,
+        246,
+        249,
+        252
+      ],
+      "squarefree_product_polynomial": "product_{u notin GF(4)}(X+u)=sum_{j=0}^{84} X^(3j)"
+    },
+    "families": {
+      "q0": {
+        "accepted_normalized_hex": [
+          "0x01",
+          "0xbc",
+          "0xbd"
+        ],
+        "accepted_original_hex": [
+          "0x24",
+          "0x88",
+          "0xac"
+        ],
+        "c_hex": "0x7a",
+        "condition": "mu*c^3 in GF(4)^*, equivalently mu^3=0xf2",
+        "cube_constant_hex": "0xf2"
+      },
+      "q1": {
+        "accepted_normalized_hex": [
+          "0x01",
+          "0xbc",
+          "0xbd"
+        ],
+        "accepted_original_hex": [
+          "0x3d",
+          "0x8f",
+          "0xb2"
+        ],
+        "c_hex": "0x71",
+        "condition": "mu*c^3 in GF(4)^*, equivalently mu^3=0x6f",
+        "cube_constant_hex": "0x6f"
+      }
+    },
+    "normalized_statement": "x^3+theta*Q_1 is APN iff theta in GF(4)^*.",
+    "proof_status": {
+      "necessity_theta_notin_GF4": "exact 4096-section finite-geometry image certificate",
+      "sufficiency_theta_in_GF4_star": "symbolic resultant/Bezout certificate"
+    },
+    "symbolic_sufficiency_certificate_file": "results/current/trace_coordinate_bezout_certificate.json",
+    "symbolic_sufficiency_certificate_sha256": "97cc27be24867da68dc7fd5335aa231cb5a0bd16609d8b38fa18316043f5f239"
+  },
+  "rank_two_q0_q1_theory": {
+    "accepted_eta_condition": "Tr_GF4/F2(lambda*eta)=1",
+    "accepted_eta_hex": [
+      "0x01",
+      "0xbd"
+    ],
+    "bad_subspace_counts": {
+      "0x01": 0,
+      "0xbc": 12,
+      "0xbd": 0
+    },
+    "componentwise_cube": "(eta,eta*r^2)^3=(1,r) for every eta in GF(4)^*; APN x^3 lifts are selected by Tr(lambda*eta)=1.",
+    "excluded_eta_hex": "0xbc",
+    "excluded_update_hex": "0x5c",
+    "excluded_witness_GF4_scaling_orbits": [
+      [
+        [
+          "0x00",
+          "0x05",
+          "0x3b",
+          "0x3e"
+        ],
+        [
+          "0x00",
+          "0x17",
+          "0x6d",
+          "0x7a"
+        ],
+        [
+          "0x00",
+          "0x2c",
+          "0x53",
+          "0x7f"
+        ]
+      ],
+      [
+        [
+          "0x00",
+          "0x0f",
+          "0x92",
+          "0x9d"
+        ],
+        [
+          "0x00",
+          "0x6b",
+          "0x8e",
+          "0xe5"
+        ],
+        [
+          "0x00",
+          "0x77",
+          "0x81",
+          "0xf6"
+        ]
+      ],
+      [
+        [
+          "0x00",
+          "0x2e",
+          "0xcd",
+          "0xe3"
+        ],
+        [
+          "0x00",
+          "0x31",
+          "0x47",
+          "0x76"
+        ],
+        [
+          "0x00",
+          "0x58",
+          "0x8a",
+          "0xd2"
+        ]
+      ],
+      [
+        [
+          "0x00",
+          "0x62",
+          "0xb8",
+          "0xda"
+        ],
+        [
+          "0x00",
+          "0x7b",
+          "0xa6",
+          "0xdd"
+        ],
+        [
+          "0x00",
+          "0x7c",
+          "0xbf",
+          "0xc3"
+        ]
+      ]
+    ],
+    "excluded_witness_count": 12,
+    "normalized_x3_family": "x^3 + eta*(Q_1 + r^2*Q_r), r=0xb0, eta in GF(4)^*",
+    "normalized_x9_point": "x^9 + Q_1 + r*Q_r",
+    "proof_status": "exact 10795-subspace incidence certificate; a compact symbolic proof of the trace selector remains open",
+    "r_hex": "0xb0",
+    "r_order": 5,
+    "r_squared_hex": "0xed",
+    "trace_transition_interpretation": "All 12 excluded-lift witnesses occur for the three order-2 elements of GL(2,2), four witnesses per involution; identity and order-3 transition maps contribute none.",
+    "trace_transition_map_classification": [
+      {
+        "distinct_product_count": 187,
+        "images_of_1_lambda_hex": [
+          "0x01",
+          "0xbc"
+        ],
+        "order": 2,
+        "subspace_count": 256,
+        "target_line_witness_counts": {
+          "0x01": 0,
+          "0xbc": 4,
+          "0xbd": 0
+        }
+      },
+      {
+        "distinct_product_count": 80,
+        "images_of_1_lambda_hex": [
+          "0x01",
+          "0xbd"
+        ],
+        "order": 1,
+        "subspace_count": 256,
+        "target_line_witness_counts": {
+          "0x01": 0,
+          "0xbc": 0,
+          "0xbd": 0
+        }
+      },
+      {
+        "distinct_product_count": 80,
+        "images_of_1_lambda_hex": [
+          "0xbc",
+          "0x01"
+        ],
+        "order": 3,
+        "subspace_count": 256,
+        "target_line_witness_counts": {
+          "0x01": 0,
+          "0xbc": 0,
+          "0xbd": 0
+        }
+      },
+      {
+        "distinct_product_count": 187,
+        "images_of_1_lambda_hex": [
+          "0xbc",
+          "0xbd"
+        ],
+        "order": 2,
+        "subspace_count": 256,
+        "target_line_witness_counts": {
+          "0x01": 0,
+          "0xbc": 4,
+          "0xbd": 0
+        }
+      },
+      {
+        "distinct_product_count": 187,
+        "images_of_1_lambda_hex": [
+          "0xbd",
+          "0x01"
+        ],
+        "order": 2,
+        "subspace_count": 256,
+        "target_line_witness_counts": {
+          "0x01": 0,
+          "0xbc": 4,
+          "0xbd": 0
+        }
+      },
+      {
+        "distinct_product_count": 80,
+        "images_of_1_lambda_hex": [
+          "0xbd",
+          "0xbc"
+        ],
+        "order": 3,
+        "subspace_count": 256,
+        "target_line_witness_counts": {
+          "0x01": 0,
+          "0xbc": 0,
+          "0xbd": 0
+        }
+      }
+    ]
+  },
+  "schema": "trace-coordinate-theory-v1",
+  "trace_switch_normal_form": {
+    "c1_over_c0_hex": "0xb0",
+    "c1_over_c0_in_GF16": true,
+    "c1_over_c0_order": 5,
+    "definition": "Q_c(x)=Tr_K/F2(c*x)*Tr_K/F2(lambda*c*x)",
+    "polar": "B_c(a,x)=Tr_GF4/F2(T(ca)*T(cx)^2), T=Tr_K/GF4",
+    "polar_identity_checks": 131072,
+    "q0": {
+      "c": 122,
+      "c_hex": "0x7a",
+      "factor_bits": [
+        [
+          0,
+          5
+        ],
+        [
+          3
+        ]
+      ],
+      "lambda": 189,
+      "lambda_c": 5,
+      "lambda_c_hex": "0x05",
+      "lambda_hex": "0xbd",
+      "truth_table_verified": true
+    },
+    "q1": {
+      "c": 113,
+      "c_hex": "0x71",
+      "factor_bits": [
+        [
+          0,
+          2
+        ],
+        [
+          1,
+          6,
+          7
+        ]
+      ],
+      "lambda": 189,
+      "lambda_c": 70,
+      "lambda_c_hex": "0x46",
+      "lambda_hex": "0xbd",
+      "truth_table_verified": true
+    }
+  },
+  "validation": {
+    "rank_one_section_image_exact": true,
+    "rank_two_trace_selector_exact": true,
+    "relative_trace_polar_verified_all_pairs": true,
+    "symbolic_resultant_gcd_one": true,
+    "trace_truth_tables_verified": true,
+    "x9_componentwise_cube_exact": true
+  }
+}

@@ -1,0 +1,138 @@
+{
+  "schema": "deep-priority-audit-v1",
+  "date": "2026-08-02",
+  "scope": "relative-trace rank-one and projective rank-two switchings of the Gold cube",
+  "sources": [
+    {
+      "id": "BCL2009",
+      "type": "primary article/preprint",
+      "title": "Constructing new APN functions from known ones",
+      "authors": "L. Budaghyan, C. Carlet, G. Leander",
+      "year": 2009,
+      "locator": "Cryptology ePrint 2007/063; FFA 15(2), 150-159",
+      "audited": "full preprint",
+      "relevant": "constructs x^3+Tr(x^9); gives a general sufficient construction for adding a quadratic Boolean coordinate"
+    },
+    {
+      "id": "EP2009",
+      "type": "primary article",
+      "title": "A new almost perfect nonlinear function which is not quadratic",
+      "authors": "Y. Edel, A. Pott",
+      "year": 2009,
+      "locator": "AMC 3(1), 59-81, Theorem 9 and dimension-8 catalogue",
+      "audited": "full article",
+      "relevant": "necessary and sufficient rank-one Boolean switching criterion; switching-equivalence catalogues"
+    },
+    {
+      "id": "BFA2023",
+      "type": "primary extended abstract",
+      "title": "On quadratic APN functions F(x)+Tr(x)L(x)",
+      "authors": "H. Taniguchi",
+      "year": 2023,
+      "locator": "BFA 2023, pp. 123-127, Theorem 3",
+      "audited": "full extended abstract",
+      "relevant": "necessary and sufficient hyperplane criterion; computational counts"
+    },
+    {
+      "id": "TPPA2025",
+      "type": "primary journal article",
+      "title": "Changing almost perfect nonlinear functions on affine subspaces of small codimensions",
+      "authors": "H. Taniguchi, A. Polujan, A. Pott, R. Arshad",
+      "year": 2025,
+      "locator": "EJC 32(4), #P4.61, Theorems 3.2, 3.5, 4.1 and Example 4.2",
+      "audited": "full article",
+      "relevant": "H-equivalence; all six-bit quadratic classes; codimension-two modifications; one overlapping 8-bit example"
+    },
+    {
+      "id": "ARSHAD2018",
+      "type": "doctoral thesis",
+      "title": "Contributions to the theory of almost perfect nonlinear functions",
+      "authors": "R. Arshad",
+      "year": 2018,
+      "locator": "doi:10.25673/13406",
+      "audited": "metadata and attribution in TPPA2025 only; repository returned HTTP 429 for full text",
+      "relevant": "TPPA2025 states that parts of its work appeared in the thesis; exact theorem-level overlap remains unresolved"
+    },
+    {
+      "id": "ZHENG2021",
+      "type": "primary preprint/article",
+      "title": "Constructing new APN functions through relative trace functions",
+      "authors": "L. Zheng, H. Kan, Y. Li, J. Peng, D. Tang",
+      "year": 2021,
+      "locator": "arXiv:2101.11535",
+      "audited": "abstract, introduction, constructions",
+      "relevant": "neighboring vector-valued relative-trace constructions; structurally different from the scalar product-of-traces family"
+    }
+  ],
+  "claims": [
+    {
+      "id": "C1",
+      "claim": "centre-independent rank-r derivative-incidence/forbidden-set criterion",
+      "verdict": "qualified candidate novelty",
+      "confidence": "medium-high",
+      "boundary": "Rank-one Boolean switching is covered by Edel-Pott Theorem 9; the common trace-factor specialization is equivalent to BFA 2023 Theorem 3 / TPPA 2025 Theorem 3.2. Novelty may be claimed only for the arbitrary-kernel rank-r operator and precomputed forbidden-set formulation."
+    },
+    {
+      "id": "C2",
+      "claim": "n=4 trace-zero coefficient characterization and EA reduction",
+      "verdict": "minor structural contribution",
+      "confidence": "medium",
+      "boundary": "No exact scalar statement located, but dimension four has one APN class and the conclusion creates no new class."
+    },
+    {
+      "id": "C3",
+      "claim": "n=6 coefficients are exactly the six elements of order nine",
+      "verdict": "candidate novelty",
+      "confidence": "medium",
+      "boundary": "No explicit statement found in BCL2009, EP2009, BFA2023, or TPPA2025. Full Arshad thesis could not be audited; resulting global class is historical."
+    },
+    {
+      "id": "C4",
+      "claim": "n=8 rank-one coefficient fibre is exactly GF(4)^*",
+      "verdict": "candidate novelty",
+      "confidence": "medium-high",
+      "boundary": "TPPA2025 Example 4.2 supplies one member of this fibre, not the complete coefficient classification. One associated class is historical EP No. 6."
+    },
+    {
+      "id": "C5",
+      "claim": "no nonzero coefficient exists for every even n>=10",
+      "verdict": "strong candidate novelty",
+      "confidence": "high",
+      "boundary": "No dimension-wide nonexistence theorem for this exact scalar family located in audited sources."
+    },
+    {
+      "id": "C6",
+      "claim": "complete P^1(GF(4)) rank-two displacement theorem and trace selector",
+      "verdict": "strong candidate novelty",
+      "confidence": "high",
+      "boundary": "TPPA2025 Theorem 4.1 gives a general codimension-two criterion, but not this normalized projective classification, selector, or exact bad-section counts."
+    },
+    {
+      "id": "C7",
+      "claim": "involution-only obstruction: four bad sections for each of three involutions",
+      "verdict": "strong candidate novelty",
+      "confidence": "high",
+      "boundary": "No direct analogue located."
+    },
+    {
+      "id": "C8",
+      "claim": "eight marked points partition into two EA/CCZ classes identified with EP Nos. 15 and 18",
+      "verdict": "new local organization of historical classes",
+      "confidence": "high",
+      "boundary": "The global classes are not new; explicit Frobenius EA cycles and their occurrence in the projective family are the contribution."
+    },
+    {
+      "id": "C9",
+      "claim": "marked centre-relative switching geometry",
+      "verdict": "conceptual candidate novelty",
+      "confidence": "medium",
+      "boundary": "Must be formalized as an invariant before title-level use; EP2009 already defines switching equivalence."
+    }
+  ],
+  "unresolved_risks": [
+    "Full-text theorem-level audit of Arshad's 2018 thesis remains outstanding because the repository returned HTTP 429.",
+    "EP2009 tables were audited for formulas and class IDs, but absence of an equivalent coefficient parametrization cannot be proved solely from keyword search; manuscript wording must remain 'we did not locate'.",
+    "A final Crossref/MathSciNet/zbMATH citation search should be repeated immediately before submission."
+  ],
+  "safe_central_claim": "We completely classify a fixed scalar relative-trace switching subfamily of the Gold cube in all even dimensions, prove uniform nonexistence above dimension eight, and classify its exceptional dimension-eight rank-two extensions by a finite projective geometry. The reached global EA/CCZ classes are known; the contribution is the coefficient classification, dimension rigidity, projective selector, and centre-relative organization."
+}

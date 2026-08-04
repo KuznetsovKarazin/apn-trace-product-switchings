@@ -1,0 +1,729 @@
+{
+  "schema": "c5-centralizer-module-orbits-v2-canonical",
+  "date": "2026-08-02",
+  "input_correlation_sha256": "508243822afccd1d5022da9baf078fa0c98b964b075ff7f168542f4dabb75557",
+  "group": "GL_2(GF(16))",
+  "group_order": 61200,
+  "generator_verification": {
+    "generators": [
+      [
+        3,
+        0,
+        0,
+        1
+      ],
+      [
+        0,
+        1,
+        1,
+        0
+      ],
+      [
+        1,
+        1,
+        0,
+        1
+      ]
+    ],
+    "generated_group_order": 61200,
+    "verified": true
+  },
+  "orbit_id_policy": "Stable lexicographic ordering by module rank, full orbit size and canonical RREF representative.",
+  "observed_module_space_count": 54,
+  "centralizer_orbit_count": 8,
+  "productive_orbit_labels": [
+    "R1-O17-00001",
+    "R2-O136-10000_00001",
+    "R2-O765-001f0_00001"
+  ],
+  "pure_negative_orbit_labels": [
+    "R1-O2040-001f0",
+    "R2-O6120-01000_00100",
+    "R3-O136-01000_00100_00010",
+    "R3-O765-01000_00100_00001",
+    "R3-O6120-10000_001f0_00001"
+  ],
+  "nonproductive_triples_excluded_by_pure_orbit_filter": 2360,
+  "orbits": [
+    {
+      "orbit_id_stable": 0,
+      "orbit_label": "R1-O17-00001",
+      "module_rank": 1,
+      "full_GL2_GF16_orbit_size": 17,
+      "observed_unique_spaces": 2,
+      "observed_triples": 40,
+      "representative_rref": [
+        [
+          0,
+          0,
+          0,
+          0,
+          1
+        ]
+      ],
+      "category_distribution": {
+        "all_11_gold": 28,
+        "x9_only_all": 12
+      },
+      "subcategory_distribution": {
+        "all_11_gold": 28,
+        "x9_only_all": 12
+      },
+      "graph_type_distribution": {
+        "K1,3": 8,
+        "K3": 8,
+        "P4": 24
+      },
+      "component_support_size_distribution": {
+        "1": 40
+      },
+      "nontrivial_solution_total_distribution": {
+        "21": 24,
+        "6": 12,
+        "64": 4
+      },
+      "productive_triple_indices": [
+        0,
+        5,
+        6,
+        11,
+        30,
+        31,
+        36,
+        141,
+        146,
+        165,
+        355,
+        356,
+        361,
+        466,
+        471,
+        490,
+        766,
+        771,
+        790,
+        1950,
+        3256,
+        3257,
+        3258,
+        3259,
+        3260,
+        3261,
+        3262,
+        3263,
+        3264,
+        3265,
+        3266,
+        3267,
+        3268,
+        3269,
+        3270,
+        3271,
+        3272,
+        3273,
+        3274,
+        3275
+      ]
+    },
+    {
+      "orbit_id_stable": 1,
+      "orbit_label": "R1-O2040-001f0",
+      "module_rank": 1,
+      "full_GL2_GF16_orbit_size": 2040,
+      "observed_unique_spaces": 5,
+      "observed_triples": 8,
+      "representative_rref": [
+        [
+          0,
+          0,
+          1,
+          15,
+          0
+        ]
+      ],
+      "category_distribution": {
+        "no_gold": 8
+      },
+      "subcategory_distribution": {
+        "no_gold": 8
+      },
+      "graph_type_distribution": {
+        "3K2": 8
+      },
+      "component_support_size_distribution": {
+        "3": 5,
+        "1": 1,
+        "2": 2
+      },
+      "nontrivial_solution_total_distribution": {
+        "0": 8
+      },
+      "productive_triple_indices": []
+    },
+    {
+      "orbit_id_stable": 2,
+      "orbit_label": "R2-O136-10000_00001",
+      "module_rank": 2,
+      "full_GL2_GF16_orbit_size": 136,
+      "observed_unique_spaces": 1,
+      "observed_triples": 180,
+      "representative_rref": [
+        [
+          1,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          1
+        ]
+      ],
+      "category_distribution": {
+        "no_gold": 108,
+        "all_11_gold": 48,
+        "x9_only_all": 24
+      },
+      "subcategory_distribution": {
+        "no_gold": 108,
+        "all_11_gold": 48,
+        "x9_only_all": 24
+      },
+      "graph_type_distribution": {
+        "P3+K2": 144,
+        "3K2": 36
+      },
+      "component_support_size_distribution": {
+        "2": 180
+      },
+      "nontrivial_solution_total_distribution": {
+        "0": 108,
+        "21": 48,
+        "6": 24
+      },
+      "productive_triple_indices": [
+        45,
+        46,
+        47,
+        48,
+        49,
+        50,
+        254,
+        255,
+        256,
+        257,
+        258,
+        259,
+        337,
+        340,
+        342,
+        343,
+        347,
+        348,
+        480,
+        481,
+        482,
+        483,
+        484,
+        485,
+        499,
+        500,
+        501,
+        502,
+        503,
+        504,
+        662,
+        665,
+        667,
+        668,
+        672,
+        673,
+        879,
+        880,
+        881,
+        882,
+        883,
+        884,
+        962,
+        965,
+        967,
+        968,
+        972,
+        973,
+        1959,
+        1960,
+        1961,
+        1962,
+        1963,
+        1964,
+        2122,
+        2125,
+        2127,
+        2128,
+        2132,
+        2133,
+        2293,
+        2296,
+        2298,
+        2299,
+        2303,
+        2304,
+        2898,
+        2901,
+        2903,
+        2904,
+        2908,
+        2909
+      ]
+    },
+    {
+      "orbit_id_stable": 3,
+      "orbit_label": "R2-O765-001f0_00001",
+      "module_rank": 2,
+      "full_GL2_GF16_orbit_size": 765,
+      "observed_unique_spaces": 10,
+      "observed_triples": 696,
+      "representative_rref": [
+        [
+          0,
+          0,
+          1,
+          15,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          1
+        ]
+      ],
+      "category_distribution": {
+        "no_gold": 504,
+        "all_11_gold": 125,
+        "x9_only_all": 64,
+        "productive_10_of_11": 3
+      },
+      "subcategory_distribution": {
+        "no_gold": 504,
+        "all_11_gold": 125,
+        "x9_only_all": 64,
+        "all_x3_missing_one_x9": 2,
+        "all_x9_missing_one_x3": 1
+      },
+      "graph_type_distribution": {
+        "K1,3": 96,
+        "P4": 228,
+        "P3+K2": 336,
+        "3K2": 36
+      },
+      "component_support_size_distribution": {
+        "4": 318,
+        "2": 126,
+        "3": 252
+      },
+      "nontrivial_solution_total_distribution": {
+        "0": 504,
+        "21": 125,
+        "6": 64,
+        "20": 2,
+        "18": 1
+      },
+      "productive_triple_indices": [
+        26,
+        27,
+        28,
+        29,
+        32,
+        33,
+        34,
+        35,
+        37,
+        38,
+        39,
+        40,
+        41,
+        42,
+        43,
+        44,
+        60,
+        83,
+        105,
+        126,
+        183,
+        200,
+        216,
+        231,
+        246,
+        247,
+        248,
+        249,
+        250,
+        251,
+        252,
+        253,
+        379,
+        380,
+        402,
+        403,
+        424,
+        425,
+        445,
+        446,
+        467,
+        468,
+        469,
+        470,
+        472,
+        473,
+        474,
+        475,
+        476,
+        477,
+        478,
+        479,
+        486,
+        487,
+        488,
+        489,
+        491,
+        492,
+        493,
+        494,
+        495,
+        496,
+        497,
+        498,
+        685,
+        708,
+        730,
+        751,
+        808,
+        825,
+        841,
+        856,
+        871,
+        872,
+        873,
+        874,
+        875,
+        876,
+        877,
+        878,
+        1042,
+        1238,
+        1241,
+        1243,
+        1244,
+        1248,
+        1249,
+        1295,
+        1491,
+        1494,
+        1496,
+        1497,
+        1501,
+        1502,
+        1526,
+        1722,
+        1725,
+        1727,
+        1728,
+        1732,
+        1733,
+        1736,
+        1932,
+        1935,
+        1937,
+        1938,
+        1942,
+        1943,
+        1946,
+        1947,
+        1948,
+        1949,
+        1951,
+        1952,
+        1953,
+        1954,
+        1955,
+        1956,
+        1957,
+        1958,
+        2446,
+        2449,
+        2451,
+        2452,
+        2456,
+        2457,
+        2582,
+        2585,
+        2587,
+        2588,
+        2592,
+        2593,
+        2702,
+        2705,
+        2707,
+        2708,
+        2712,
+        2713,
+        2807,
+        2810,
+        2812,
+        2813,
+        2817,
+        2818,
+        2976,
+        2979,
+        2981,
+        2982,
+        2986,
+        2987,
+        3042,
+        3045,
+        3047,
+        3048,
+        3052,
+        3053,
+        3097,
+        3100,
+        3102,
+        3103,
+        3107,
+        3108,
+        3142,
+        3145,
+        3147,
+        3148,
+        3152,
+        3153,
+        3178,
+        3181,
+        3183,
+        3184,
+        3188,
+        3189,
+        3206,
+        3209,
+        3211,
+        3212,
+        3216,
+        3217,
+        3227,
+        3230,
+        3232,
+        3233,
+        3237,
+        3238,
+        3242,
+        3245,
+        3247,
+        3248,
+        3252,
+        3253
+      ]
+    },
+    {
+      "orbit_id_stable": 4,
+      "orbit_label": "R2-O6120-01000_00100",
+      "module_rank": 2,
+      "full_GL2_GF16_orbit_size": 6120,
+      "observed_unique_spaces": 10,
+      "observed_triples": 228,
+      "representative_rref": [
+        [
+          0,
+          1,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          1,
+          0,
+          0
+        ]
+      ],
+      "category_distribution": {
+        "no_gold": 228
+      },
+      "subcategory_distribution": {
+        "no_gold": 228
+      },
+      "graph_type_distribution": {
+        "P4": 36,
+        "P3+K2": 144,
+        "3K2": 48
+      },
+      "component_support_size_distribution": {
+        "3": 210,
+        "2": 18
+      },
+      "nontrivial_solution_total_distribution": {
+        "0": 228
+      },
+      "productive_triple_indices": []
+    },
+    {
+      "orbit_id_stable": 5,
+      "orbit_label": "R3-O136-01000_00100_00010",
+      "module_rank": 3,
+      "full_GL2_GF16_orbit_size": 136,
+      "observed_unique_spaces": 1,
+      "observed_triples": 324,
+      "representative_rref": [
+        [
+          0,
+          1,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          1,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          1,
+          0
+        ]
+      ],
+      "category_distribution": {
+        "no_gold": 324
+      },
+      "subcategory_distribution": {
+        "no_gold": 324
+      },
+      "graph_type_distribution": {
+        "K1,3": 32,
+        "P4": 108,
+        "P3+K2": 144,
+        "3K2": 40
+      },
+      "component_support_size_distribution": {
+        "3": 324
+      },
+      "nontrivial_solution_total_distribution": {
+        "0": 324
+      },
+      "productive_triple_indices": []
+    },
+    {
+      "orbit_id_stable": 6,
+      "orbit_label": "R3-O765-01000_00100_00001",
+      "module_rank": 3,
+      "full_GL2_GF16_orbit_size": 765,
+      "observed_unique_spaces": 20,
+      "observed_triples": 1224,
+      "representative_rref": [
+        [
+          0,
+          1,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          1,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          1
+        ]
+      ],
+      "category_distribution": {
+        "no_gold": 1224
+      },
+      "subcategory_distribution": {
+        "no_gold": 1224
+      },
+      "graph_type_distribution": {
+        "K1,3": 144,
+        "K3": 48,
+        "P4": 300,
+        "P3+K2": 624,
+        "3K2": 108
+      },
+      "component_support_size_distribution": {
+        "4": 1116,
+        "3": 108
+      },
+      "nontrivial_solution_total_distribution": {
+        "0": 1224
+      },
+      "productive_triple_indices": []
+    },
+    {
+      "orbit_id_stable": 7,
+      "orbit_label": "R3-O6120-10000_001f0_00001",
+      "module_rank": 3,
+      "full_GL2_GF16_orbit_size": 6120,
+      "observed_unique_spaces": 5,
+      "observed_triples": 576,
+      "representative_rref": [
+        [
+          1,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          1,
+          15,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          1
+        ]
+      ],
+      "category_distribution": {
+        "no_gold": 576
+      },
+      "subcategory_distribution": {
+        "no_gold": 576
+      },
+      "graph_type_distribution": {
+        "P4": 144,
+        "P3+K2": 288,
+        "3K2": 144
+      },
+      "component_support_size_distribution": {
+        "5": 252,
+        "3": 108,
+        "4": 216
+      },
+      "nontrivial_solution_total_distribution": {
+        "0": 576
+      },
+      "productive_triple_indices": []
+    }
+  ]
+}

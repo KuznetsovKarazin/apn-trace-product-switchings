@@ -72,7 +72,7 @@ def main() -> int:
         default=Path("results/current/novel_class_permutation_screen.json"),
     )
     args = parser.parse_args()
-    root = Path(__file__).resolve().parents[2]
+    root = Path(__file__).resolve().parents[1]
     resolve = lambda p: p if p.is_absolute() else root / p
     reps_path = resolve(args.representatives)
     output_path = resolve(args.output)

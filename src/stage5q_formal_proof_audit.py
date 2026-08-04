@@ -279,7 +279,7 @@ def main() -> int:
     parser = argparse.ArgumentParser()
     parser.add_argument("--output", type=Path, default=Path("results/current/formal_proof_audit.json"))
     args = parser.parse_args()
-    root = Path(__file__).resolve().parents[2]
+    root = Path(__file__).resolve().parents[1]
     output = args.output if args.output.is_absolute() else root / args.output
 
     small_checks = exact_small_dimension_checks()

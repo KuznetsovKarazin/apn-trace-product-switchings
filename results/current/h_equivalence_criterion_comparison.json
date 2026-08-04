@@ -1,0 +1,103 @@
+{
+  "centre": "F(x)=x^3",
+  "criteria": {
+    "all_direction_kernel": "ker(B_F(a,.)+Tr(a)L(.)+Tr(.)L(a))={0,a} for every a!=0",
+    "direct_apn": "DDT multiplicity at most 2",
+    "h_injectivity": "x in T0 -> L(x)+B_F(x,a+e0) injective for every a in T0"
+  },
+  "date": "2026-08-02",
+  "field": "GF(16)=GF(2)[z]/(z^4+z+1)",
+  "formal_relation": {
+    "conclusion": "The H-equivalence criterion is the common-trace-factor specialization of the symmetric all-direction polar-kernel criterion. The general low-rank update lemma extends the setup to arbitrary quadratic Boolean kernels and coefficient rank r, while no priority is claimed for the hyperplane case.",
+    "trace_one_direction": "For d with Tr(d)=1, every coset modulo <d> has a unique trace-zero representative x; the perturbed polar kernel condition becomes B_F(d,x)+L(x)=0.",
+    "trace_zero_direction": "For d with Tr(d)=0, an extra kernel vector must have trace one and satisfies B_F(d,x)+L(d)=0. By symmetry B_F(d,x)=B_F(x,d), this is the H-injectivity test for the trace-one direction x evaluated at d in T0."
+  },
+  "normalization": {
+    "e0": 8,
+    "e0_hex": "0x8",
+    "linear_maps_with_L_e0_zero": 4096,
+    "trace_zero_size": 8
+  },
+  "result": {
+    "accepted_map_count": 448,
+    "all_three_criteria_agree": true,
+    "disagreement_count": 0,
+    "published_count_reproduced": 448,
+    "sample_accepted_maps": [
+      {
+        "columns": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "encoded": 0
+      },
+      {
+        "columns": [
+          1,
+          0,
+          0,
+          0
+        ],
+        "encoded": 1
+      },
+      {
+        "columns": [
+          8,
+          0,
+          0,
+          0
+        ],
+        "encoded": 8
+      },
+      {
+        "columns": [
+          12,
+          0,
+          0,
+          0
+        ],
+        "encoded": 12
+      },
+      {
+        "columns": [
+          0,
+          1,
+          0,
+          0
+        ],
+        "encoded": 16
+      },
+      {
+        "columns": [
+          1,
+          1,
+          0,
+          0
+        ],
+        "encoded": 17
+      },
+      {
+        "columns": [
+          11,
+          1,
+          0,
+          0
+        ],
+        "encoded": 27
+      },
+      {
+        "columns": [
+          15,
+          1,
+          0,
+          0
+        ],
+        "encoded": 31
+      }
+    ]
+  },
+  "schema": "h-equivalence-comparison-v1",
+  "switch": "G(x)=F(x)+Tr(x)L(x)"
+}

@@ -38,7 +38,7 @@ def main()->int:
     ap=argparse.ArgumentParser()
     ap.add_argument('--stage5j',type=Path,default=Path('results/current/projective_displacement_theorem.json'))
     ap.add_argument('--output',type=Path,default=Path('results/current/projective_equivalence_partition.json'))
-    args=ap.parse_args(); root=Path(__file__).resolve().parents[2]
+    args=ap.parse_args(); root=Path(__file__).resolve().parents[1]
     inp=args.stage5j if args.stage5j.is_absolute() else root/args.stage5j
     out=args.output if args.output.is_absolute() else root/args.output
     data=json.loads(inp.read_text())

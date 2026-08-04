@@ -605,7 +605,7 @@ def main() -> int:
         default=Path("results/current/small_dimension_trace_switch_structure.json"),
     )
     args = parser.parse_args()
-    root = Path(__file__).resolve().parents[2]
+    root = Path(__file__).resolve().parents[1]
     output = args.output if args.output.is_absolute() else root / args.output
 
     result = {

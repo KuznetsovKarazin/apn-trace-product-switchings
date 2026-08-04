@@ -287,7 +287,7 @@ def build_n8():
 
 
 def main():
-    root = Path(__file__).resolve().parents[2]
+    root = Path(__file__).resolve().parents[1]
     output = root / "results/current/compact_section_orbit_certificates.json"
     result = {
         "schema": "compact-section-orbit-certificates-v1",

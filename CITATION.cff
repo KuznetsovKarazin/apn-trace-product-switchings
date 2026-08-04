@@ -19,7 +19,3 @@ keywords:
   - trace switching
   - projective geometry
   - reproducible research
-identifiers:
-  - type: doi
-    value: "10.5281/zenodo.XXXXXXX"
-    description: "Replace after the Zenodo release is published"

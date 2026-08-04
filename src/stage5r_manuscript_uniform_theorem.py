@@ -19,7 +19,7 @@ def main() -> int:
     ap.add_argument('--dimension-scan',type=Path,default=Path('results/current/trace_switch_dimension_scan.json'))
     ap.add_argument('--output',type=Path,default=Path('results/current/manuscript_uniform_theorem.json'))
     args=ap.parse_args()
-    root=Path(__file__).resolve().parents[2]
+    root=Path(__file__).resolve().parents[1]
     scanp=args.dimension_scan if args.dimension_scan.is_absolute() else root/args.dimension_scan
     outp=args.output if args.output.is_absolute() else root/args.output
     scan=json.loads(scanp.read_text())

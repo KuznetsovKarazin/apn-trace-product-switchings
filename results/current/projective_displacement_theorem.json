@@ -1,0 +1,1601 @@
+{
+  "accepted_Frobenius_orbits": [
+    [
+      {
+        "eta_equals_zeta_hex": "0x01",
+        "rho0_hex": "0x0c"
+      },
+      {
+        "eta_equals_zeta_hex": "0x01",
+        "rho0_hex": "0x50"
+      },
+      {
+        "eta_equals_zeta_hex": "0x01",
+        "rho0_hex": "0xb0"
+      },
+      {
+        "eta_equals_zeta_hex": "0x01",
+        "rho0_hex": "0xed"
+      }
+    ],
+    [
+      {
+        "eta_equals_zeta_hex": "0xbd",
+        "rho0_hex": "0x0c"
+      },
+      {
+        "eta_equals_zeta_hex": "0xbc",
+        "rho0_hex": "0x50"
+      },
+      {
+        "eta_equals_zeta_hex": "0xbd",
+        "rho0_hex": "0xb0"
+      },
+      {
+        "eta_equals_zeta_hex": "0xbc",
+        "rho0_hex": "0xed"
+      }
+    ]
+  ],
+  "base_r_nine_pair_table": [
+    {
+      "APN": true,
+      "eta_hex": "0x01",
+      "normalized_target_hex": "0x51",
+      "total_bad_sections": 0,
+      "witnesses_per_involution": 0,
+      "zeta_hex": "0x01"
+    },
+    {
+      "APN": false,
+      "eta_hex": "0x01",
+      "normalized_target_hex": "0xec",
+      "total_bad_sections": 6,
+      "witnesses_per_involution": 2,
+      "zeta_hex": "0xbc"
+    },
+    {
+      "APN": false,
+      "eta_hex": "0x01",
+      "normalized_target_hex": "0xed",
+      "total_bad_sections": 6,
+      "witnesses_per_involution": 2,
+      "zeta_hex": "0xbd"
+    },
+    {
+      "APN": false,
+      "eta_hex": "0xbc",
+      "normalized_target_hex": "0xe0",
+      "total_bad_sections": 6,
+      "witnesses_per_involution": 2,
+      "zeta_hex": "0x01"
+    },
+    {
+      "APN": false,
+      "eta_hex": "0xbc",
+      "normalized_target_hex": "0x5d",
+      "total_bad_sections": 12,
+      "witnesses_per_involution": 4,
+      "zeta_hex": "0xbc"
+    },
+    {
+      "APN": false,
+      "eta_hex": "0xbc",
+      "normalized_target_hex": "0x5c",
+      "total_bad_sections": 6,
+      "witnesses_per_involution": 2,
+      "zeta_hex": "0xbd"
+    },
+    {
+      "APN": false,
+      "eta_hex": "0xbd",
+      "normalized_target_hex": "0xb0",
+      "total_bad_sections": 6,
+      "witnesses_per_involution": 2,
+      "zeta_hex": "0x01"
+    },
+    {
+      "APN": false,
+      "eta_hex": "0xbd",
+      "normalized_target_hex": "0x0d",
+      "total_bad_sections": 6,
+      "witnesses_per_involution": 2,
+      "zeta_hex": "0xbc"
+    },
+    {
+      "APN": true,
+      "eta_hex": "0xbd",
+      "normalized_target_hex": "0x0c",
+      "total_bad_sections": 0,
+      "witnesses_per_involution": 0,
+      "zeta_hex": "0xbd"
+    }
+  ],
+  "date": "2026-08-02",
+  "exhaustive_certificate": {
+    "all_predictions_verified": true,
+    "case_records": [
+      {
+        "APN": true,
+        "bad_section_count": 0,
+        "eta_hex": "0x01",
+        "predicted_APN": true,
+        "rho0_hex": "0x0c",
+        "rho_hex": "0x0c",
+        "second_coefficient_hex": "0x50",
+        "zeta_hex": "0x01"
+      },
+      {
+        "APN": true,
+        "bad_section_count": 0,
+        "eta_hex": "0x01",
+        "predicted_APN": true,
+        "rho0_hex": "0x0c",
+        "rho_hex": "0x51",
+        "second_coefficient_hex": "0x50",
+        "zeta_hex": "0x01"
+      },
+      {
+        "APN": true,
+        "bad_section_count": 0,
+        "eta_hex": "0x01",
+        "predicted_APN": true,
+        "rho0_hex": "0x0c",
+        "rho_hex": "0x5d",
+        "second_coefficient_hex": "0x50",
+        "zeta_hex": "0x01"
+      },
+      {
+        "APN": false,
+        "bad_section_count": 6,
+        "eta_hex": "0x01",
+        "predicted_APN": false,
+        "rho0_hex": "0x0c",
+        "rho_hex": "0x0c",
+        "second_coefficient_hex": "0xe1",
+        "zeta_hex": "0xbc"
+      },
+      {
+        "APN": false,
+        "bad_section_count": 6,
+        "eta_hex": "0x01",
+        "predicted_APN": false,
+        "rho0_hex": "0x0c",
+        "rho_hex": "0x51",
+        "second_coefficient_hex": "0xe1",
+        "zeta_hex": "0xbc"
+      },
+      {
+        "APN": false,
+        "bad_section_count": 6,
+        "eta_hex": "0x01",
+        "predicted_APN": false,
+        "rho0_hex": "0x0c",
+        "rho_hex": "0x5d",
+        "second_coefficient_hex": "0xe1",
+        "zeta_hex": "0xbc"
+      },
+      {
+        "APN": false,
+        "bad_section_count": 6,
+        "eta_hex": "0x01",
+        "predicted_APN": false,
+        "rho0_hex": "0x0c",
+        "rho_hex": "0x0c",
+        "second_coefficient_hex": "0xb1",
+        "zeta_hex": "0xbd"
+      },
+      {
+        "APN": false,
+        "bad_section_count": 6,
+        "eta_hex": "0x01",
+        "predicted_APN": false,
+        "rho0_hex": "0x0c",
+        "rho_hex": "0x51",
+        "second_coefficient_hex": "0xb1",
+        "zeta_hex": "0xbd"
+      },
+      {
+        "APN": false,
+        "bad_section_count": 6,
+        "eta_hex": "0x01",
+        "predicted_APN": false,
+        "rho0_hex": "0x0c",
+        "rho_hex": "0x5d",
+        "second_coefficient_hex": "0xb1",
+        "zeta_hex": "0xbd"
+      },
+      {
+        "APN": false,
+        "bad_section_count": 6,
+        "eta_hex": "0xbc",
+        "predicted_APN": false,
+        "rho0_hex": "0x0c",
+        "rho_hex": "0x0c",
+        "second_coefficient_hex": "0x50",
+        "zeta_hex": "0x01"
+      },
+      {
+        "APN": false,
+        "bad_section_count": 6,
+        "eta_hex": "0xbc",
+        "predicted_APN": false,
+        "rho0_hex": "0x0c",
+        "rho_hex": "0x51",
+        "second_coefficient_hex": "0x50",
+        "zeta_hex": "0x01"
+      },
+      {
+        "APN": false,
+        "bad_section_count": 6,
+        "eta_hex": "0xbc",
+        "predicted_APN": false,
+        "rho0_hex": "0x0c",
+        "rho_hex": "0x5d",
+        "second_coefficient_hex": "0x50",
+        "zeta_hex": "0x01"
+      },
+      {
+        "APN": false,
+        "bad_section_count": 12,
+        "eta_hex": "0xbc",
+        "predicted_APN": false,
+        "rho0_hex": "0x0c",
+        "rho_hex": "0x0c",
+        "second_coefficient_hex": "0xe1",
+        "zeta_hex": "0xbc"
+      },
+      {
+        "APN": false,
+        "bad_section_count": 12,
+        "eta_hex": "0xbc",
+        "predicted_APN": false,
+        "rho0_hex": "0x0c",
+        "rho_hex": "0x51",
+        "second_coefficient_hex": "0xe1",
+        "zeta_hex": "0xbc"
+      },
+      {
+        "APN": false,
+        "bad_section_count": 12,
+        "eta_hex": "0xbc",
+        "predicted_APN": false,
+        "rho0_hex": "0x0c",
+        "rho_hex": "0x5d",
+        "second_coefficient_hex": "0xe1",
+        "zeta_hex": "0xbc"
+      },
+      {
+        "APN": false,
+        "bad_section_count": 6,
+        "eta_hex": "0xbc",
+        "predicted_APN": false,
+        "rho0_hex": "0x0c",
+        "rho_hex": "0x0c",
+        "second_coefficient_hex": "0xb1",
+        "zeta_hex": "0xbd"
+      },
+      {
+        "APN": false,
+        "bad_section_count": 6,
+        "eta_hex": "0xbc",
+        "predicted_APN": false,
+        "rho0_hex": "0x0c",
+        "rho_hex": "0x51",
+        "second_coefficient_hex": "0xb1",
+        "zeta_hex": "0xbd"
+      },
+      {
+        "APN": false,
+        "bad_section_count": 6,
+        "eta_hex": "0xbc",
+        "predicted_APN": false,
+        "rho0_hex": "0x0c",
+        "rho_hex": "0x5d",
+        "second_coefficient_hex": "0xb1",
+        "zeta_hex": "0xbd"
+      },
+      {
+        "APN": false,
+        "bad_section_count": 6,
+        "eta_hex": "0xbd",
+        "predicted_APN": false,
+        "rho0_hex": "0x0c",
+        "rho_hex": "0x0c",
+        "second_coefficient_hex": "0x50",
+        "zeta_hex": "0x01"
+      },
+      {
+        "APN": false,
+        "bad_section_count": 6,
+        "eta_hex": "0xbd",
+        "predicted_APN": false,
+        "rho0_hex": "0x0c",
+        "rho_hex": "0x51",
+        "second_coefficient_hex": "0x50",
+        "zeta_hex": "0x01"
+      },
+      {
+        "APN": false,
+        "bad_section_count": 6,
+        "eta_hex": "0xbd",
+        "predicted_APN": false,
+        "rho0_hex": "0x0c",
+        "rho_hex": "0x5d",
+        "second_coefficient_hex": "0x50",
+        "zeta_hex": "0x01"
+      },
+      {
+        "APN": false,
+        "bad_section_count": 6,
+        "eta_hex": "0xbd",
+        "predicted_APN": false,
+        "rho0_hex": "0x0c",
+        "rho_hex": "0x0c",
+        "second_coefficient_hex": "0xe1",
+        "zeta_hex": "0xbc"
+      },
+      {
+        "APN": false,
+        "bad_section_count": 6,
+        "eta_hex": "0xbd",
+        "predicted_APN": false,
+        "rho0_hex": "0x0c",
+        "rho_hex": "0x51",
+        "second_coefficient_hex": "0xe1",
+        "zeta_hex": "0xbc"
+      },
+      {
+        "APN": false,
+        "bad_section_count": 6,
+        "eta_hex": "0xbd",
+        "predicted_APN": false,
+        "rho0_hex": "0x0c",
+        "rho_hex": "0x5d",
+        "second_coefficient_hex": "0xe1",
+        "zeta_hex": "0xbc"
+      },
+      {
+        "APN": true,
+        "bad_section_count": 0,
+        "eta_hex": "0xbd",
+        "predicted_APN": true,
+        "rho0_hex": "0x0c",
+        "rho_hex": "0x0c",
+        "second_coefficient_hex": "0xb1",
+        "zeta_hex": "0xbd"
+      },
+      {
+        "APN": true,
+        "bad_section_count": 0,
+        "eta_hex": "0xbd",
+        "predicted_APN": true,
+        "rho0_hex": "0x0c",
+        "rho_hex": "0x51",
+        "second_coefficient_hex": "0xb1",
+        "zeta_hex": "0xbd"
+      },
+      {
+        "APN": true,
+        "bad_section_count": 0,
+        "eta_hex": "0xbd",
+        "predicted_APN": true,
+        "rho0_hex": "0x0c",
+        "rho_hex": "0x5d",
+        "second_coefficient_hex": "0xb1",
+        "zeta_hex": "0xbd"
+      },
+      {
+        "APN": true,
+        "bad_section_count": 0,
+        "eta_hex": "0x01",
+        "predicted_APN": true,
+        "rho0_hex": "0x50",
+        "rho_hex": "0x50",
+        "second_coefficient_hex": "0xb0",
+        "zeta_hex": "0x01"
+      },
+      {
+        "APN": true,
+        "bad_section_count": 0,
+        "eta_hex": "0x01",
+        "predicted_APN": true,
+        "rho0_hex": "0x50",
+        "rho_hex": "0xb1",
+        "second_coefficient_hex": "0xb0",
+        "zeta_hex": "0x01"
+      },
+      {
+        "APN": true,
+        "bad_section_count": 0,
+        "eta_hex": "0x01",
+        "predicted_APN": true,
+        "rho0_hex": "0x50",
+        "rho_hex": "0xe1",
+        "second_coefficient_hex": "0xb0",
+        "zeta_hex": "0x01"
+      },
+      {
+        "APN": false,
+        "bad_section_count": 6,
+        "eta_hex": "0x01",
+        "predicted_APN": false,
+        "rho0_hex": "0x50",
+        "rho_hex": "0x50",
+        "second_coefficient_hex": "0xec",
+        "zeta_hex": "0xbc"
+      },
+      {
+        "APN": false,
+        "bad_section_count": 6,
+        "eta_hex": "0x01",
+        "predicted_APN": false,
+        "rho0_hex": "0x50",
+        "rho_hex": "0xb1",
+        "second_coefficient_hex": "0xec",
+        "zeta_hex": "0xbc"
+      },
+      {
+        "APN": false,
+        "bad_section_count": 6,
+        "eta_hex": "0x01",
+        "predicted_APN": false,
+        "rho0_hex": "0x50",
+        "rho_hex": "0xe1",
+        "second_coefficient_hex": "0xec",
+        "zeta_hex": "0xbc"
+      },
+      {
+        "APN": false,
+        "bad_section_count": 6,
+        "eta_hex": "0x01",
+        "predicted_APN": false,
+        "rho0_hex": "0x50",
+        "rho_hex": "0x50",
+        "second_coefficient_hex": "0x5c",
+        "zeta_hex": "0xbd"
+      },
+      {
+        "APN": false,
+        "bad_section_count": 6,
+        "eta_hex": "0x01",
+        "predicted_APN": false,
+        "rho0_hex": "0x50",
+        "rho_hex": "0xb1",
+        "second_coefficient_hex": "0x5c",
+        "zeta_hex": "0xbd"
+      },
+      {
+        "APN": false,
+        "bad_section_count": 6,
+        "eta_hex": "0x01",
+        "predicted_APN": false,
+        "rho0_hex": "0x50",
+        "rho_hex": "0xe1",
+        "second_coefficient_hex": "0x5c",
+        "zeta_hex": "0xbd"
+      },
+      {
+        "APN": false,
+        "bad_section_count": 6,
+        "eta_hex": "0xbc",
+        "predicted_APN": false,
+        "rho0_hex": "0x50",
+        "rho_hex": "0x50",
+        "second_coefficient_hex": "0xb0",
+        "zeta_hex": "0x01"
+      },
+      {
+        "APN": false,
+        "bad_section_count": 6,
+        "eta_hex": "0xbc",
+        "predicted_APN": false,
+        "rho0_hex": "0x50",
+        "rho_hex": "0xb1",
+        "second_coefficient_hex": "0xb0",
+        "zeta_hex": "0x01"
+      },
+      {
+        "APN": false,
+        "bad_section_count": 6,
+        "eta_hex": "0xbc",
+        "predicted_APN": false,
+        "rho0_hex": "0x50",
+        "rho_hex": "0xe1",
+        "second_coefficient_hex": "0xb0",
+        "zeta_hex": "0x01"
+      },
+      {
+        "APN": true,
+        "bad_section_count": 0,
+        "eta_hex": "0xbc",
+        "predicted_APN": true,
+        "rho0_hex": "0x50",
+        "rho_hex": "0x50",
+        "second_coefficient_hex": "0xec",
+        "zeta_hex": "0xbc"
+      },
+      {
+        "APN": true,
+        "bad_section_count": 0,
+        "eta_hex": "0xbc",
+        "predicted_APN": true,
+        "rho0_hex": "0x50",
+        "rho_hex": "0xb1",
+        "second_coefficient_hex": "0xec",
+        "zeta_hex": "0xbc"
+      },
+      {
+        "APN": true,
+        "bad_section_count": 0,
+        "eta_hex": "0xbc",
+        "predicted_APN": true,
+        "rho0_hex": "0x50",
+        "rho_hex": "0xe1",
+        "second_coefficient_hex": "0xec",
+        "zeta_hex": "0xbc"
+      },
+      {
+        "APN": false,
+        "bad_section_count": 6,
+        "eta_hex": "0xbc",
+        "predicted_APN": false,
+        "rho0_hex": "0x50",
+        "rho_hex": "0x50",
+        "second_coefficient_hex": "0x5c",
+        "zeta_hex": "0xbd"
+      },
+      {
+        "APN": false,
+        "bad_section_count": 6,
+        "eta_hex": "0xbc",
+        "predicted_APN": false,
+        "rho0_hex": "0x50",
+        "rho_hex": "0xb1",
+        "second_coefficient_hex": "0x5c",
+        "zeta_hex": "0xbd"
+      },
+      {
+        "APN": false,
+        "bad_section_count": 6,
+        "eta_hex": "0xbc",
+        "predicted_APN": false,
+        "rho0_hex": "0x50",
+        "rho_hex": "0xe1",
+        "second_coefficient_hex": "0x5c",
+        "zeta_hex": "0xbd"
+      },
+      {
+        "APN": false,
+        "bad_section_count": 6,
+        "eta_hex": "0xbd",
+        "predicted_APN": false,
+        "rho0_hex": "0x50",
+        "rho_hex": "0x50",
+        "second_coefficient_hex": "0xb0",
+        "zeta_hex": "0x01"
+      },
+      {
+        "APN": false,
+        "bad_section_count": 6,
+        "eta_hex": "0xbd",
+        "predicted_APN": false,
+        "rho0_hex": "0x50",
+        "rho_hex": "0xb1",
+        "second_coefficient_hex": "0xb0",
+        "zeta_hex": "0x01"
+      },
+      {
+        "APN": false,
+        "bad_section_count": 6,
+        "eta_hex": "0xbd",
+        "predicted_APN": false,
+        "rho0_hex": "0x50",
+        "rho_hex": "0xe1",
+        "second_coefficient_hex": "0xb0",
+        "zeta_hex": "0x01"
+      },
+      {
+        "APN": false,
+        "bad_section_count": 6,
+        "eta_hex": "0xbd",
+        "predicted_APN": false,
+        "rho0_hex": "0x50",
+        "rho_hex": "0x50",
+        "second_coefficient_hex": "0xec",
+        "zeta_hex": "0xbc"
+      },
+      {
+        "APN": false,
+        "bad_section_count": 6,
+        "eta_hex": "0xbd",
+        "predicted_APN": false,
+        "rho0_hex": "0x50",
+        "rho_hex": "0xb1",
+        "second_coefficient_hex": "0xec",
+        "zeta_hex": "0xbc"
+      },
+      {
+        "APN": false,
+        "bad_section_count": 6,
+        "eta_hex": "0xbd",
+        "predicted_APN": false,
+        "rho0_hex": "0x50",
+        "rho_hex": "0xe1",
+        "second_coefficient_hex": "0xec",
+        "zeta_hex": "0xbc"
+      },
+      {
+        "APN": false,
+        "bad_section_count": 12,
+        "eta_hex": "0xbd",
+        "predicted_APN": false,
+        "rho0_hex": "0x50",
+        "rho_hex": "0x50",
+        "second_coefficient_hex": "0x5c",
+        "zeta_hex": "0xbd"
+      },
+      {
+        "APN": false,
+        "bad_section_count": 12,
+        "eta_hex": "0xbd",
+        "predicted_APN": false,
+        "rho0_hex": "0x50",
+        "rho_hex": "0xb1",
+        "second_coefficient_hex": "0x5c",
+        "zeta_hex": "0xbd"
+      },
+      {
+        "APN": false,
+        "bad_section_count": 12,
+        "eta_hex": "0xbd",
+        "predicted_APN": false,
+        "rho0_hex": "0x50",
+        "rho_hex": "0xe1",
+        "second_coefficient_hex": "0x5c",
+        "zeta_hex": "0xbd"
+      },
+      {
+        "APN": true,
+        "bad_section_count": 0,
+        "eta_hex": "0x01",
+        "predicted_APN": true,
+        "rho0_hex": "0xb0",
+        "rho_hex": "0x5c",
+        "second_coefficient_hex": "0xed",
+        "zeta_hex": "0x01"
+      },
+      {
+        "APN": true,
+        "bad_section_count": 0,
+        "eta_hex": "0x01",
+        "predicted_APN": true,
+        "rho0_hex": "0xb0",
+        "rho_hex": "0xb0",
+        "second_coefficient_hex": "0xed",
+        "zeta_hex": "0x01"
+      },
+      {
+        "APN": true,
+        "bad_section_count": 0,
+        "eta_hex": "0x01",
+        "predicted_APN": true,
+        "rho0_hex": "0xb0",
+        "rho_hex": "0xec",
+        "second_coefficient_hex": "0xed",
+        "zeta_hex": "0x01"
+      },
+      {
+        "APN": false,
+        "bad_section_count": 6,
+        "eta_hex": "0x01",
+        "predicted_APN": false,
+        "rho0_hex": "0xb0",
+        "rho_hex": "0x5c",
+        "second_coefficient_hex": "0xe0",
+        "zeta_hex": "0xbc"
+      },
+      {
+        "APN": false,
+        "bad_section_count": 6,
+        "eta_hex": "0x01",
+        "predicted_APN": false,
+        "rho0_hex": "0xb0",
+        "rho_hex": "0xb0",
+        "second_coefficient_hex": "0xe0",
+        "zeta_hex": "0xbc"
+      },
+      {
+        "APN": false,
+        "bad_section_count": 6,
+        "eta_hex": "0x01",
+        "predicted_APN": false,
+        "rho0_hex": "0xb0",
+        "rho_hex": "0xec",
+        "second_coefficient_hex": "0xe0",
+        "zeta_hex": "0xbc"
+      },
+      {
+        "APN": false,
+        "bad_section_count": 6,
+        "eta_hex": "0x01",
+        "predicted_APN": false,
+        "rho0_hex": "0xb0",
+        "rho_hex": "0x5c",
+        "second_coefficient_hex": "0x0d",
+        "zeta_hex": "0xbd"
+      },
+      {
+        "APN": false,
+        "bad_section_count": 6,
+        "eta_hex": "0x01",
+        "predicted_APN": false,
+        "rho0_hex": "0xb0",
+        "rho_hex": "0xb0",
+        "second_coefficient_hex": "0x0d",
+        "zeta_hex": "0xbd"
+      },
+      {
+        "APN": false,
+        "bad_section_count": 6,
+        "eta_hex": "0x01",
+        "predicted_APN": false,
+        "rho0_hex": "0xb0",
+        "rho_hex": "0xec",
+        "second_coefficient_hex": "0x0d",
+        "zeta_hex": "0xbd"
+      },
+      {
+        "APN": false,
+        "bad_section_count": 6,
+        "eta_hex": "0xbc",
+        "predicted_APN": false,
+        "rho0_hex": "0xb0",
+        "rho_hex": "0x5c",
+        "second_coefficient_hex": "0xed",
+        "zeta_hex": "0x01"
+      },
+      {
+        "APN": false,
+        "bad_section_count": 6,
+        "eta_hex": "0xbc",
+        "predicted_APN": false,
+        "rho0_hex": "0xb0",
+        "rho_hex": "0xb0",
+        "second_coefficient_hex": "0xed",
+        "zeta_hex": "0x01"
+      },
+      {
+        "APN": false,
+        "bad_section_count": 6,
+        "eta_hex": "0xbc",
+        "predicted_APN": false,
+        "rho0_hex": "0xb0",
+        "rho_hex": "0xec",
+        "second_coefficient_hex": "0xed",
+        "zeta_hex": "0x01"
+      },
+      {
+        "APN": false,
+        "bad_section_count": 12,
+        "eta_hex": "0xbc",
+        "predicted_APN": false,
+        "rho0_hex": "0xb0",
+        "rho_hex": "0x5c",
+        "second_coefficient_hex": "0xe0",
+        "zeta_hex": "0xbc"
+      },
+      {
+        "APN": false,
+        "bad_section_count": 12,
+        "eta_hex": "0xbc",
+        "predicted_APN": false,
+        "rho0_hex": "0xb0",
+        "rho_hex": "0xb0",
+        "second_coefficient_hex": "0xe0",
+        "zeta_hex": "0xbc"
+      },
+      {
+        "APN": false,
+        "bad_section_count": 12,
+        "eta_hex": "0xbc",
+        "predicted_APN": false,
+        "rho0_hex": "0xb0",
+        "rho_hex": "0xec",
+        "second_coefficient_hex": "0xe0",
+        "zeta_hex": "0xbc"
+      },
+      {
+        "APN": false,
+        "bad_section_count": 6,
+        "eta_hex": "0xbc",
+        "predicted_APN": false,
+        "rho0_hex": "0xb0",
+        "rho_hex": "0x5c",
+        "second_coefficient_hex": "0x0d",
+        "zeta_hex": "0xbd"
+      },
+      {
+        "APN": false,
+        "bad_section_count": 6,
+        "eta_hex": "0xbc",
+        "predicted_APN": false,
+        "rho0_hex": "0xb0",
+        "rho_hex": "0xb0",
+        "second_coefficient_hex": "0x0d",
+        "zeta_hex": "0xbd"
+      },
+      {
+        "APN": false,
+        "bad_section_count": 6,
+        "eta_hex": "0xbc",
+        "predicted_APN": false,
+        "rho0_hex": "0xb0",
+        "rho_hex": "0xec",
+        "second_coefficient_hex": "0x0d",
+        "zeta_hex": "0xbd"
+      },
+      {
+        "APN": false,
+        "bad_section_count": 6,
+        "eta_hex": "0xbd",
+        "predicted_APN": false,
+        "rho0_hex": "0xb0",
+        "rho_hex": "0x5c",
+        "second_coefficient_hex": "0xed",
+        "zeta_hex": "0x01"
+      },
+      {
+        "APN": false,
+        "bad_section_count": 6,
+        "eta_hex": "0xbd",
+        "predicted_APN": false,
+        "rho0_hex": "0xb0",
+        "rho_hex": "0xb0",
+        "second_coefficient_hex": "0xed",
+        "zeta_hex": "0x01"
+      },
+      {
+        "APN": false,
+        "bad_section_count": 6,
+        "eta_hex": "0xbd",
+        "predicted_APN": false,
+        "rho0_hex": "0xb0",
+        "rho_hex": "0xec",
+        "second_coefficient_hex": "0xed",
+        "zeta_hex": "0x01"
+      },
+      {
+        "APN": false,
+        "bad_section_count": 6,
+        "eta_hex": "0xbd",
+        "predicted_APN": false,
+        "rho0_hex": "0xb0",
+        "rho_hex": "0x5c",
+        "second_coefficient_hex": "0xe0",
+        "zeta_hex": "0xbc"
+      },
+      {
+        "APN": false,
+        "bad_section_count": 6,
+        "eta_hex": "0xbd",
+        "predicted_APN": false,
+        "rho0_hex": "0xb0",
+        "rho_hex": "0xb0",
+        "second_coefficient_hex": "0xe0",
+        "zeta_hex": "0xbc"
+      },
+      {
+        "APN": false,
+        "bad_section_count": 6,
+        "eta_hex": "0xbd",
+        "predicted_APN": false,
+        "rho0_hex": "0xb0",
+        "rho_hex": "0xec",
+        "second_coefficient_hex": "0xe0",
+        "zeta_hex": "0xbc"
+      },
+      {
+        "APN": true,
+        "bad_section_count": 0,
+        "eta_hex": "0xbd",
+        "predicted_APN": true,
+        "rho0_hex": "0xb0",
+        "rho_hex": "0x5c",
+        "second_coefficient_hex": "0x0d",
+        "zeta_hex": "0xbd"
+      },
+      {
+        "APN": true,
+        "bad_section_count": 0,
+        "eta_hex": "0xbd",
+        "predicted_APN": true,
+        "rho0_hex": "0xb0",
+        "rho_hex": "0xb0",
+        "second_coefficient_hex": "0x0d",
+        "zeta_hex": "0xbd"
+      },
+      {
+        "APN": true,
+        "bad_section_count": 0,
+        "eta_hex": "0xbd",
+        "predicted_APN": true,
+        "rho0_hex": "0xb0",
+        "rho_hex": "0xec",
+        "second_coefficient_hex": "0x0d",
+        "zeta_hex": "0xbd"
+      },
+      {
+        "APN": true,
+        "bad_section_count": 0,
+        "eta_hex": "0x01",
+        "predicted_APN": true,
+        "rho0_hex": "0xed",
+        "rho_hex": "0x0d",
+        "second_coefficient_hex": "0x0c",
+        "zeta_hex": "0x01"
+      },
+      {
+        "APN": true,
+        "bad_section_count": 0,
+        "eta_hex": "0x01",
+        "predicted_APN": true,
+        "rho0_hex": "0xed",
+        "rho_hex": "0xe0",
+        "second_coefficient_hex": "0x0c",
+        "zeta_hex": "0x01"
+      },
+      {
+        "APN": true,
+        "bad_section_count": 0,
+        "eta_hex": "0x01",
+        "predicted_APN": true,
+        "rho0_hex": "0xed",
+        "rho_hex": "0xed",
+        "second_coefficient_hex": "0x0c",
+        "zeta_hex": "0x01"
+      },
+      {
+        "APN": false,
+        "bad_section_count": 6,
+        "eta_hex": "0x01",
+        "predicted_APN": false,
+        "rho0_hex": "0xed",
+        "rho_hex": "0x0d",
+        "second_coefficient_hex": "0x51",
+        "zeta_hex": "0xbc"
+      },
+      {
+        "APN": false,
+        "bad_section_count": 6,
+        "eta_hex": "0x01",
+        "predicted_APN": false,
+        "rho0_hex": "0xed",
+        "rho_hex": "0xe0",
+        "second_coefficient_hex": "0x51",
+        "zeta_hex": "0xbc"
+      },
+      {
+        "APN": false,
+        "bad_section_count": 6,
+        "eta_hex": "0x01",
+        "predicted_APN": false,
+        "rho0_hex": "0xed",
+        "rho_hex": "0xed",
+        "second_coefficient_hex": "0x51",
+        "zeta_hex": "0xbc"
+      },
+      {
+        "APN": false,
+        "bad_section_count": 6,
+        "eta_hex": "0x01",
+        "predicted_APN": false,
+        "rho0_hex": "0xed",
+        "rho_hex": "0x0d",
+        "second_coefficient_hex": "0x5d",
+        "zeta_hex": "0xbd"
+      },
+      {
+        "APN": false,
+        "bad_section_count": 6,
+        "eta_hex": "0x01",
+        "predicted_APN": false,
+        "rho0_hex": "0xed",
+        "rho_hex": "0xe0",
+        "second_coefficient_hex": "0x5d",
+        "zeta_hex": "0xbd"
+      },
+      {
+        "APN": false,
+        "bad_section_count": 6,
+        "eta_hex": "0x01",
+        "predicted_APN": false,
+        "rho0_hex": "0xed",
+        "rho_hex": "0xed",
+        "second_coefficient_hex": "0x5d",
+        "zeta_hex": "0xbd"
+      },
+      {
+        "APN": false,
+        "bad_section_count": 6,
+        "eta_hex": "0xbc",
+        "predicted_APN": false,
+        "rho0_hex": "0xed",
+        "rho_hex": "0x0d",
+        "second_coefficient_hex": "0x0c",
+        "zeta_hex": "0x01"
+      },
+      {
+        "APN": false,
+        "bad_section_count": 6,
+        "eta_hex": "0xbc",
+        "predicted_APN": false,
+        "rho0_hex": "0xed",
+        "rho_hex": "0xe0",
+        "second_coefficient_hex": "0x0c",
+        "zeta_hex": "0x01"
+      },
+      {
+        "APN": false,
+        "bad_section_count": 6,
+        "eta_hex": "0xbc",
+        "predicted_APN": false,
+        "rho0_hex": "0xed",
+        "rho_hex": "0xed",
+        "second_coefficient_hex": "0x0c",
+        "zeta_hex": "0x01"
+      },
+      {
+        "APN": true,
+        "bad_section_count": 0,
+        "eta_hex": "0xbc",
+        "predicted_APN": true,
+        "rho0_hex": "0xed",
+        "rho_hex": "0x0d",
+        "second_coefficient_hex": "0x51",
+        "zeta_hex": "0xbc"
+      },
+      {
+        "APN": true,
+        "bad_section_count": 0,
+        "eta_hex": "0xbc",
+        "predicted_APN": true,
+        "rho0_hex": "0xed",
+        "rho_hex": "0xe0",
+        "second_coefficient_hex": "0x51",
+        "zeta_hex": "0xbc"
+      },
+      {
+        "APN": true,
+        "bad_section_count": 0,
+        "eta_hex": "0xbc",
+        "predicted_APN": true,
+        "rho0_hex": "0xed",
+        "rho_hex": "0xed",
+        "second_coefficient_hex": "0x51",
+        "zeta_hex": "0xbc"
+      },
+      {
+        "APN": false,
+        "bad_section_count": 6,
+        "eta_hex": "0xbc",
+        "predicted_APN": false,
+        "rho0_hex": "0xed",
+        "rho_hex": "0x0d",
+        "second_coefficient_hex": "0x5d",
+        "zeta_hex": "0xbd"
+      },
+      {
+        "APN": false,
+        "bad_section_count": 6,
+        "eta_hex": "0xbc",
+        "predicted_APN": false,
+        "rho0_hex": "0xed",
+        "rho_hex": "0xe0",
+        "second_coefficient_hex": "0x5d",
+        "zeta_hex": "0xbd"
+      },
+      {
+        "APN": false,
+        "bad_section_count": 6,
+        "eta_hex": "0xbc",
+        "predicted_APN": false,
+        "rho0_hex": "0xed",
+        "rho_hex": "0xed",
+        "second_coefficient_hex": "0x5d",
+        "zeta_hex": "0xbd"
+      },
+      {
+        "APN": false,
+        "bad_section_count": 6,
+        "eta_hex": "0xbd",
+        "predicted_APN": false,
+        "rho0_hex": "0xed",
+        "rho_hex": "0x0d",
+        "second_coefficient_hex": "0x0c",
+        "zeta_hex": "0x01"
+      },
+      {
+        "APN": false,
+        "bad_section_count": 6,
+        "eta_hex": "0xbd",
+        "predicted_APN": false,
+        "rho0_hex": "0xed",
+        "rho_hex": "0xe0",
+        "second_coefficient_hex": "0x0c",
+        "zeta_hex": "0x01"
+      },
+      {
+        "APN": false,
+        "bad_section_count": 6,
+        "eta_hex": "0xbd",
+        "predicted_APN": false,
+        "rho0_hex": "0xed",
+        "rho_hex": "0xed",
+        "second_coefficient_hex": "0x0c",
+        "zeta_hex": "0x01"
+      },
+      {
+        "APN": false,
+        "bad_section_count": 6,
+        "eta_hex": "0xbd",
+        "predicted_APN": false,
+        "rho0_hex": "0xed",
+        "rho_hex": "0x0d",
+        "second_coefficient_hex": "0x51",
+        "zeta_hex": "0xbc"
+      },
+      {
+        "APN": false,
+        "bad_section_count": 6,
+        "eta_hex": "0xbd",
+        "predicted_APN": false,
+        "rho0_hex": "0xed",
+        "rho_hex": "0xe0",
+        "second_coefficient_hex": "0x51",
+        "zeta_hex": "0xbc"
+      },
+      {
+        "APN": false,
+        "bad_section_count": 6,
+        "eta_hex": "0xbd",
+        "predicted_APN": false,
+        "rho0_hex": "0xed",
+        "rho_hex": "0xed",
+        "second_coefficient_hex": "0x51",
+        "zeta_hex": "0xbc"
+      },
+      {
+        "APN": false,
+        "bad_section_count": 12,
+        "eta_hex": "0xbd",
+        "predicted_APN": false,
+        "rho0_hex": "0xed",
+        "rho_hex": "0x0d",
+        "second_coefficient_hex": "0x5d",
+        "zeta_hex": "0xbd"
+      },
+      {
+        "APN": false,
+        "bad_section_count": 12,
+        "eta_hex": "0xbd",
+        "predicted_APN": false,
+        "rho0_hex": "0xed",
+        "rho_hex": "0xe0",
+        "second_coefficient_hex": "0x5d",
+        "zeta_hex": "0xbd"
+      },
+      {
+        "APN": false,
+        "bad_section_count": 12,
+        "eta_hex": "0xbd",
+        "predicted_APN": false,
+        "rho0_hex": "0xed",
+        "rho_hex": "0xed",
+        "second_coefficient_hex": "0x5d",
+        "zeta_hex": "0xbd"
+      }
+    ],
+    "coefficient_pairs_per_representative": 9,
+    "projective_classes": 4,
+    "representatives_per_class": 3,
+    "total_cases": 108
+  },
+  "interpretation": [
+    "The order-five displacement found in the campaign is not a single accidental pair: every nontrivial projective GF(16)/GF(4) displacement supports exactly two APN synchronized lifts.",
+    "The selector is intrinsic after removing the GF(4)^* component by rho0=rho^6.",
+    "Off-diagonal choices of the two GF(4)^* fibre coefficients always fail, with exactly six bad derivative sections.",
+    "The eight projective APN lifts form two Frobenius orbits of length four."
+  ],
+  "projective_classes": [
+    {
+      "accepted_pairs": [
+        {
+          "APN": true,
+          "bad_section_count": 0,
+          "eta_hex": "0x01",
+          "selector_value": 1,
+          "zeta_hex": "0x01"
+        },
+        {
+          "APN": true,
+          "bad_section_count": 0,
+          "eta_hex": "0xbd",
+          "selector_value": 1,
+          "zeta_hex": "0xbd"
+        }
+      ],
+      "canonical_order5_rho_hex": "0x0c",
+      "d_equals_rho0_plus_rho0_fourth_hex": "0xbc",
+      "delta_equals_d_squared_hex": "0xbd",
+      "pair_table": [
+        {
+          "APN": true,
+          "bad_section_count": 0,
+          "eta_hex": "0x01",
+          "selector_value": 1,
+          "zeta_hex": "0x01"
+        },
+        {
+          "APN": false,
+          "bad_section_count": 6,
+          "eta_hex": "0x01",
+          "selector_value": null,
+          "zeta_hex": "0xbc"
+        },
+        {
+          "APN": false,
+          "bad_section_count": 6,
+          "eta_hex": "0x01",
+          "selector_value": null,
+          "zeta_hex": "0xbd"
+        },
+        {
+          "APN": false,
+          "bad_section_count": 6,
+          "eta_hex": "0xbc",
+          "selector_value": null,
+          "zeta_hex": "0x01"
+        },
+        {
+          "APN": false,
+          "bad_section_count": 12,
+          "eta_hex": "0xbc",
+          "selector_value": 0,
+          "zeta_hex": "0xbc"
+        },
+        {
+          "APN": false,
+          "bad_section_count": 6,
+          "eta_hex": "0xbc",
+          "selector_value": null,
+          "zeta_hex": "0xbd"
+        },
+        {
+          "APN": false,
+          "bad_section_count": 6,
+          "eta_hex": "0xbd",
+          "selector_value": null,
+          "zeta_hex": "0x01"
+        },
+        {
+          "APN": false,
+          "bad_section_count": 6,
+          "eta_hex": "0xbd",
+          "selector_value": null,
+          "zeta_hex": "0xbc"
+        },
+        {
+          "APN": true,
+          "bad_section_count": 0,
+          "eta_hex": "0xbd",
+          "selector_value": 1,
+          "zeta_hex": "0xbd"
+        }
+      ],
+      "projective_members_hex": [
+        "0x0c",
+        "0x51",
+        "0x5d"
+      ]
+    },
+    {
+      "accepted_pairs": [
+        {
+          "APN": true,
+          "bad_section_count": 0,
+          "eta_hex": "0x01",
+          "selector_value": 1,
+          "zeta_hex": "0x01"
+        },
+        {
+          "APN": true,
+          "bad_section_count": 0,
+          "eta_hex": "0xbc",
+          "selector_value": 1,
+          "zeta_hex": "0xbc"
+        }
+      ],
+      "canonical_order5_rho_hex": "0x50",
+      "d_equals_rho0_plus_rho0_fourth_hex": "0xbd",
+      "delta_equals_d_squared_hex": "0xbc",
+      "pair_table": [
+        {
+          "APN": true,
+          "bad_section_count": 0,
+          "eta_hex": "0x01",
+          "selector_value": 1,
+          "zeta_hex": "0x01"
+        },
+        {
+          "APN": false,
+          "bad_section_count": 6,
+          "eta_hex": "0x01",
+          "selector_value": null,
+          "zeta_hex": "0xbc"
+        },
+        {
+          "APN": false,
+          "bad_section_count": 6,
+          "eta_hex": "0x01",
+          "selector_value": null,
+          "zeta_hex": "0xbd"
+        },
+        {
+          "APN": false,
+          "bad_section_count": 6,
+          "eta_hex": "0xbc",
+          "selector_value": null,
+          "zeta_hex": "0x01"
+        },
+        {
+          "APN": true,
+          "bad_section_count": 0,
+          "eta_hex": "0xbc",
+          "selector_value": 1,
+          "zeta_hex": "0xbc"
+        },
+        {
+          "APN": false,
+          "bad_section_count": 6,
+          "eta_hex": "0xbc",
+          "selector_value": null,
+          "zeta_hex": "0xbd"
+        },
+        {
+          "APN": false,
+          "bad_section_count": 6,
+          "eta_hex": "0xbd",
+          "selector_value": null,
+          "zeta_hex": "0x01"
+        },
+        {
+          "APN": false,
+          "bad_section_count": 6,
+          "eta_hex": "0xbd",
+          "selector_value": null,
+          "zeta_hex": "0xbc"
+        },
+        {
+          "APN": false,
+          "bad_section_count": 12,
+          "eta_hex": "0xbd",
+          "selector_value": 0,
+          "zeta_hex": "0xbd"
+        }
+      ],
+      "projective_members_hex": [
+        "0x50",
+        "0xb1",
+        "0xe1"
+      ]
+    },
+    {
+      "accepted_pairs": [
+        {
+          "APN": true,
+          "bad_section_count": 0,
+          "eta_hex": "0x01",
+          "selector_value": 1,
+          "zeta_hex": "0x01"
+        },
+        {
+          "APN": true,
+          "bad_section_count": 0,
+          "eta_hex": "0xbd",
+          "selector_value": 1,
+          "zeta_hex": "0xbd"
+        }
+      ],
+      "canonical_order5_rho_hex": "0xb0",
+      "d_equals_rho0_plus_rho0_fourth_hex": "0xbc",
+      "delta_equals_d_squared_hex": "0xbd",
+      "pair_table": [
+        {
+          "APN": true,
+          "bad_section_count": 0,
+          "eta_hex": "0x01",
+          "selector_value": 1,
+          "zeta_hex": "0x01"
+        },
+        {
+          "APN": false,
+          "bad_section_count": 6,
+          "eta_hex": "0x01",
+          "selector_value": null,
+          "zeta_hex": "0xbc"
+        },
+        {
+          "APN": false,
+          "bad_section_count": 6,
+          "eta_hex": "0x01",
+          "selector_value": null,
+          "zeta_hex": "0xbd"
+        },
+        {
+          "APN": false,
+          "bad_section_count": 6,
+          "eta_hex": "0xbc",
+          "selector_value": null,
+          "zeta_hex": "0x01"
+        },
+        {
+          "APN": false,
+          "bad_section_count": 12,
+          "eta_hex": "0xbc",
+          "selector_value": 0,
+          "zeta_hex": "0xbc"
+        },
+        {
+          "APN": false,
+          "bad_section_count": 6,
+          "eta_hex": "0xbc",
+          "selector_value": null,
+          "zeta_hex": "0xbd"
+        },
+        {
+          "APN": false,
+          "bad_section_count": 6,
+          "eta_hex": "0xbd",
+          "selector_value": null,
+          "zeta_hex": "0x01"
+        },
+        {
+          "APN": false,
+          "bad_section_count": 6,
+          "eta_hex": "0xbd",
+          "selector_value": null,
+          "zeta_hex": "0xbc"
+        },
+        {
+          "APN": true,
+          "bad_section_count": 0,
+          "eta_hex": "0xbd",
+          "selector_value": 1,
+          "zeta_hex": "0xbd"
+        }
+      ],
+      "projective_members_hex": [
+        "0x5c",
+        "0xb0",
+        "0xec"
+      ]
+    },
+    {
+      "accepted_pairs": [
+        {
+          "APN": true,
+          "bad_section_count": 0,
+          "eta_hex": "0x01",
+          "selector_value": 1,
+          "zeta_hex": "0x01"
+        },
+        {
+          "APN": true,
+          "bad_section_count": 0,
+          "eta_hex": "0xbc",
+          "selector_value": 1,
+          "zeta_hex": "0xbc"
+        }
+      ],
+      "canonical_order5_rho_hex": "0xed",
+      "d_equals_rho0_plus_rho0_fourth_hex": "0xbd",
+      "delta_equals_d_squared_hex": "0xbc",
+      "pair_table": [
+        {
+          "APN": true,
+          "bad_section_count": 0,
+          "eta_hex": "0x01",
+          "selector_value": 1,
+          "zeta_hex": "0x01"
+        },
+        {
+          "APN": false,
+          "bad_section_count": 6,
+          "eta_hex": "0x01",
+          "selector_value": null,
+          "zeta_hex": "0xbc"
+        },
+        {
+          "APN": false,
+          "bad_section_count": 6,
+          "eta_hex": "0x01",
+          "selector_value": null,
+          "zeta_hex": "0xbd"
+        },
+        {
+          "APN": false,
+          "bad_section_count": 6,
+          "eta_hex": "0xbc",
+          "selector_value": null,
+          "zeta_hex": "0x01"
+        },
+        {
+          "APN": true,
+          "bad_section_count": 0,
+          "eta_hex": "0xbc",
+          "selector_value": 1,
+          "zeta_hex": "0xbc"
+        },
+        {
+          "APN": false,
+          "bad_section_count": 6,
+          "eta_hex": "0xbc",
+          "selector_value": null,
+          "zeta_hex": "0xbd"
+        },
+        {
+          "APN": false,
+          "bad_section_count": 6,
+          "eta_hex": "0xbd",
+          "selector_value": null,
+          "zeta_hex": "0x01"
+        },
+        {
+          "APN": false,
+          "bad_section_count": 6,
+          "eta_hex": "0xbd",
+          "selector_value": null,
+          "zeta_hex": "0xbc"
+        },
+        {
+          "APN": false,
+          "bad_section_count": 12,
+          "eta_hex": "0xbd",
+          "selector_value": 0,
+          "zeta_hex": "0xbd"
+        }
+      ],
+      "projective_members_hex": [
+        "0x0d",
+        "0xe0",
+        "0xed"
+      ]
+    }
+  ],
+  "proof_mechanism": {
+    "Frobenius_transport": "The four projective displacements are the orbit r,r^2,r^4,r^3 under squaring; x^3 and APN are preserved under field Frobenius conjugation.",
+    "GF4_scaling": "Replacing rho by alpha*rho, alpha in GF(4)^*, leaves the polar form B_rho and rho^(-3) unchanged.",
+    "base_case": "The complete nine-pair table for rho=r is read from the Stage 5H four-row product table.",
+    "exhaustive_check_role": "The 108-case subspace scan is an independent certificate, not the source of the theorem."
+  },
+  "provenance": {
+    "stage5h_file": "results/current/rank_two_selector_proof.json",
+    "stage5h_sha256": "0f3f07f65896d217818bbe8dc99c2165ad405b88581860de29ff4f03ff7d89c1"
+  },
+  "schema": "projective-displacement-theorem-v1",
+  "theorem": {
+    "APN_condition": "eta=zeta and Tr_GF4/F2(delta(rho)*eta)=1",
+    "bad_count_rule": "0 for the two selected diagonal pairs; 12 for the rejected diagonal pair; 6 for every off-diagonal pair",
+    "canonical_displacement": "rho0=rho^6, the unique order-5 representative of rho*GF(4)^*",
+    "family": "x^3+eta*Q_1+zeta*rho^(-3)*Q_rho, rho in GF(16)\\GF(4), eta,zeta in GF(4)^*",
+    "selector": "delta(rho)=(rho0+rho0^4)^2 in GF(4)^*"
+  },
+  "validation": {
+    "Frobenius_transport_counts_checked": true,
+    "GF4_scaling_invariance_checked": true,
+    "all_108_subspace_cases_match_theorem": true,
+    "base_nine_pair_table_from_compact_products": true,
+    "four_projective_classes": true
+  }
+}

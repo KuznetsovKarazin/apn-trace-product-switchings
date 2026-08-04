@@ -11,7 +11,13 @@
   "license": "MIT",
   "upload_type": "software",
   "access_right": "open",
-  "keywords": ["APN functions", "Gold function", "finite fields", "trace switching", "projective geometry"],
+  "keywords": [
+    "APN functions",
+    "Gold function",
+    "finite fields",
+    "trace switching",
+    "projective geometry"
+  ],
   "related_identifiers": [
     {
       "identifier": "https://github.com/KuznetsovKarazin/apn-trace-product-switchings",
@@ -20,7 +26,7 @@
     },
     {
       "identifier": "https://arxiv.org/abs/2606.11967",
-      "relation": "isNewVersionOf",
+      "relation": "isRelatedTo",
       "scheme": "url"
     }
   ]

@@ -293,7 +293,7 @@ def main() -> int:
     )
     args = parser.parse_args()
 
-    root = Path(__file__).resolve().parents[2]
+    root = Path(__file__).resolve().parents[1]
     resolve = lambda p: p if p.is_absolute() else root / p
     kernels_path = resolve(args.kernels)
     locus_path = resolve(args.locus)

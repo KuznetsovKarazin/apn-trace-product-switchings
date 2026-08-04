@@ -51,7 +51,13 @@ python src/stage5v_h_equivalence_comparison.py
 python src/stage5y_publication_uniform_bound_correction.py
 ```
 
-The outputs are deterministic. Compare generated files with `results/` and `MANIFEST_SHA256.txt`.
+The outputs are deterministic and are written to `results/current/`. Verify the committed or regenerated core certificates with:
+
+```bash
+python src/verify_release.py
+```
+
+The GitHub Actions workflow reruns the core scripts, checks their SHA-256 values, and requires byte-identical canonical JSON outputs.
 
 ## Citation
 
@@ -64,7 +70,7 @@ Until the Zenodo deposit is published, use the repository URL. Replace the place
   year    = {2026},
   version = {1.0.0},
   url     = {https://github.com/KuznetsovKarazin/apn-trace-product-switchings},
-  doi     = {10.5281/zenodo.XXXXXXX}
+  note    = {Zenodo DOI to be added after the first archived release}
 }
 ```
 

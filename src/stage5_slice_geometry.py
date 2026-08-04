@@ -233,7 +233,7 @@ def main() -> int:
     )
     args = parser.parse_args()
 
-    root = Path(__file__).resolve().parents[2]
+    root = Path(__file__).resolve().parents[1]
 
     def resolve(path: Path) -> Path:
         return path if path.is_absolute() else root / path
