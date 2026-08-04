@@ -1,0 +1,339 @@
+{
+  "article": "Dimension Rigidity and Projective Geometry of Trace-Product Switchings of the Gold Cube",
+  "files": [
+    {
+      "path": "LICENSE_CODE.txt",
+      "sha256": "2cd368fc3e79f933a65cc4036306423533521a27f9aac8b079d078ebcaf549a8",
+      "size": 208
+    },
+    {
+      "path": "README.md",
+      "sha256": "3fce2fc759915768c5f2410ac7e7644d36c7dfbd585b9e55b52270b24d8920e9",
+      "size": 2380
+    },
+    {
+      "path": "code/current/__pycache__/stage5_canonical_low_rank_locus.cpython-313.pyc",
+      "sha256": "17589005b7f0b39cf6a015a1164822db8f6b7bab36b917433e5cede0cdb883e8",
+      "size": 38882
+    },
+    {
+      "path": "code/current/__pycache__/stage5g_trace_coordinate_theory.cpython-313.pyc",
+      "sha256": "5523ae8c6a88844c2cd5d1669da6b327c97ebddfd89ece46068d9e7c114ae106",
+      "size": 35259
+    },
+    {
+      "path": "code/current/__pycache__/stage5l_permutation_screen.cpython-313.pyc",
+      "sha256": "c000e901d64fee9ca1731d4a9f068a24e8824b0c56794fd2f6b8115eb95ce26b",
+      "size": 16073
+    },
+    {
+      "path": "code/current/stage5_canonical_low_rank_locus.py",
+      "sha256": "8a0e32c8e05704df3cdd065c71003db927b4cd6004b0bf5dce1db64436ff3c59",
+      "size": 29997
+    },
+    {
+      "path": "code/current/stage5_center_action.py",
+      "sha256": "602f5457b4614580345dade8694275d0ee88042c0aa4df5d1a56e3c7c3898336",
+      "size": 44243
+    },
+    {
+      "path": "code/current/stage5_low_rank_derivative_criterion.py",
+      "sha256": "3ee13a1d9422375889a3d2f7c560923d82854590cb567daa97fb2d88443d65a1",
+      "size": 14834
+    },
+    {
+      "path": "code/current/stage5_slice_geometry.py",
+      "sha256": "a797181a8f1d2834b796e5e9cab4c2778838f5f7a5e70a885b23f5814e11f61a",
+      "size": 30319
+    },
+    {
+      "path": "code/current/stage5g_trace_coordinate_theory.py",
+      "sha256": "bf357708d8525ca14d4cecbd9e745e7321f45234c425531657470d4d486b36ce",
+      "size": 24559
+    },
+    {
+      "path": "code/current/stage5h_rank_two_selector_proof.py",
+      "sha256": "fc20363e68dd8289c55ae543dbd71ac92c55400aef4be4bcaca0f9bf0687b20d",
+      "size": 13652
+    },
+    {
+      "path": "code/current/stage5i_dimension_scan.py",
+      "sha256": "37428c199fd44c4549198619bfeafb59910811b09d6a8d6326deba10f32eb1bd",
+      "size": 11470
+    },
+    {
+      "path": "code/current/stage5j_projective_displacement_theorem.py",
+      "sha256": "bfa4986609909ed32531ff0313a154b209e5d01d70bf540d74a5aea1b3d481f6",
+      "size": 12091
+    },
+    {
+      "path": "code/current/stage5k_uniform_dimension_theorem.py",
+      "sha256": "34132d8a021c974824798b4294fcd189fc1fd0e461d375e9965d4f9720a74805",
+      "size": 7062
+    },
+    {
+      "path": "code/current/stage5l_permutation_screen.py",
+      "sha256": "98e1aececbdb08446415db55e5e0d20265ad9baa6afb9571907ced646861ccd5",
+      "size": 10301
+    },
+    {
+      "path": "code/current/stage5m_novel_class_permutation_screen.py",
+      "sha256": "d40eb8423f2ddb66b80a0e232fa7a9927db5b30369244f96e96d25e017cac4d5",
+      "size": 5810
+    },
+    {
+      "path": "code/current/stage5n_coordinate_free_projective_theory.py",
+      "sha256": "2da91605054bd9754c54bdfd15bc16aeb19c44de25b29b7d06ac6bd6ef85cf91",
+      "size": 8097
+    },
+    {
+      "path": "code/current/stage5o_small_dimension_structure.py",
+      "sha256": "2dcbf037ebce5094627c5f8581a1adb9ea3d9f048b0c048e1e656cc0865b85eb",
+      "size": 23444
+    },
+    {
+      "path": "code/current/stage5p_kummer_n6_certificate.py",
+      "sha256": "b33386c3e5a28bd9420e11e7ff6c4bcb92b2fd180bc1b1aad38dcb6937e96d18",
+      "size": 7735
+    },
+    {
+      "path": "code/current/stage5q_formal_proof_audit.py",
+      "sha256": "ed1114fd1d60683fc720537e16e4f3fe4bfbce1f2fa74e09eb98296738633f84",
+      "size": 18321
+    },
+    {
+      "path": "code/current/stage5r_manuscript_uniform_theorem.py",
+      "sha256": "79bdd667d29499c88153021b638c86d847b16c12ed6b1910e39c4d49cae8aeaa",
+      "size": 4573
+    },
+    {
+      "path": "code/current/stage5s_projective_equivalence_partition.py",
+      "sha256": "409057fc4ac5d4878d1a49ef4fdcf2fcc5b7e9a9f1e9220f71182bccfd518291",
+      "size": 5557
+    },
+    {
+      "path": "code/current/stage5t_compact_orbit_certificates.py",
+      "sha256": "a6017443078c84ca4e03fc12d983a3e17f6753bf25127a07694c3edb81929d8d",
+      "size": 8484
+    },
+    {
+      "path": "code/current/stage5u_literature_overlap_comparison.py",
+      "sha256": "346a1f5206af1d6152e6ab85c21244d6c81d503cd2bf038de8edfadb73311d85",
+      "size": 5355
+    },
+    {
+      "path": "code/current/stage5v_h_equivalence_comparison.py",
+      "sha256": "7765ab0906a3c413bb0273c6a8411666fae4bdcf8ff1c646531bb2a8166b1e02",
+      "size": 6206
+    },
+    {
+      "path": "code/current/stage5wx_build_manuscript_assets.py",
+      "sha256": "c424cf23895662fcc3db95330d8ea7d70e4884d21a3dfe43b06a314d7bba552f",
+      "size": 37105
+    },
+    {
+      "path": "code/current/stage5y_publication_uniform_bound_correction.py",
+      "sha256": "38484fc5cf919f52a0d365760a1814891dbf5a3aecb9952fca039caf81d517e1",
+      "size": 3361
+    },
+    {
+      "path": "requirements.txt",
+      "sha256": "1bfc35e17a5bb3fad030e19998c1da75e73ee4603676942ad804099915603736",
+      "size": 23
+    },
+    {
+      "path": "results/current/canonical_low_rank_locus.json",
+      "sha256": "5ae514b7420403cccf8a75abe9aa2c42411846637e5a6ff376942060ac9a3c37",
+      "size": 34240
+    },
+    {
+      "path": "results/current/centralizer_module_orbits_canonical.json",
+      "sha256": "1195e724c06adc822f01ceabb1947c97d01b622101c2d131ff18ef77067a9bad",
+      "size": 12728
+    },
+    {
+      "path": "results/current/coefficient_support_module_orbits_canonical.json",
+      "sha256": "09a3140475127d54485cf6be5aea7ffc35844dd24e4f0815888a45e0fa548e8b",
+      "size": 59046
+    },
+    {
+      "path": "results/current/compact_section_orbit_certificates.json",
+      "sha256": "5eb455db86391eb5953a5fd2e5637ea3d41df57400b54ad0718f94254d896925",
+      "size": 19488
+    },
+    {
+      "path": "results/current/coordinate_free_projective_theory.json",
+      "sha256": "3f99d75a89f831cadc35575875652f0342de8064b87b88362663013e4f648eff",
+      "size": 4388
+    },
+    {
+      "path": "results/current/deep_priority_audit.json",
+      "sha256": "08d754c6f22cfbce503f51c5c70482d1fd2c8e384e5bc891aebb8e3c891ae84e",
+      "size": 6922
+    },
+    {
+      "path": "results/current/formal_proof_audit.json",
+      "sha256": "1e333a1d339b33e4f5a1a634f80cdb2e820dd7dddf38b896749ab98fbf8a7656",
+      "size": 36596
+    },
+    {
+      "path": "results/current/h_equivalence_criterion_comparison.json",
+      "sha256": "aeaa09b22cb54a039a17216b0e98f559ceaa125455044278c73ae356166baaa0",
+      "size": 2453
+    },
+    {
+      "path": "results/current/kummer_n6_trace_switch_certificate.json",
+      "sha256": "52527c7c5b305c9b866c40170f573e68e64a2d6f1db434f8c599b59d090f4ccc",
+      "size": 1789
+    },
+    {
+      "path": "results/current/literature_overlap_comparison.json",
+      "sha256": "5e5c2ccd342498ae3e0cb51060d6643a52f8d0a6e3b538278f5ce737e1eb2c99",
+      "size": 1950
+    },
+    {
+      "path": "results/current/low_rank_derivative_criterion.json",
+      "sha256": "6037c5815284f76a45b54e7fca8ee4234b633f24a3d6a648c79bde93816ad9cf",
+      "size": 16517
+    },
+    {
+      "path": "results/current/manuscript_uniform_theorem.json",
+      "sha256": "03ae1fa8acb53a24b134d2f5b22fde265900dd175fa114fb75cf9e4d1bc37180",
+      "size": 4855
+    },
+    {
+      "path": "results/current/module_productivity_correlation_canonical.json",
+      "sha256": "508243822afccd1d5022da9baf078fa0c98b964b075ff7f168542f4dabb75557",
+      "size": 7039975
+    },
+    {
+      "path": "results/current/novel_class_permutation_screen.json",
+      "sha256": "106a88b17d3fc23ee252187e3b06b6982fd24c55a0ebb28ef18b27594e1f22a5",
+      "size": 18107
+    },
+    {
+      "path": "results/current/projective_displacement_theorem.json",
+      "sha256": "e433d50e94c88345f916d565cdb18bf7af72b499c1c77c89b0a0709bf20df852",
+      "size": 40815
+    },
+    {
+      "path": "results/current/projective_equivalence_partition.json",
+      "sha256": "0cd48e008771aef816f18efde7476960529269b0f354c480e817b3e6aa216927",
+      "size": 10727
+    },
+    {
+      "path": "results/current/projective_switch_permutation_screen.json",
+      "sha256": "d1094d4a6419a8678acd421d66ed0dfe7e95a7372a948e0ec170a01e5c79ed2a",
+      "size": 19586
+    },
+    {
+      "path": "results/current/publication_uniform_theorem_corrected.json",
+      "sha256": "e3dafa2caa42040808c8ddc5c4ba903b0da416bc0533d1aa4a8a0e115c9a5ef1",
+      "size": 3910
+    },
+    {
+      "path": "results/current/rank_two_selector_proof.json",
+      "sha256": "0f3f07f65896d217818bbe8dc99c2165ad405b88581860de29ff4f03ff7d89c1",
+      "size": 9063
+    },
+    {
+      "path": "results/current/small_dimension_trace_switch_structure.json",
+      "sha256": "6b19213b4ab3dfbc65ca186edc67de0cb9afb0b6d5c1d96bee316bfe2686d3ca",
+      "size": 17740
+    },
+    {
+      "path": "results/current/stage5_center_action.json",
+      "sha256": "dbb3ed4abb274843de669a9343fca9531b11d818af34b2d3a97a6649ae4f6023",
+      "size": 135942
+    },
+    {
+      "path": "results/current/stage5_slice_stabilizer_orbits.json",
+      "sha256": "f6896facdd2a575c99b469211435466efd0635ce04704e4d049093478d28f4ec",
+      "size": 61110
+    },
+    {
+      "path": "results/current/trace_coordinate_bezout_certificate.json",
+      "sha256": "97cc27be24867da68dc7fd5335aa231cb5a0bd16609d8b38fa18316043f5f239",
+      "size": 5108
+    },
+    {
+      "path": "results/current/trace_coordinate_theory.json",
+      "sha256": "dfdf92cf9096f5ff105824f308404c102c23ca851409ea1ef8f2e21dd0c3234d",
+      "size": 9708
+    },
+    {
+      "path": "results/current/trace_switch_dimension_scan.json",
+      "sha256": "3d30dd7c91b6e2b82126d9ddbbfc021ef902bcf410c0f77a5010a2f1c8d42f8a",
+      "size": 13457
+    },
+    {
+      "path": "results/current/uniform_trace_switch_nonexistence.json",
+      "sha256": "cc9855f0e6bb5e249f708ceb587fc4cee35bef689a2e4c55b93a6faf29e9e1fe",
+      "size": 4794
+    },
+    {
+      "path": "validation_logs/isolated_stage5p.log",
+      "sha256": "50dcf03a1a7d78f5c9bc7faf029afcafa03af978dabd087173c32bf6b15a672a",
+      "size": 340
+    },
+    {
+      "path": "validation_logs/isolated_stage5s.log",
+      "sha256": "c9d11e737e8d0a6286cd96e6fd6f37c42d2079fd3728b1b2f4fe8459114ddbcc",
+      "size": 406
+    },
+    {
+      "path": "validation_logs/isolated_stage5t.log",
+      "sha256": "bcc774fd7abe55dded548642df96029e3d839b359042c98ddedfc4f2d47bd5f9",
+      "size": 237
+    },
+    {
+      "path": "validation_logs/isolated_stage5v.log",
+      "sha256": "66986031f55d833c8bf167a0c789e0e8d41e2d1eebbdd5d7fd1efb965cf96fa8",
+      "size": 277
+    },
+    {
+      "path": "validation_logs/isolated_stage5y.log",
+      "sha256": "9514541325899fcdaeef685d80853142bb5b67701a576b03f47934b977847ded",
+      "size": 173
+    },
+    {
+      "path": "validation_logs/result_hashes.txt",
+      "sha256": "3723adc8c75d3b2aaa2e970b9d92edd9f6108d1d084a8c59498774705abad43f",
+      "size": 920
+    },
+    {
+      "path": "validation_logs/stage5p_kummer_n6_certificate.log",
+      "sha256": "2f99f3f0f1ea52a95e6b999e949c5b65c215cd469c0eb828e1176a470e331f67",
+      "size": 355
+    },
+    {
+      "path": "validation_logs/stage5r_manuscript_uniform_theorem.log",
+      "sha256": "f2752cccfd16dc40f4e54453502ccb1f7d60e3163cdff1437070aec3f43c647e",
+      "size": 432
+    },
+    {
+      "path": "validation_logs/stage5s_projective_equivalence_partition.log",
+      "sha256": "7679ce9ba1c64c55c4b2c73d1c2ccc61a069fe890cb3ef543f9346dc49fcdbb8",
+      "size": 421
+    },
+    {
+      "path": "validation_logs/stage5t_compact_orbit_certificates.log",
+      "sha256": "d5e5dd3273e923460c9a5f2dcbd9d67970845e7d481832c3efc0954a6344dbd9",
+      "size": 252
+    },
+    {
+      "path": "validation_logs/stage5v_h_equivalence_comparison.log",
+      "sha256": "12a6bfa3edd2fb68f5edc3032b40e1a0635a4c6cc34b21fd37967fcb415c7110",
+      "size": 292
+    },
+    {
+      "path": "validation_logs/stage5y_publication_uniform_bound_correction.log",
+      "sha256": "de143ebfb69f1cad22ba20d53433016142b623cc435273fc972895f706f42b04",
+      "size": 188
+    }
+  ],
+  "generated": "2026-08-02",
+  "platform": "Linux-6.12.13-x86_64-with-glibc2.41",
+  "python": "3.13.5 (main, May  5 2026, 21:05:52) [GCC 14.2.0]",
+  "schema": "apn-online-resource-manifest-v1"
+}

@@ -1,0 +1,183 @@
+% Springer Nature template, December 2024 version
+\documentclass[pdflatex,sn-mathphys-num]{sn-jnl}
+\usepackage{amsmath,amssymb,amsfonts}
+\usepackage{booktabs,longtable,array}
+\usepackage{textcomp}
+\usepackage{seqsplit}
+\newcommand{\F}{\mathbb F}
+\newcommand{\Tr}{\operatorname{Tr}}
+\newcommand{\tr}{\operatorname{tr}}
+\newcommand{\abs}[1]{\lvert#1\rvert}
+\begin{document}
+
+\title[Supplementary material]{Supplementary Material for ``Dimension Rigidity and Projective Geometry of Trace-Product Switchings of the Gold Cube''}
+\author*[1,2]{\fnm{Oleksandr} \sur{Kuznetsov}}\email{oleksandr.kuznetsov@uniecampus.it}
+\affil*[1]{\orgdiv{Department of Theoretical and Applied Sciences}, \orgname{eCampus University}, \orgaddress{\city{Novedrate}, \country{Italy}}}
+\affil[2]{\orgdiv{Department of Intelligent Software Systems and Technologies, School of Computer Science and Artificial Intelligence}, \orgname{V.N. Karazin Kharkiv National University}, \orgaddress{\city{Kharkiv}, \country{Ukraine}}}
+\abstract{This document records the computational conventions, exact proof certificates, validation commands, and checksums supporting the accompanying manuscript. No randomized computation is used. The finite portions of the dimension-six and dimension-eight proofs are represented by Frobenius-orbit witnesses, while the infinite nonexistence theorem is analytic apart from exact bridge computations in dimensions ten and twelve.}
+\keywords{APN functions, reproducibility, finite fields, switching, exact certificates}
+\maketitle
+
+\section{Scope and archive structure}
+
+Online Resource~1 is a ZIP archive with the following layout:
+\begin{verbatim}
+online_resource_1/
+  code/current/          exact Python scripts
+  results/current/       canonical JSON certificates
+  validation_logs/       output from isolated reruns
+  MANIFEST_SHA256.txt    hash of every distributed file
+  REPRODUCIBILITY_MANIFEST.json
+  README.md
+\end{verbatim}
+The final validation used Python 3.13.5, NumPy 2.3.5, and SymPy 1.14.0.  The scripts contain explicit binary polynomial arithmetic and use no randomized routines.
+
+\section{Finite-field conventions}
+
+The invariant statements in the paper are basis free.  Hexadecimal values in the electronic certificates use the AES polynomial basis
+\[
+ \F_{256}=\F_2[z]/(z^8+z^4+z^3+z+1).
+\]
+The embedded subfield is
+\[
+ E=\F_4=\{0,1,\lambda,\lambda^2\},
+ \qquad \lambda=\texttt{0xbd},
+ \qquad \lambda^2+\lambda+1=0.
+\]
+For the projective calculation,
+\[
+ L=\F_{16}\subset\F_{256},\qquad r=\texttt{0xb0},\qquad r^5=1,
+\]
+and
+\[
+ \lambda=r^2+r^3,
+ \qquad \lambda^2=r+r^4.
+\]
+The relation between the vector trace term in Arshad's dissertation and the scalar trace-product representative is verified by
+\[
+ \tr(y)y=\tr(y)\tr(\lambda y)+\lambda^2\tr(y),\qquad y\in E.
+\]
+The last summand is binary linear and therefore changes neither the polar update nor the EA class.
+
+\section{Proof dependency and exact status}
+
+\begin{table}[ht]
+\caption{Logical and computational status of the principal results}
+\begin{tabular*}{\textwidth}{@{\extracolsep\fill}p{0.28\textwidth}p{0.64\textwidth}}
+\toprule
+result & certificate or proof mode\\
+\midrule
+low-rank fixed-point criterion & analytic linear-algebra proof\\
+section-product criterion & analytic reduction to products of transverse sections\\
+dimension 4 & closed-form EA reduction\\
+dimension 6 & Kummer parametrization plus 12 Frobenius-orbit witnesses\\
+dimension 8, rank one & resultant/B\'ezout sufficiency plus 33 Frobenius-orbit witnesses\\
+even dimensions at least 10 & Artin--Schreier/Weil proof from dimension 14; exact convolution at 10 and 12\\
+projective rank-two selector & split of $\mathrm{GL}(2,2)$ and a reduced 16-pair table over $\F_{16}$\\
+two-class EA/CCZ partition & explicit Frobenius EA identities and distinct ortho-derivative spectra\\
+\botrule
+\end{tabular*}
+\end{table}
+
+\section{Corrected affine character-sum bookkeeping}
+
+Let $C_\theta:X^3+Y^3=\theta Z^3$ and let $S_{u,v}^{\mathrm{aff}}$ denote the affine character sum used to count trace-constrained representations.  For an off-axis phase, flex-tangent cancellation makes one point at infinity regular with phase value zero.  The complete-curve sum contains its character contribution $+1$, whereas the affine sum does not.  Thus
+\[
+ \abs{S_{u,v}^{\mathrm{aff}}}\le 4\sqrt q+1
+\]
+for each of the nine off-axis pairs.  Combining the Hasse error, the six axis estimates, and the nine affine off-axis estimates gives
+\begin{align*}
+ 16h_n(\theta)
+ &\ge q-2-2\sqrt q-6(6\sqrt q)-9(4\sqrt q+1)\\
+ &=q-11-74\sqrt q.
+\end{align*}
+The numerator is positive at $q=2^{14}$ and thereafter.  The exact bridge values are
+\[
+ \min_{\theta\ne0}h_{10}(\theta)=46,
+ \qquad
+ \min_{\theta\ne0}h_{12}(\theta)=208.
+\]
+The correction is stored in \nolinkurl{publication_uniform_theorem_corrected.json}.  It changes an intermediate constant term only; the theorem and threshold are unchanged.
+
+\section{Reduced projective-selector calculation}
+
+Choose $r\in\F_{16}$ of order five and $w\in\F_{256}$ with $w^2+w=r$.  The six transitions in $\mathrm{GL}(2,2)$ split as
+\[
+ y\longmapsto\alpha y,
+ \qquad
+ y\longmapsto\alpha y^2,
+ \qquad \alpha\in\F_4^*.
+\]
+The linear transitions are excluded by the unsolvable equation
+\[
+ z^2+z+1+r=0,
+ \qquad \Tr_{\F_{16}/\F_2}(1+r)=1.
+\]
+For each semilinear involution, the normalized product multiset of the 16 reduced pairs is
+\begin{center}
+\begin{tabular}{@{}lc@{}}
+\toprule
+product & multiplicity\\
+\midrule
+$r$ & 2\\
+$r^2$ & 2\\
+$r+r^2$ & 4\\
+$r+r^3$ & 2\\
+$1+r^2$ & 2\\
+$r+r^2+r^3$ & 2\\
+$1+r+r^2$ & 2\\
+\bottomrule
+\end{tabular}
+\end{center}
+The three diagonal targets are $1+r^3$, $r^4$, and $r+r^2$.  Only the last occurs, with multiplicity four.  Consequently the rejected diagonal coefficient has four bad sections for each of the three involutions, hence twelve in total.  Full representatives, roots, and hexadecimal values are stored in \nolinkurl{rank_two_selector_proof.json}.
+
+\section{Core commands}
+
+From the root of Online Resource~1, the principal reruns are:
+\begin{verbatim}
+python code/current/stage5p_kummer_n6_certificate.py
+python code/current/stage5y_publication_uniform_bound_correction.py
+python code/current/stage5s_projective_equivalence_partition.py
+python code/current/stage5t_compact_orbit_certificates.py
+python code/current/stage5v_h_equivalence_comparison.py
+\end{verbatim}
+The files in \texttt{validation\_logs/} were generated by these commands in an isolated copy of the archive.
+
+\section{Selected SHA-256 checksums}
+
+\begingroup\small
+\begin{longtable}{@{}>{\raggedright\arraybackslash}p{0.43\textwidth}>{\raggedright\arraybackslash}p{0.51\textwidth}@{}}
+\toprule
+file & SHA-256\\
+\midrule
+\endfirsthead
+\toprule
+file & SHA-256\\
+\midrule
+\endhead
+\nolinkurl{compact_section_orbit_certificates.json} & \texttt{\seqsplit{5eb455db86391eb5953a5fd2e5637ea3d41df57400b54ad0718f94254d896925}}\\
+\nolinkurl{trace_coordinate_bezout_certificate.json} & \texttt{\seqsplit{97cc27be24867da68dc7fd5335aa231cb5a0bd16609d8b38fa18316043f5f239}}\\
+\nolinkurl{publication_uniform_theorem_corrected.json} & \texttt{\seqsplit{e3dafa2caa42040808c8ddc5c4ba903b0da416bc0533d1aa4a8a0e115c9a5ef1}}\\
+\nolinkurl{rank_two_selector_proof.json} & \texttt{\seqsplit{0f3f07f65896d217818bbe8dc99c2165ad405b88581860de29ff4f03ff7d89c1}}\\
+\nolinkurl{projective_displacement_theorem.json} & \texttt{\seqsplit{e433d50e94c88345f916d565cdb18bf7af72b499c1c77c89b0a0709bf20df852}}\\
+\nolinkurl{projective_equivalence_partition.json} & \texttt{\seqsplit{0cd48e008771aef816f18efde7476960529269b0f354c480e817b3e6aa216927}}\\
+\nolinkurl{h_equivalence_criterion_comparison.json} & \texttt{\seqsplit{aeaa09b22cb54a039a17216b0e98f559ceaa125455044278c73ae356166baaa0}}\\
+\bottomrule
+\end{longtable}
+\endgroup
+
+\section{Independent validation of the hyperplane specialization}
+
+For $F(x)=x^3$ over $\F_{16}$, all 4096 normalized binary linear maps $L$ were tested independently by:
+\begin{enumerate}
+\item direct differential-uniformity computation;
+\item the all-direction polar-kernel criterion;
+\item the H-equivalence hyperplane-injectivity criterion.
+\end{enumerate}
+All three tests agree for every map, and exactly 448 maps are accepted.  This calculation verifies the formal specialization while deliberately making no priority claim for the hyperplane criterion.
+
+\section{Contents not required for the logical proof}
+
+The archive retains several broader Stage~5 scripts and JSON files for provenance.  Permutation screens, stabilizer-orbit experiments, and the original Gr\"obner-slice discovery campaign are not used to establish the theorems in the manuscript.  They are included only when needed by a downstream validation script or to document the route by which the trace-product family was identified.
+
+\end{document}

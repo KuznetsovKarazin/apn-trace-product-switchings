@@ -1,0 +1,2595 @@
+{
+  "schema": "apn-stage5-slice-stabilizer-orbits-v1",
+  "date": "2026-08-02",
+  "scope": "Exact stabilizer orbits of full 24-dimensional coefficient-support slice directions; no APN search",
+  "provenance": {
+    "stage5a_file": "results/current/stage5_center_action.json",
+    "stage5a_sha256": "dbb3ed4abb274843de669a9343fca9531b11d818af34b2d3a97a6649ae4f6023",
+    "coefficient_support_module_file": "results/current/coefficient_support_module_orbits_canonical.json",
+    "canonical_correlation_file": "results/current/module_productivity_correlation_canonical.json",
+    "canonical_correlation_sha256": "508243822afccd1d5022da9baf078fa0c98b964b075ff7f168542f4dabb75557"
+  },
+  "slice_object": {
+    "affine_slice": "F + E_T",
+    "direction": "E_T = V_out tensor U_T^*",
+    "dimension_over_F2": 24,
+    "stabilizer_action": "For B fixing F under normalized conjugation, E_T maps to V_out tensor (U_T^* Lambda^2(B^{-1})).",
+    "coordinate_intersection_meaning": "Only orbit members that again equal a three-coordinate support subspace correspond to one of the 3276 executed Groebner slices."
+  },
+  "centre_orbit_obstruction": {
+    "cached_centres_in_distinct_centralizer_orbits": true,
+    "consequence": "Centralizer pair-orbits cannot connect two different cached centres.  Cross-centre patterns such as all-11 and x9-only must be explained after transport to canonical Gold centres under their larger EA stabilizers, not by C_GL(A) alone."
+  },
+  "stabilizers": {
+    "generic_26_centres": {
+      "structure": "C5=<A>",
+      "entries": [
+        [
+          [
+            "0x1",
+            "0x0"
+          ],
+          [
+            "0x0",
+            "0x1"
+          ]
+        ],
+        [
+          [
+            "0x2",
+            "0x0"
+          ],
+          [
+            "0x0",
+            "0x2"
+          ]
+        ],
+        [
+          [
+            "0x4",
+            "0x0"
+          ],
+          [
+            "0x0",
+            "0x4"
+          ]
+        ],
+        [
+          [
+            "0x8",
+            "0x0"
+          ],
+          [
+            "0x0",
+            "0x8"
+          ]
+        ],
+        [
+          [
+            "0xf",
+            "0x0"
+          ],
+          [
+            "0x0",
+            "0xf"
+          ]
+        ]
+      ]
+    },
+    "Gold_x3_seed98": {
+      "structure": "C10",
+      "entries": [
+        [
+          [
+            "0x1",
+            "0x0"
+          ],
+          [
+            "0x0",
+            "0x1"
+          ]
+        ],
+        [
+          [
+            "0x3",
+            "0x2"
+          ],
+          [
+            "0x5",
+            "0x3"
+          ]
+        ],
+        [
+          [
+            "0xf",
+            "0x0"
+          ],
+          [
+            "0x0",
+            "0xf"
+          ]
+        ],
+        [
+          [
+            "0xe",
+            "0x1"
+          ],
+          [
+            "0xd",
+            "0xe"
+          ]
+        ],
+        [
+          [
+            "0x8",
+            "0x0"
+          ],
+          [
+            "0x0",
+            "0x8"
+          ]
+        ],
+        [
+          [
+            "0x7",
+            "0xf"
+          ],
+          [
+            "0x9",
+            "0x7"
+          ]
+        ],
+        [
+          [
+            "0x4",
+            "0x0"
+          ],
+          [
+            "0x0",
+            "0x4"
+          ]
+        ],
+        [
+          [
+            "0xc",
+            "0x8"
+          ],
+          [
+            "0xb",
+            "0xc"
+          ]
+        ],
+        [
+          [
+            "0x2",
+            "0x0"
+          ],
+          [
+            "0x0",
+            "0x2"
+          ]
+        ],
+        [
+          [
+            "0x6",
+            "0x4"
+          ],
+          [
+            "0xa",
+            "0x6"
+          ]
+        ]
+      ]
+    }
+  },
+  "coordinate_partition": {
+    "total_coordinate_triples": 3276,
+    "C5_coordinate_classes": 3098,
+    "C10_coordinate_classes": 3098,
+    "C5_and_C10_coordinate_partitions_identical": true,
+    "reduction_from_coordinate_equivalence": 178,
+    "class_size_distribution": {
+      "2": 172,
+      "1": 2924,
+      "4": 2
+    },
+    "triples_by_class_size": {
+      "2": 344,
+      "1": 2924,
+      "4": 8
+    },
+    "multi_coordinate_class_count": 174,
+    "maximum_coordinate_intersection_size": 4,
+    "multi_coordinate_classes": [
+      {
+        "full_stabilizer_orbit_size": 5,
+        "coordinate_intersection": [
+          0,
+          790
+        ],
+        "coordinate_intersection_size": 2,
+        "canonical_full_orbit_minimum_hex": [
+          "0x0000001",
+          "0x0000002",
+          "0x0000004"
+        ]
+      },
+      {
+        "full_stabilizer_orbit_size": 5,
+        "coordinate_intersection": [
+          1,
+          798
+        ],
+        "coordinate_intersection_size": 2,
+        "canonical_full_orbit_minimum_hex": [
+          "0x0000001",
+          "0x0000002",
+          "0x0000008"
+        ]
+      },
+      {
+        "full_stabilizer_orbit_size": 5,
+        "coordinate_intersection": [
+          5,
+          31,
+          361,
+          1950
+        ],
+        "coordinate_intersection_size": 4,
+        "canonical_full_orbit_minimum_hex": [
+          "0x0000001",
+          "0x0000002",
+          "0x0000080"
+        ]
+      },
+      {
+        "full_stabilizer_orbit_size": 5,
+        "coordinate_intersection": [
+          20,
+          801
+        ],
+        "coordinate_intersection_size": 2,
+        "canonical_full_orbit_minimum_hex": [
+          "0x0000001",
+          "0x0000002",
+          "0x0400000"
+        ]
+      },
+      {
+        "full_stabilizer_orbit_size": 5,
+        "coordinate_intersection": [
+          21,
+          803
+        ],
+        "coordinate_intersection_size": 2,
+        "canonical_full_orbit_minimum_hex": [
+          "0x0000001",
+          "0x0000002",
+          "0x0800000"
+        ]
+      },
+      {
+        "full_stabilizer_orbit_size": 5,
+        "coordinate_intersection": [
+          22,
+          804
+        ],
+        "coordinate_intersection_size": 2,
+        "canonical_full_orbit_minimum_hex": [
+          "0x0000001",
+          "0x0000002",
+          "0x1000000"
+        ]
+      },
+      {
+        "full_stabilizer_orbit_size": 5,
+        "coordinate_intersection": [
+          26,
+          878
+        ],
+        "coordinate_intersection_size": 2,
+        "canonical_full_orbit_minimum_hex": [
+          "0x0000001",
+          "0x0000004",
+          "0x0000008"
+        ]
+      },
+      {
+        "full_stabilizer_orbit_size": 5,
+        "coordinate_intersection": [
+          45,
+          881
+        ],
+        "coordinate_intersection_size": 2,
+        "canonical_full_orbit_minimum_hex": [
+          "0x0000001",
+          "0x0000004",
+          "0x0400000"
+        ]
+      },
+      {
+        "full_stabilizer_orbit_size": 5,
+        "coordinate_intersection": [
+          46,
+          883
+        ],
+        "coordinate_intersection_size": 2,
+        "canonical_full_orbit_minimum_hex": [
+          "0x0000001",
+          "0x0000004",
+          "0x0800000"
+        ]
+      },
+      {
+        "full_stabilizer_orbit_size": 5,
+        "coordinate_intersection": [
+          47,
+          884
+        ],
+        "coordinate_intersection_size": 2,
+        "canonical_full_orbit_minimum_hex": [
+          "0x0000001",
+          "0x0000004",
+          "0x1000000"
+        ]
+      },
+      {
+        "full_stabilizer_orbit_size": 5,
+        "coordinate_intersection": [
+          51,
+          933
+        ],
+        "coordinate_intersection_size": 2,
+        "canonical_full_orbit_minimum_hex": [
+          "0x0000001",
+          "0x0000008",
+          "0x0000010"
+        ]
+      },
+      {
+        "full_stabilizer_orbit_size": 5,
+        "coordinate_intersection": [
+          52,
+          941
+        ],
+        "coordinate_intersection_size": 2,
+        "canonical_full_orbit_minimum_hex": [
+          "0x0000001",
+          "0x0000008",
+          "0x0000020"
+        ]
+      },
+      {
+        "full_stabilizer_orbit_size": 5,
+        "coordinate_intersection": [
+          53,
+          948
+        ],
+        "coordinate_intersection_size": 2,
+        "canonical_full_orbit_minimum_hex": [
+          "0x0000001",
+          "0x0000008",
+          "0x0000040"
+        ]
+      },
+      {
+        "full_stabilizer_orbit_size": 5,
+        "coordinate_intersection": [
+          56,
+          759
+        ],
+        "coordinate_intersection_size": 2,
+        "canonical_full_orbit_minimum_hex": [
+          "0x0000001",
+          "0x0000008",
+          "0x0000200"
+        ]
+      },
+      {
+        "full_stabilizer_orbit_size": 5,
+        "coordinate_intersection": [
+          61,
+          864
+        ],
+        "coordinate_intersection_size": 2,
+        "canonical_full_orbit_minimum_hex": [
+          "0x0000001",
+          "0x0000008",
+          "0x0004000"
+        ]
+      },
+      {
+        "full_stabilizer_orbit_size": 5,
+        "coordinate_intersection": [
+          65,
+          924
+        ],
+        "coordinate_intersection_size": 2,
+        "canonical_full_orbit_minimum_hex": [
+          "0x0000001",
+          "0x0000008",
+          "0x0040000"
+        ]
+      },
+      {
+        "full_stabilizer_orbit_size": 5,
+        "coordinate_intersection": [
+          69,
+          957
+        ],
+        "coordinate_intersection_size": 2,
+        "canonical_full_orbit_minimum_hex": [
+          "0x0000001",
+          "0x0000008",
+          "0x0400000"
+        ]
+      },
+      {
+        "full_stabilizer_orbit_size": 5,
+        "coordinate_intersection": [
+          70,
+          959
+        ],
+        "coordinate_intersection_size": 2,
+        "canonical_full_orbit_minimum_hex": [
+          "0x0000001",
+          "0x0000008",
+          "0x0800000"
+        ]
+      },
+      {
+        "full_stabilizer_orbit_size": 5,
+        "coordinate_intersection": [
+          71,
+          960
+        ],
+        "coordinate_intersection_size": 2,
+        "canonical_full_orbit_minimum_hex": [
+          "0x0000001",
+          "0x0000008",
+          "0x1000000"
+        ]
+      },
+      {
+        "full_stabilizer_orbit_size": 5,
+        "coordinate_intersection": [
+          80,
+          2849
+        ],
+        "coordinate_intersection_size": 2,
+        "canonical_full_orbit_minimum_hex": [
+          "0x0000001",
+          "0x0000010",
+          "0x0000400"
+        ]
+      },
+      {
+        "full_stabilizer_orbit_size": 5,
+        "coordinate_intersection": [
+          141,
+          471
+        ],
+        "coordinate_intersection_size": 2,
+        "canonical_full_orbit_minimum_hex": [
+          "0x0000001",
+          "0x0000080",
+          "0x0000100"
+        ]
+      },
+      {
+        "full_stabilizer_orbit_size": 5,
+        "coordinate_intersection": [
+          143,
+          573
+        ],
+        "coordinate_intersection_size": 2,
+        "canonical_full_orbit_minimum_hex": [
+          "0x0000001",
+          "0x0000080",
+          "0x0000400"
+        ]
+      },
+      {
+        "full_stabilizer_orbit_size": 5,
+        "coordinate_intersection": [
+          155,
+          584
+        ],
+        "coordinate_intersection_size": 2,
+        "canonical_full_orbit_minimum_hex": [
+          "0x0000001",
+          "0x0000080",
+          "0x0400000"
+        ]
+      },
+      {
+        "full_stabilizer_orbit_size": 5,
+        "coordinate_intersection": [
+          158,
+          580
+        ],
+        "coordinate_intersection_size": 2,
+        "canonical_full_orbit_minimum_hex": [
+          "0x0000001",
+          "0x0000080",
+          "0x2000000"
+        ]
+      },
+      {
+        "full_stabilizer_orbit_size": 5,
+        "coordinate_intersection": [
+          159,
+          582
+        ],
+        "coordinate_intersection_size": 2,
+        "canonical_full_orbit_minimum_hex": [
+          "0x0000001",
+          "0x0000080",
+          "0x4000000"
+        ]
+      },
+      {
+        "full_stabilizer_orbit_size": 5,
+        "coordinate_intersection": [
+          162,
+          2033
+        ],
+        "coordinate_intersection_size": 2,
+        "canonical_full_orbit_minimum_hex": [
+          "0x0000001",
+          "0x0000100",
+          "0x0000400"
+        ]
+      },
+      {
+        "full_stabilizer_orbit_size": 5,
+        "coordinate_intersection": [
+          174,
+          2044
+        ],
+        "coordinate_intersection_size": 2,
+        "canonical_full_orbit_minimum_hex": [
+          "0x0000001",
+          "0x0000100",
+          "0x0400000"
+        ]
+      },
+      {
+        "full_stabilizer_orbit_size": 5,
+        "coordinate_intersection": [
+          177,
+          2040
+        ],
+        "coordinate_intersection_size": 2,
+        "canonical_full_orbit_minimum_hex": [
+          "0x0000001",
+          "0x0000100",
+          "0x2000000"
+        ]
+      },
+      {
+        "full_stabilizer_orbit_size": 5,
+        "coordinate_intersection": [
+          178,
+          2042
+        ],
+        "coordinate_intersection_size": 2,
+        "canonical_full_orbit_minimum_hex": [
+          "0x0000001",
+          "0x0000100",
+          "0x4000000"
+        ]
+      },
+      {
+        "full_stabilizer_orbit_size": 5,
+        "coordinate_intersection": [
+          180,
+          2846
+        ],
+        "coordinate_intersection_size": 2,
+        "canonical_full_orbit_minimum_hex": [
+          "0x0000001",
+          "0x0000200",
+          "0x0000400"
+        ]
+      },
+      {
+        "full_stabilizer_orbit_size": 5,
+        "coordinate_intersection": [
+          198,
+          2822
+        ],
+        "coordinate_intersection_size": 2,
+        "canonical_full_orbit_minimum_hex": [
+          "0x0000001",
+          "0x0000400",
+          "0x0000800"
+        ]
+      },
+      {
+        "full_stabilizer_orbit_size": 5,
+        "coordinate_intersection": [
+          199,
+          2834
+        ],
+        "coordinate_intersection_size": 2,
+        "canonical_full_orbit_minimum_hex": [
+          "0x0000001",
+          "0x0000400",
+          "0x0001000"
+        ]
+      },
+      {
+        "full_stabilizer_orbit_size": 5,
+        "coordinate_intersection": [
+          202,
+          1633
+        ],
+        "coordinate_intersection_size": 2,
+        "canonical_full_orbit_minimum_hex": [
+          "0x0000001",
+          "0x0000400",
+          "0x0008000"
+        ]
+      },
+      {
+        "full_stabilizer_orbit_size": 5,
+        "coordinate_intersection": [
+          206,
+          2613
+        ],
+        "coordinate_intersection_size": 2,
+        "canonical_full_orbit_minimum_hex": [
+          "0x0000001",
+          "0x0000400",
+          "0x0080000"
+        ]
+      },
+      {
+        "full_stabilizer_orbit_size": 5,
+        "coordinate_intersection": [
+          209,
+          2856
+        ],
+        "coordinate_intersection_size": 2,
+        "canonical_full_orbit_minimum_hex": [
+          "0x0000001",
+          "0x0000400",
+          "0x0400000"
+        ]
+      },
+      {
+        "full_stabilizer_orbit_size": 5,
+        "coordinate_intersection": [
+          212,
+          2852
+        ],
+        "coordinate_intersection_size": 2,
+        "canonical_full_orbit_minimum_hex": [
+          "0x0000001",
+          "0x0000400",
+          "0x2000000"
+        ]
+      },
+      {
+        "full_stabilizer_orbit_size": 5,
+        "coordinate_intersection": [
+          213,
+          2854
+        ],
+        "coordinate_intersection_size": 2,
+        "canonical_full_orbit_minimum_hex": [
+          "0x0000001",
+          "0x0000400",
+          "0x4000000"
+        ]
+      },
+      {
+        "full_stabilizer_orbit_size": 5,
+        "coordinate_intersection": [
+          336,
+          971
+        ],
+        "coordinate_intersection_size": 2,
+        "canonical_full_orbit_minimum_hex": [
+          "0x0000001",
+          "0x0400000",
+          "0x0800000"
+        ]
+      },
+      {
+        "full_stabilizer_orbit_size": 5,
+        "coordinate_intersection": [
+          337,
+          972
+        ],
+        "coordinate_intersection_size": 2,
+        "canonical_full_orbit_minimum_hex": [
+          "0x0000001",
+          "0x0400000",
+          "0x1000000"
+        ]
+      },
+      {
+        "full_stabilizer_orbit_size": 5,
+        "coordinate_intersection": [
+          338,
+          2905
+        ],
+        "coordinate_intersection_size": 2,
+        "canonical_full_orbit_minimum_hex": [
+          "0x0000001",
+          "0x0400000",
+          "0x2000000"
+        ]
+      },
+      {
+        "full_stabilizer_orbit_size": 5,
+        "coordinate_intersection": [
+          339,
+          2910
+        ],
+        "coordinate_intersection_size": 2,
+        "canonical_full_orbit_minimum_hex": [
+          "0x0000001",
+          "0x0400000",
+          "0x4000000"
+        ]
+      },
+      {
+        "full_stabilizer_orbit_size": 5,
+        "coordinate_intersection": [
+          341,
+          975
+        ],
+        "coordinate_intersection_size": 2,
+        "canonical_full_orbit_minimum_hex": [
+          "0x0000001",
+          "0x0800000",
+          "0x1000000"
+        ]
+      },
+      {
+        "full_stabilizer_orbit_size": 5,
+        "coordinate_intersection": [
+          348,
+          2903
+        ],
+        "coordinate_intersection_size": 2,
+        "canonical_full_orbit_minimum_hex": [
+          "0x0000001",
+          "0x2000000",
+          "0x4000000"
+        ]
+      },
+      {
+        "full_stabilizer_orbit_size": 5,
+        "coordinate_intersection": [
+          351,
+          2209
+        ],
+        "coordinate_intersection_size": 2,
+        "canonical_full_orbit_minimum_hex": [
+          "0x0000001",
+          "0x0000104",
+          "0x0000618"
+        ]
+      },
+      {
+        "full_stabilizer_orbit_size": 5,
+        "coordinate_intersection": [
+          370,
+          2212
+        ],
+        "coordinate_intersection_size": 2,
+        "canonical_full_orbit_minimum_hex": [
+          "0x0000001",
+          "0x0000104",
+          "0x2c00000"
+        ]
+      },
+      {
+        "full_stabilizer_orbit_size": 5,
+        "coordinate_intersection": [
+          371,
+          2214
+        ],
+        "coordinate_intersection_size": 2,
+        "canonical_full_orbit_minimum_hex": [
+          "0x0000001",
+          "0x0000104",
+          "0x5400000"
+        ]
+      },
+      {
+        "full_stabilizer_orbit_size": 5,
+        "coordinate_intersection": [
+          372,
+          2215
+        ],
+        "coordinate_intersection_size": 2,
+        "canonical_full_orbit_minimum_hex": [
+          "0x0000001",
+          "0x0000104",
+          "0x0400000"
+        ]
+      },
+      {
+        "full_stabilizer_orbit_size": 5,
+        "coordinate_intersection": [
+          376,
+          2264
+        ],
+        "coordinate_intersection_size": 2,
+        "canonical_full_orbit_minimum_hex": [
+          "0x0000002",
+          "0x0000008",
+          "0x0000010"
+        ]
+      },
+      {
+        "full_stabilizer_orbit_size": 5,
+        "coordinate_intersection": [
+          377,
+          2272
+        ],
+        "coordinate_intersection_size": 2,
+        "canonical_full_orbit_minimum_hex": [
+          "0x0000002",
+          "0x0000008",
+          "0x0000020"
+        ]
+      },
+      {
+        "full_stabilizer_orbit_size": 5,
+        "coordinate_intersection": [
+          378,
+          2279
+        ],
+        "coordinate_intersection_size": 2,
+        "canonical_full_orbit_minimum_hex": [
+          "0x0000002",
+          "0x0000008",
+          "0x0000040"
+        ]
+      },
+      {
+        "full_stabilizer_orbit_size": 5,
+        "coordinate_intersection": [
+          381,
+          1768
+        ],
+        "coordinate_intersection_size": 2,
+        "canonical_full_orbit_minimum_hex": [
+          "0x0000002",
+          "0x0000008",
+          "0x0000200"
+        ]
+      },
+      {
+        "full_stabilizer_orbit_size": 5,
+        "coordinate_intersection": [
+          386,
+          2195
+        ],
+        "coordinate_intersection_size": 2,
+        "canonical_full_orbit_minimum_hex": [
+          "0x0000002",
+          "0x0000008",
+          "0x0004000"
+        ]
+      },
+      {
+        "full_stabilizer_orbit_size": 5,
+        "coordinate_intersection": [
+          390,
+          2255
+        ],
+        "coordinate_intersection_size": 2,
+        "canonical_full_orbit_minimum_hex": [
+          "0x0000002",
+          "0x0000008",
+          "0x0040000"
+        ]
+      },
+      {
+        "full_stabilizer_orbit_size": 5,
+        "coordinate_intersection": [
+          394,
+          2288
+        ],
+        "coordinate_intersection_size": 2,
+        "canonical_full_orbit_minimum_hex": [
+          "0x0000002",
+          "0x0000008",
+          "0x0400000"
+        ]
+      },
+      {
+        "full_stabilizer_orbit_size": 5,
+        "coordinate_intersection": [
+          395,
+          2290
+        ],
+        "coordinate_intersection_size": 2,
+        "canonical_full_orbit_minimum_hex": [
+          "0x0000002",
+          "0x0000008",
+          "0x0800000"
+        ]
+      },
+      {
+        "full_stabilizer_orbit_size": 5,
+        "coordinate_intersection": [
+          396,
+          2291
+        ],
+        "coordinate_intersection_size": 2,
+        "canonical_full_orbit_minimum_hex": [
+          "0x0000002",
+          "0x0000008",
+          "0x1000000"
+        ]
+      },
+      {
+        "full_stabilizer_orbit_size": 5,
+        "coordinate_intersection": [
+          433,
+          1987
+        ],
+        "coordinate_intersection_size": 2,
+        "canonical_full_orbit_minimum_hex": [
+          "0x0000002",
+          "0x0000020",
+          "0x0010000"
+        ]
+      },
+      {
+        "full_stabilizer_orbit_size": 5,
+        "coordinate_intersection": [
+          474,
+          1947
+        ],
+        "coordinate_intersection_size": 2,
+        "canonical_full_orbit_minimum_hex": [
+          "0x0000002",
+          "0x0000080",
+          "0x0010000"
+        ]
+      },
+      {
+        "full_stabilizer_orbit_size": 5,
+        "coordinate_intersection": [
+          481,
+          1962
+        ],
+        "coordinate_intersection_size": 2,
+        "canonical_full_orbit_minimum_hex": [
+          "0x0000002",
+          "0x0000080",
+          "0x0800000"
+        ]
+      },
+      {
+        "full_stabilizer_orbit_size": 5,
+        "coordinate_intersection": [
+          483,
+          1963
+        ],
+        "coordinate_intersection_size": 2,
+        "canonical_full_orbit_minimum_hex": [
+          "0x0000002",
+          "0x0000080",
+          "0x2000000"
+        ]
+      },
+      {
+        "full_stabilizer_orbit_size": 5,
+        "coordinate_intersection": [
+          485,
+          1959
+        ],
+        "coordinate_intersection_size": 2,
+        "canonical_full_orbit_minimum_hex": [
+          "0x0000002",
+          "0x0000080",
+          "0x8000000"
+        ]
+      },
+      {
+        "full_stabilizer_orbit_size": 5,
+        "coordinate_intersection": [
+          544,
+          1991
+        ],
+        "coordinate_intersection_size": 2,
+        "canonical_full_orbit_minimum_hex": [
+          "0x0000002",
+          "0x0000800",
+          "0x0010000"
+        ]
+      },
+      {
+        "full_stabilizer_orbit_size": 5,
+        "coordinate_intersection": [
+          586,
+          1983
+        ],
+        "coordinate_intersection_size": 2,
+        "canonical_full_orbit_minimum_hex": [
+          "0x0000002",
+          "0x0004000",
+          "0x0010000"
+        ]
+      },
+      {
+        "full_stabilizer_orbit_size": 5,
+        "coordinate_intersection": [
+          598,
+          1984
+        ],
+        "coordinate_intersection_size": 2,
+        "canonical_full_orbit_minimum_hex": [
+          "0x0000002",
+          "0x0008000",
+          "0x0010000"
+        ]
+      },
+      {
+        "full_stabilizer_orbit_size": 5,
+        "coordinate_intersection": [
+          610,
+          1965
+        ],
+        "coordinate_intersection_size": 2,
+        "canonical_full_orbit_minimum_hex": [
+          "0x0000002",
+          "0x0010000",
+          "0x0020000"
+        ]
+      },
+      {
+        "full_stabilizer_orbit_size": 5,
+        "coordinate_intersection": [
+          613,
+          1297
+        ],
+        "coordinate_intersection_size": 2,
+        "canonical_full_orbit_minimum_hex": [
+          "0x0000002",
+          "0x0010000",
+          "0x0100000"
+        ]
+      },
+      {
+        "full_stabilizer_orbit_size": 5,
+        "coordinate_intersection": [
+          616,
+          1997
+        ],
+        "coordinate_intersection_size": 2,
+        "canonical_full_orbit_minimum_hex": [
+          "0x0000002",
+          "0x0010000",
+          "0x0800000"
+        ]
+      },
+      {
+        "full_stabilizer_orbit_size": 5,
+        "coordinate_intersection": [
+          618,
+          1998
+        ],
+        "coordinate_intersection_size": 2,
+        "canonical_full_orbit_minimum_hex": [
+          "0x0000002",
+          "0x0010000",
+          "0x2000000"
+        ]
+      },
+      {
+        "full_stabilizer_orbit_size": 5,
+        "coordinate_intersection": [
+          620,
+          1994
+        ],
+        "coordinate_intersection_size": 2,
+        "canonical_full_orbit_minimum_hex": [
+          "0x0000002",
+          "0x0010000",
+          "0x8000000"
+        ]
+      },
+      {
+        "full_stabilizer_orbit_size": 5,
+        "coordinate_intersection": [
+          661,
+          2302
+        ],
+        "coordinate_intersection_size": 2,
+        "canonical_full_orbit_minimum_hex": [
+          "0x0000002",
+          "0x0400000",
+          "0x0800000"
+        ]
+      },
+      {
+        "full_stabilizer_orbit_size": 5,
+        "coordinate_intersection": [
+          662,
+          2303
+        ],
+        "coordinate_intersection_size": 2,
+        "canonical_full_orbit_minimum_hex": [
+          "0x0000002",
+          "0x0400000",
+          "0x1000000"
+        ]
+      },
+      {
+        "full_stabilizer_orbit_size": 5,
+        "coordinate_intersection": [
+          666,
+          2306
+        ],
+        "coordinate_intersection_size": 2,
+        "canonical_full_orbit_minimum_hex": [
+          "0x0000002",
+          "0x0800000",
+          "0x1000000"
+        ]
+      },
+      {
+        "full_stabilizer_orbit_size": 5,
+        "coordinate_intersection": [
+          667,
+          2133
+        ],
+        "coordinate_intersection_size": 2,
+        "canonical_full_orbit_minimum_hex": [
+          "0x0000002",
+          "0x0800000",
+          "0x2000000"
+        ]
+      },
+      {
+        "full_stabilizer_orbit_size": 5,
+        "coordinate_intersection": [
+          669,
+          2123
+        ],
+        "coordinate_intersection_size": 2,
+        "canonical_full_orbit_minimum_hex": [
+          "0x0000002",
+          "0x0800000",
+          "0x8000000"
+        ]
+      },
+      {
+        "full_stabilizer_orbit_size": 5,
+        "coordinate_intersection": [
+          674,
+          2124
+        ],
+        "coordinate_intersection_size": 2,
+        "canonical_full_orbit_minimum_hex": [
+          "0x0000002",
+          "0x2000000",
+          "0x8000000"
+        ]
+      },
+      {
+        "full_stabilizer_orbit_size": 5,
+        "coordinate_intersection": [
+          676,
+          2869
+        ],
+        "coordinate_intersection_size": 2,
+        "canonical_full_orbit_minimum_hex": [
+          "0x0000001",
+          "0x0000a28",
+          "0x0000c30"
+        ]
+      },
+      {
+        "full_stabilizer_orbit_size": 5,
+        "coordinate_intersection": [
+          677,
+          2877
+        ],
+        "coordinate_intersection_size": 2,
+        "canonical_full_orbit_minimum_hex": [
+          "0x0000001",
+          "0x0001248",
+          "0x0001450"
+        ]
+      },
+      {
+        "full_stabilizer_orbit_size": 5,
+        "coordinate_intersection": [
+          678,
+          2884
+        ],
+        "coordinate_intersection_size": 2,
+        "canonical_full_orbit_minimum_hex": [
+          "0x0000001",
+          "0x0000208",
+          "0x0000410"
+        ]
+      },
+      {
+        "full_stabilizer_orbit_size": 5,
+        "coordinate_intersection": [
+          681,
+          1848
+        ],
+        "coordinate_intersection_size": 2,
+        "canonical_full_orbit_minimum_hex": [
+          "0x0000001",
+          "0x000c018",
+          "0x000c600"
+        ]
+      },
+      {
+        "full_stabilizer_orbit_size": 5,
+        "coordinate_intersection": [
+          686,
+          2723
+        ],
+        "coordinate_intersection_size": 2,
+        "canonical_full_orbit_minimum_hex": [
+          "0x0000001",
+          "0x00c0018",
+          "0x00c0600"
+        ]
+      },
+      {
+        "full_stabilizer_orbit_size": 5,
+        "coordinate_intersection": [
+          690,
+          2860
+        ],
+        "coordinate_intersection_size": 2,
+        "canonical_full_orbit_minimum_hex": [
+          "0x0000001",
+          "0x0000018",
+          "0x0000600"
+        ]
+      },
+      {
+        "full_stabilizer_orbit_size": 5,
+        "coordinate_intersection": [
+          694,
+          2893
+        ],
+        "coordinate_intersection_size": 2,
+        "canonical_full_orbit_minimum_hex": [
+          "0x0000001",
+          "0x0000618",
+          "0x2c00000"
+        ]
+      },
+      {
+        "full_stabilizer_orbit_size": 5,
+        "coordinate_intersection": [
+          695,
+          2895
+        ],
+        "coordinate_intersection_size": 2,
+        "canonical_full_orbit_minimum_hex": [
+          "0x0000001",
+          "0x0000618",
+          "0x5400000"
+        ]
+      },
+      {
+        "full_stabilizer_orbit_size": 5,
+        "coordinate_intersection": [
+          696,
+          2896
+        ],
+        "coordinate_intersection_size": 2,
+        "canonical_full_orbit_minimum_hex": [
+          "0x0000001",
+          "0x0000618",
+          "0x0400000"
+        ]
+      },
+      {
+        "full_stabilizer_orbit_size": 5,
+        "coordinate_intersection": [
+          961,
+          2907
+        ],
+        "coordinate_intersection_size": 2,
+        "canonical_full_orbit_minimum_hex": [
+          "0x0000001",
+          "0x5400000",
+          "0x7800000"
+        ]
+      },
+      {
+        "full_stabilizer_orbit_size": 5,
+        "coordinate_intersection": [
+          962,
+          2908
+        ],
+        "coordinate_intersection_size": 2,
+        "canonical_full_orbit_minimum_hex": [
+          "0x0000001",
+          "0x0400000",
+          "0x2800000"
+        ]
+      },
+      {
+        "full_stabilizer_orbit_size": 5,
+        "coordinate_intersection": [
+          966,
+          2911
+        ],
+        "coordinate_intersection_size": 2,
+        "canonical_full_orbit_minimum_hex": [
+          "0x0000001",
+          "0x0400000",
+          "0x5000000"
+        ]
+      },
+      {
+        "full_stabilizer_orbit_size": 5,
+        "coordinate_intersection": [
+          976,
+          3157
+        ],
+        "coordinate_intersection_size": 2,
+        "canonical_full_orbit_minimum_hex": [
+          "0x0000008",
+          "0x0000010",
+          "0x0000020"
+        ]
+      },
+      {
+        "full_stabilizer_orbit_size": 5,
+        "coordinate_intersection": [
+          977,
+          3164
+        ],
+        "coordinate_intersection_size": 2,
+        "canonical_full_orbit_minimum_hex": [
+          "0x0000008",
+          "0x0000010",
+          "0x0000040"
+        ]
+      },
+      {
+        "full_stabilizer_orbit_size": 5,
+        "coordinate_intersection": [
+          980,
+          1903
+        ],
+        "coordinate_intersection_size": 2,
+        "canonical_full_orbit_minimum_hex": [
+          "0x0000008",
+          "0x0000010",
+          "0x0000200"
+        ]
+      },
+      {
+        "full_stabilizer_orbit_size": 5,
+        "coordinate_intersection": [
+          985,
+          2778
+        ],
+        "coordinate_intersection_size": 2,
+        "canonical_full_orbit_minimum_hex": [
+          "0x0000008",
+          "0x0000010",
+          "0x0004000"
+        ]
+      },
+      {
+        "full_stabilizer_orbit_size": 5,
+        "coordinate_intersection": [
+          989,
+          3113
+        ],
+        "coordinate_intersection_size": 2,
+        "canonical_full_orbit_minimum_hex": [
+          "0x0000008",
+          "0x0000010",
+          "0x0040000"
+        ]
+      },
+      {
+        "full_stabilizer_orbit_size": 5,
+        "coordinate_intersection": [
+          993,
+          3173
+        ],
+        "coordinate_intersection_size": 2,
+        "canonical_full_orbit_minimum_hex": [
+          "0x0000008",
+          "0x0000010",
+          "0x0400000"
+        ]
+      },
+      {
+        "full_stabilizer_orbit_size": 5,
+        "coordinate_intersection": [
+          994,
+          3175
+        ],
+        "coordinate_intersection_size": 2,
+        "canonical_full_orbit_minimum_hex": [
+          "0x0000008",
+          "0x0000010",
+          "0x0800000"
+        ]
+      },
+      {
+        "full_stabilizer_orbit_size": 5,
+        "coordinate_intersection": [
+          995,
+          3176
+        ],
+        "coordinate_intersection_size": 2,
+        "canonical_full_orbit_minimum_hex": [
+          "0x0000008",
+          "0x0000010",
+          "0x1000000"
+        ]
+      },
+      {
+        "full_stabilizer_orbit_size": 5,
+        "coordinate_intersection": [
+          999,
+          3192
+        ],
+        "coordinate_intersection_size": 2,
+        "canonical_full_orbit_minimum_hex": [
+          "0x0000008",
+          "0x0000020",
+          "0x0000040"
+        ]
+      },
+      {
+        "full_stabilizer_orbit_size": 5,
+        "coordinate_intersection": [
+          1002,
+          1911
+        ],
+        "coordinate_intersection_size": 2,
+        "canonical_full_orbit_minimum_hex": [
+          "0x0000008",
+          "0x0000020",
+          "0x0000200"
+        ]
+      },
+      {
+        "full_stabilizer_orbit_size": 5,
+        "coordinate_intersection": [
+          1007,
+          2786
+        ],
+        "coordinate_intersection_size": 2,
+        "canonical_full_orbit_minimum_hex": [
+          "0x0000008",
+          "0x0000020",
+          "0x0004000"
+        ]
+      },
+      {
+        "full_stabilizer_orbit_size": 5,
+        "coordinate_intersection": [
+          1011,
+          3121
+        ],
+        "coordinate_intersection_size": 2,
+        "canonical_full_orbit_minimum_hex": [
+          "0x0000008",
+          "0x0000020",
+          "0x0040000"
+        ]
+      },
+      {
+        "full_stabilizer_orbit_size": 5,
+        "coordinate_intersection": [
+          1015,
+          3201
+        ],
+        "coordinate_intersection_size": 2,
+        "canonical_full_orbit_minimum_hex": [
+          "0x0000008",
+          "0x0000020",
+          "0x0400000"
+        ]
+      },
+      {
+        "full_stabilizer_orbit_size": 5,
+        "coordinate_intersection": [
+          1016,
+          3203
+        ],
+        "coordinate_intersection_size": 2,
+        "canonical_full_orbit_minimum_hex": [
+          "0x0000008",
+          "0x0000020",
+          "0x0800000"
+        ]
+      },
+      {
+        "full_stabilizer_orbit_size": 5,
+        "coordinate_intersection": [
+          1017,
+          3204
+        ],
+        "coordinate_intersection_size": 2,
+        "canonical_full_orbit_minimum_hex": [
+          "0x0000008",
+          "0x0000020",
+          "0x1000000"
+        ]
+      },
+      {
+        "full_stabilizer_orbit_size": 5,
+        "coordinate_intersection": [
+          1023,
+          1918
+        ],
+        "coordinate_intersection_size": 2,
+        "canonical_full_orbit_minimum_hex": [
+          "0x0000008",
+          "0x0000040",
+          "0x0000200"
+        ]
+      },
+      {
+        "full_stabilizer_orbit_size": 5,
+        "coordinate_intersection": [
+          1028,
+          2793
+        ],
+        "coordinate_intersection_size": 2,
+        "canonical_full_orbit_minimum_hex": [
+          "0x0000008",
+          "0x0000040",
+          "0x0004000"
+        ]
+      },
+      {
+        "full_stabilizer_orbit_size": 5,
+        "coordinate_intersection": [
+          1032,
+          3128
+        ],
+        "coordinate_intersection_size": 2,
+        "canonical_full_orbit_minimum_hex": [
+          "0x0000008",
+          "0x0000040",
+          "0x0040000"
+        ]
+      },
+      {
+        "full_stabilizer_orbit_size": 5,
+        "coordinate_intersection": [
+          1036,
+          3222
+        ],
+        "coordinate_intersection_size": 2,
+        "canonical_full_orbit_minimum_hex": [
+          "0x0000008",
+          "0x0000040",
+          "0x0400000"
+        ]
+      },
+      {
+        "full_stabilizer_orbit_size": 5,
+        "coordinate_intersection": [
+          1037,
+          3224
+        ],
+        "coordinate_intersection_size": 2,
+        "canonical_full_orbit_minimum_hex": [
+          "0x0000008",
+          "0x0000040",
+          "0x0800000"
+        ]
+      },
+      {
+        "full_stabilizer_orbit_size": 5,
+        "coordinate_intersection": [
+          1038,
+          3225
+        ],
+        "coordinate_intersection_size": 2,
+        "canonical_full_orbit_minimum_hex": [
+          "0x0000008",
+          "0x0000040",
+          "0x1000000"
+        ]
+      },
+      {
+        "full_stabilizer_orbit_size": 5,
+        "coordinate_intersection": [
+          1085,
+          1834
+        ],
+        "coordinate_intersection_size": 2,
+        "canonical_full_orbit_minimum_hex": [
+          "0x0000008",
+          "0x0000200",
+          "0x0004000"
+        ]
+      },
+      {
+        "full_stabilizer_orbit_size": 5,
+        "coordinate_intersection": [
+          1089,
+          1894
+        ],
+        "coordinate_intersection_size": 2,
+        "canonical_full_orbit_minimum_hex": [
+          "0x0000008",
+          "0x0000200",
+          "0x0040000"
+        ]
+      },
+      {
+        "full_stabilizer_orbit_size": 5,
+        "coordinate_intersection": [
+          1093,
+          1927
+        ],
+        "coordinate_intersection_size": 2,
+        "canonical_full_orbit_minimum_hex": [
+          "0x0000008",
+          "0x0000200",
+          "0x0400000"
+        ]
+      },
+      {
+        "full_stabilizer_orbit_size": 5,
+        "coordinate_intersection": [
+          1094,
+          1929
+        ],
+        "coordinate_intersection_size": 2,
+        "canonical_full_orbit_minimum_hex": [
+          "0x0000008",
+          "0x0000200",
+          "0x0800000"
+        ]
+      },
+      {
+        "full_stabilizer_orbit_size": 5,
+        "coordinate_intersection": [
+          1095,
+          1930
+        ],
+        "coordinate_intersection_size": 2,
+        "canonical_full_orbit_minimum_hex": [
+          "0x0000008",
+          "0x0000200",
+          "0x1000000"
+        ]
+      },
+      {
+        "full_stabilizer_orbit_size": 5,
+        "coordinate_intersection": [
+          1164,
+          2769
+        ],
+        "coordinate_intersection_size": 2,
+        "canonical_full_orbit_minimum_hex": [
+          "0x0000008",
+          "0x0004000",
+          "0x0040000"
+        ]
+      },
+      {
+        "full_stabilizer_orbit_size": 5,
+        "coordinate_intersection": [
+          1168,
+          2802
+        ],
+        "coordinate_intersection_size": 2,
+        "canonical_full_orbit_minimum_hex": [
+          "0x0000008",
+          "0x0004000",
+          "0x0400000"
+        ]
+      },
+      {
+        "full_stabilizer_orbit_size": 5,
+        "coordinate_intersection": [
+          1169,
+          2804
+        ],
+        "coordinate_intersection_size": 2,
+        "canonical_full_orbit_minimum_hex": [
+          "0x0000008",
+          "0x0004000",
+          "0x0800000"
+        ]
+      },
+      {
+        "full_stabilizer_orbit_size": 5,
+        "coordinate_intersection": [
+          1170,
+          2805
+        ],
+        "coordinate_intersection_size": 2,
+        "canonical_full_orbit_minimum_hex": [
+          "0x0000008",
+          "0x0004000",
+          "0x1000000"
+        ]
+      },
+      {
+        "full_stabilizer_orbit_size": 5,
+        "coordinate_intersection": [
+          1210,
+          3137
+        ],
+        "coordinate_intersection_size": 2,
+        "canonical_full_orbit_minimum_hex": [
+          "0x0000008",
+          "0x0040000",
+          "0x0400000"
+        ]
+      },
+      {
+        "full_stabilizer_orbit_size": 5,
+        "coordinate_intersection": [
+          1211,
+          3139
+        ],
+        "coordinate_intersection_size": 2,
+        "canonical_full_orbit_minimum_hex": [
+          "0x0000008",
+          "0x0040000",
+          "0x0800000"
+        ]
+      },
+      {
+        "full_stabilizer_orbit_size": 5,
+        "coordinate_intersection": [
+          1212,
+          3140
+        ],
+        "coordinate_intersection_size": 2,
+        "canonical_full_orbit_minimum_hex": [
+          "0x0000008",
+          "0x0040000",
+          "0x1000000"
+        ]
+      },
+      {
+        "full_stabilizer_orbit_size": 5,
+        "coordinate_intersection": [
+          1237,
+          3251
+        ],
+        "coordinate_intersection_size": 2,
+        "canonical_full_orbit_minimum_hex": [
+          "0x0000008",
+          "0x0400000",
+          "0x0800000"
+        ]
+      },
+      {
+        "full_stabilizer_orbit_size": 5,
+        "coordinate_intersection": [
+          1238,
+          3252
+        ],
+        "coordinate_intersection_size": 2,
+        "canonical_full_orbit_minimum_hex": [
+          "0x0000008",
+          "0x0400000",
+          "0x1000000"
+        ]
+      },
+      {
+        "full_stabilizer_orbit_size": 5,
+        "coordinate_intersection": [
+          1242,
+          3255
+        ],
+        "coordinate_intersection_size": 2,
+        "canonical_full_orbit_minimum_hex": [
+          "0x0000008",
+          "0x0800000",
+          "0x1000000"
+        ]
+      },
+      {
+        "full_stabilizer_orbit_size": 5,
+        "coordinate_intersection": [
+          1316,
+          2073
+        ],
+        "coordinate_intersection_size": 2,
+        "canonical_full_orbit_minimum_hex": [
+          "0x0000002",
+          "0x0014028",
+          "0x0014a00"
+        ]
+      },
+      {
+        "full_stabilizer_orbit_size": 5,
+        "coordinate_intersection": [
+          1334,
+          3058
+        ],
+        "coordinate_intersection_size": 2,
+        "canonical_full_orbit_minimum_hex": [
+          "0x0000010",
+          "0x0000200",
+          "0x0000400"
+        ]
+      },
+      {
+        "full_stabilizer_orbit_size": 5,
+        "coordinate_intersection": [
+          1352,
+          2927
+        ],
+        "coordinate_intersection_size": 2,
+        "canonical_full_orbit_minimum_hex": [
+          "0x0000010",
+          "0x0000400",
+          "0x0000800"
+        ]
+      },
+      {
+        "full_stabilizer_orbit_size": 5,
+        "coordinate_intersection": [
+          1353,
+          2993
+        ],
+        "coordinate_intersection_size": 2,
+        "canonical_full_orbit_minimum_hex": [
+          "0x0000010",
+          "0x0000400",
+          "0x0001000"
+        ]
+      },
+      {
+        "full_stabilizer_orbit_size": 5,
+        "coordinate_intersection": [
+          1356,
+          1673
+        ],
+        "coordinate_intersection_size": 2,
+        "canonical_full_orbit_minimum_hex": [
+          "0x0000010",
+          "0x0000400",
+          "0x0008000"
+        ]
+      },
+      {
+        "full_stabilizer_orbit_size": 5,
+        "coordinate_intersection": [
+          1360,
+          2653
+        ],
+        "coordinate_intersection_size": 2,
+        "canonical_full_orbit_minimum_hex": [
+          "0x0000010",
+          "0x0000400",
+          "0x0080000"
+        ]
+      },
+      {
+        "full_stabilizer_orbit_size": 5,
+        "coordinate_intersection": [
+          1363,
+          3089
+        ],
+        "coordinate_intersection_size": 2,
+        "canonical_full_orbit_minimum_hex": [
+          "0x0000010",
+          "0x0000400",
+          "0x0400000"
+        ]
+      },
+      {
+        "full_stabilizer_orbit_size": 5,
+        "coordinate_intersection": [
+          1366,
+          3085
+        ],
+        "coordinate_intersection_size": 2,
+        "canonical_full_orbit_minimum_hex": [
+          "0x0000010",
+          "0x0000400",
+          "0x2000000"
+        ]
+      },
+      {
+        "full_stabilizer_orbit_size": 5,
+        "coordinate_intersection": [
+          1367,
+          3087
+        ],
+        "coordinate_intersection_size": 2,
+        "canonical_full_orbit_minimum_hex": [
+          "0x0000010",
+          "0x0000400",
+          "0x4000000"
+        ]
+      },
+      {
+        "full_stabilizer_orbit_size": 5,
+        "coordinate_intersection": [
+          1534,
+          2158
+        ],
+        "coordinate_intersection_size": 2,
+        "canonical_full_orbit_minimum_hex": [
+          "0x0000002",
+          "0x0140028",
+          "0x0154000"
+        ]
+      },
+      {
+        "full_stabilizer_orbit_size": 5,
+        "coordinate_intersection": [
+          1604,
+          2521
+        ],
+        "coordinate_intersection_size": 2,
+        "canonical_full_orbit_minimum_hex": [
+          "0x0000020",
+          "0x0000800",
+          "0x0010000"
+        ]
+      },
+      {
+        "full_stabilizer_orbit_size": 5,
+        "coordinate_intersection": [
+          1646,
+          2463
+        ],
+        "coordinate_intersection_size": 2,
+        "canonical_full_orbit_minimum_hex": [
+          "0x0000020",
+          "0x0004000",
+          "0x0010000"
+        ]
+      },
+      {
+        "full_stabilizer_orbit_size": 5,
+        "coordinate_intersection": [
+          1658,
+          2478
+        ],
+        "coordinate_intersection_size": 2,
+        "canonical_full_orbit_minimum_hex": [
+          "0x0000020",
+          "0x0008000",
+          "0x0010000"
+        ]
+      },
+      {
+        "full_stabilizer_orbit_size": 5,
+        "coordinate_intersection": [
+          1670,
+          2311
+        ],
+        "coordinate_intersection_size": 2,
+        "canonical_full_orbit_minimum_hex": [
+          "0x0000020",
+          "0x0010000",
+          "0x0020000"
+        ]
+      },
+      {
+        "full_stabilizer_orbit_size": 5,
+        "coordinate_intersection": [
+          1676,
+          2527
+        ],
+        "coordinate_intersection_size": 2,
+        "canonical_full_orbit_minimum_hex": [
+          "0x0000020",
+          "0x0010000",
+          "0x0800000"
+        ]
+      },
+      {
+        "full_stabilizer_orbit_size": 5,
+        "coordinate_intersection": [
+          1678,
+          2528
+        ],
+        "coordinate_intersection_size": 2,
+        "canonical_full_orbit_minimum_hex": [
+          "0x0000020",
+          "0x0010000",
+          "0x2000000"
+        ]
+      },
+      {
+        "full_stabilizer_orbit_size": 5,
+        "coordinate_intersection": [
+          1680,
+          2524
+        ],
+        "coordinate_intersection_size": 2,
+        "canonical_full_orbit_minimum_hex": [
+          "0x0000020",
+          "0x0010000",
+          "0x8000000"
+        ]
+      },
+      {
+        "full_stabilizer_orbit_size": 5,
+        "coordinate_intersection": [
+          2004,
+          2162
+        ],
+        "coordinate_intersection_size": 2,
+        "canonical_full_orbit_minimum_hex": [
+          "0x0000002",
+          "0x0000028",
+          "0x0014000"
+        ]
+      },
+      {
+        "full_stabilizer_orbit_size": 5,
+        "coordinate_intersection": [
+          2046,
+          2154
+        ],
+        "coordinate_intersection_size": 2,
+        "canonical_full_orbit_minimum_hex": [
+          "0x0000002",
+          "0x0024048",
+          "0x0030060"
+        ]
+      },
+      {
+        "full_stabilizer_orbit_size": 5,
+        "coordinate_intersection": [
+          2058,
+          2155
+        ],
+        "coordinate_intersection_size": 2,
+        "canonical_full_orbit_minimum_hex": [
+          "0x0000002",
+          "0x0004008",
+          "0x0010020"
+        ]
+      },
+      {
+        "full_stabilizer_orbit_size": 5,
+        "coordinate_intersection": [
+          2070,
+          2136
+        ],
+        "coordinate_intersection_size": 2,
+        "canonical_full_orbit_minimum_hex": [
+          "0x0000002",
+          "0x0014028",
+          "0x0018030"
+        ]
+      },
+      {
+        "full_stabilizer_orbit_size": 5,
+        "coordinate_intersection": [
+          2076,
+          2168
+        ],
+        "coordinate_intersection_size": 2,
+        "canonical_full_orbit_minimum_hex": [
+          "0x0000002",
+          "0x0014028",
+          "0x9800000"
+        ]
+      },
+      {
+        "full_stabilizer_orbit_size": 5,
+        "coordinate_intersection": [
+          2078,
+          2169
+        ],
+        "coordinate_intersection_size": 2,
+        "canonical_full_orbit_minimum_hex": [
+          "0x0000002",
+          "0x0014028",
+          "0x0800000"
+        ]
+      },
+      {
+        "full_stabilizer_orbit_size": 5,
+        "coordinate_intersection": [
+          2080,
+          2165
+        ],
+        "coordinate_intersection_size": 2,
+        "canonical_full_orbit_minimum_hex": [
+          "0x0000002",
+          "0x0014028",
+          "0x2c00000"
+        ]
+      },
+      {
+        "full_stabilizer_orbit_size": 5,
+        "coordinate_intersection": [
+          2127,
+          2304
+        ],
+        "coordinate_intersection_size": 2,
+        "canonical_full_orbit_minimum_hex": [
+          "0x0000002",
+          "0x0800000",
+          "0x9000000"
+        ]
+      },
+      {
+        "full_stabilizer_orbit_size": 5,
+        "coordinate_intersection": [
+          2129,
+          2294
+        ],
+        "coordinate_intersection_size": 2,
+        "canonical_full_orbit_minimum_hex": [
+          "0x0000002",
+          "0xb400000",
+          "0x9800000"
+        ]
+      },
+      {
+        "full_stabilizer_orbit_size": 5,
+        "coordinate_intersection": [
+          2134,
+          2295
+        ],
+        "coordinate_intersection_size": 2,
+        "canonical_full_orbit_minimum_hex": [
+          "0x0000002",
+          "0x2400000",
+          "0x0800000"
+        ]
+      },
+      {
+        "full_stabilizer_orbit_size": 5,
+        "coordinate_intersection": [
+          2307,
+          2924
+        ],
+        "coordinate_intersection_size": 2,
+        "canonical_full_orbit_minimum_hex": [
+          "0x0000200",
+          "0x0000400",
+          "0x0000800"
+        ]
+      },
+      {
+        "full_stabilizer_orbit_size": 5,
+        "coordinate_intersection": [
+          2308,
+          2990
+        ],
+        "coordinate_intersection_size": 2,
+        "canonical_full_orbit_minimum_hex": [
+          "0x0000200",
+          "0x0000400",
+          "0x0001000"
+        ]
+      },
+      {
+        "full_stabilizer_orbit_size": 5,
+        "coordinate_intersection": [
+          2315,
+          2650
+        ],
+        "coordinate_intersection_size": 2,
+        "canonical_full_orbit_minimum_hex": [
+          "0x0000028",
+          "0x0018030",
+          "0x0014000"
+        ]
+      },
+      {
+        "full_stabilizer_orbit_size": 5,
+        "coordinate_intersection": [
+          2318,
+          3065
+        ],
+        "coordinate_intersection_size": 2,
+        "canonical_full_orbit_minimum_hex": [
+          "0x0000200",
+          "0x0000400",
+          "0x0400000"
+        ]
+      },
+      {
+        "full_stabilizer_orbit_size": 5,
+        "coordinate_intersection": [
+          2321,
+          3061
+        ],
+        "coordinate_intersection_size": 2,
+        "canonical_full_orbit_minimum_hex": [
+          "0x0000200",
+          "0x0000400",
+          "0x2000000"
+        ]
+      },
+      {
+        "full_stabilizer_orbit_size": 5,
+        "coordinate_intersection": [
+          2322,
+          3063
+        ],
+        "coordinate_intersection_size": 2,
+        "canonical_full_orbit_minimum_hex": [
+          "0x0000200",
+          "0x0000400",
+          "0x4000000"
+        ]
+      },
+      {
+        "full_stabilizer_orbit_size": 5,
+        "coordinate_intersection": [
+          2460,
+          2912
+        ],
+        "coordinate_intersection_size": 2,
+        "canonical_full_orbit_minimum_hex": [
+          "0x0000400",
+          "0x0000800",
+          "0x0001000"
+        ]
+      },
+      {
+        "full_stabilizer_orbit_size": 5,
+        "coordinate_intersection": [
+          2467,
+          2626
+        ],
+        "coordinate_intersection_size": 2,
+        "canonical_full_orbit_minimum_hex": [
+          "0x0000400",
+          "0x0000800",
+          "0x0080000"
+        ]
+      },
+      {
+        "full_stabilizer_orbit_size": 5,
+        "coordinate_intersection": [
+          2470,
+          2934
+        ],
+        "coordinate_intersection_size": 2,
+        "canonical_full_orbit_minimum_hex": [
+          "0x0000400",
+          "0x0000800",
+          "0x0400000"
+        ]
+      },
+      {
+        "full_stabilizer_orbit_size": 5,
+        "coordinate_intersection": [
+          2473,
+          2930
+        ],
+        "coordinate_intersection_size": 2,
+        "canonical_full_orbit_minimum_hex": [
+          "0x0000400",
+          "0x0000800",
+          "0x2000000"
+        ]
+      },
+      {
+        "full_stabilizer_orbit_size": 5,
+        "coordinate_intersection": [
+          2474,
+          2932
+        ],
+        "coordinate_intersection_size": 2,
+        "canonical_full_orbit_minimum_hex": [
+          "0x0000400",
+          "0x0000800",
+          "0x4000000"
+        ]
+      },
+      {
+        "full_stabilizer_orbit_size": 5,
+        "coordinate_intersection": [
+          2482,
+          2638
+        ],
+        "coordinate_intersection_size": 2,
+        "canonical_full_orbit_minimum_hex": [
+          "0x0000400",
+          "0x0001000",
+          "0x0080000"
+        ]
+      },
+      {
+        "full_stabilizer_orbit_size": 5,
+        "coordinate_intersection": [
+          2485,
+          3000
+        ],
+        "coordinate_intersection_size": 2,
+        "canonical_full_orbit_minimum_hex": [
+          "0x0000400",
+          "0x0001000",
+          "0x0400000"
+        ]
+      },
+      {
+        "full_stabilizer_orbit_size": 5,
+        "coordinate_intersection": [
+          2488,
+          2996
+        ],
+        "coordinate_intersection_size": 2,
+        "canonical_full_orbit_minimum_hex": [
+          "0x0000400",
+          "0x0001000",
+          "0x2000000"
+        ]
+      },
+      {
+        "full_stabilizer_orbit_size": 5,
+        "coordinate_intersection": [
+          2489,
+          2998
+        ],
+        "coordinate_intersection_size": 2,
+        "canonical_full_orbit_minimum_hex": [
+          "0x0000400",
+          "0x0001000",
+          "0x4000000"
+        ]
+      },
+      {
+        "full_stabilizer_orbit_size": 5,
+        "coordinate_intersection": [
+          2562,
+          2660
+        ],
+        "coordinate_intersection_size": 2,
+        "canonical_full_orbit_minimum_hex": [
+          "0x0000028",
+          "0x0014000",
+          "0x2c00000"
+        ]
+      },
+      {
+        "full_stabilizer_orbit_size": 5,
+        "coordinate_intersection": [
+          2565,
+          2656
+        ],
+        "coordinate_intersection_size": 2,
+        "canonical_full_orbit_minimum_hex": [
+          "0x0000028",
+          "0x0014000",
+          "0x9800000"
+        ]
+      },
+      {
+        "full_stabilizer_orbit_size": 5,
+        "coordinate_intersection": [
+          2566,
+          2658
+        ],
+        "coordinate_intersection_size": 2,
+        "canonical_full_orbit_minimum_hex": [
+          "0x0000028",
+          "0x0014000",
+          "0x0800000"
+        ]
+      },
+      {
+        "full_stabilizer_orbit_size": 5,
+        "coordinate_intersection": [
+          2583,
+          3104
+        ],
+        "coordinate_intersection_size": 2,
+        "canonical_full_orbit_minimum_hex": [
+          "0x0000400",
+          "0x0400000",
+          "0x2000000"
+        ]
+      },
+      {
+        "full_stabilizer_orbit_size": 5,
+        "coordinate_intersection": [
+          2584,
+          3109
+        ],
+        "coordinate_intersection_size": 2,
+        "canonical_full_orbit_minimum_hex": [
+          "0x0000400",
+          "0x0400000",
+          "0x4000000"
+        ]
+      },
+      {
+        "full_stabilizer_orbit_size": 5,
+        "coordinate_intersection": [
+          2593,
+          3102
+        ],
+        "coordinate_intersection_size": 2,
+        "canonical_full_orbit_minimum_hex": [
+          "0x0000400",
+          "0x2000000",
+          "0x4000000"
+        ]
+      },
+      {
+        "full_stabilizer_orbit_size": 5,
+        "coordinate_intersection": [
+          3256,
+          3274
+        ],
+        "coordinate_intersection_size": 2,
+        "canonical_full_orbit_minimum_hex": [
+          "0x0400000",
+          "0x0800000",
+          "0x1000000"
+        ]
+      },
+      {
+        "full_stabilizer_orbit_size": 5,
+        "coordinate_intersection": [
+          3257,
+          3261,
+          3268,
+          3275
+        ],
+        "coordinate_intersection_size": 4,
+        "canonical_full_orbit_minimum_hex": [
+          "0x0400000",
+          "0x0800000",
+          "0x2000000"
+        ]
+      },
+      {
+        "full_stabilizer_orbit_size": 5,
+        "coordinate_intersection": [
+          3263,
+          3270
+        ],
+        "coordinate_intersection_size": 2,
+        "canonical_full_orbit_minimum_hex": [
+          "0x0400000",
+          "0x2000000",
+          "0x4000000"
+        ]
+      }
+    ]
+  },
+  "validation": {
+    "gold_seed_solution_count_invariance": [
+      {
+        "seed": 1,
+        "stabilizer": "C5",
+        "coordinate_classes_tested": 3098,
+        "exact_solution_count_invariant": true
+      },
+      {
+        "seed": 15,
+        "stabilizer": "C5",
+        "coordinate_classes_tested": 3098,
+        "exact_solution_count_invariant": true
+      },
+      {
+        "seed": 70,
+        "stabilizer": "C5",
+        "coordinate_classes_tested": 3098,
+        "exact_solution_count_invariant": true
+      },
+      {
+        "seed": 91,
+        "stabilizer": "C5",
+        "coordinate_classes_tested": 3098,
+        "exact_solution_count_invariant": true
+      },
+      {
+        "seed": 98,
+        "stabilizer": "C10",
+        "coordinate_classes_tested": 3098,
+        "exact_solution_count_invariant": true
+      },
+      {
+        "seed": 2,
+        "stabilizer": "C5",
+        "coordinate_classes_tested": 3098,
+        "exact_solution_count_invariant": true
+      },
+      {
+        "seed": 10,
+        "stabilizer": "C5",
+        "coordinate_classes_tested": 3098,
+        "exact_solution_count_invariant": true
+      },
+      {
+        "seed": 23,
+        "stabilizer": "C5",
+        "coordinate_classes_tested": 3098,
+        "exact_solution_count_invariant": true
+      },
+      {
+        "seed": 27,
+        "stabilizer": "C5",
+        "coordinate_classes_tested": 3098,
+        "exact_solution_count_invariant": true
+      },
+      {
+        "seed": 29,
+        "stabilizer": "C5",
+        "coordinate_classes_tested": 3098,
+        "exact_solution_count_invariant": true
+      },
+      {
+        "seed": 33,
+        "stabilizer": "C5",
+        "coordinate_classes_tested": 3098,
+        "exact_solution_count_invariant": true
+      }
+    ],
+    "all_11_gold_seeds_pass": true,
+    "productivity_category_pure_on_coordinate_classes": true,
+    "category_purity_failures": []
+  },
+  "mixed_rank_two_strata": [
+    {
+      "coefficient_support_module_orbit_label": "CS-R2-O136-10000_00001",
+      "triple_count": 180,
+      "stabilizer_coordinate_class_count": 144,
+      "class_size_distribution": {
+        "1": 108,
+        "2": 36
+      },
+      "triple_category_distribution": {
+        "no_gold": 108,
+        "all_11_gold": 48,
+        "x9_only_all": 24
+      },
+      "class_category_distribution": {
+        "no_gold": 84,
+        "all_11_gold": 36,
+        "x9_only_all": 24
+      }
+    },
+    {
+      "coefficient_support_module_orbit_label": "CS-R2-O765-00010_00001",
+      "triple_count": 504,
+      "stabilizer_coordinate_class_count": 492,
+      "class_size_distribution": {
+        "1": 480,
+        "2": 12
+      },
+      "triple_category_distribution": {
+        "no_gold": 312,
+        "all_11_gold": 125,
+        "x9_only_all": 64,
+        "productive_10_of_11": 3
+      },
+      "class_category_distribution": {
+        "no_gold": 304,
+        "all_11_gold": 121,
+        "x9_only_all": 64,
+        "productive_10_of_11": 3
+      }
+    }
+  ],
+  "main_conclusions": [
+    "The exact centre stabilizers collapse 3276 executed coordinate slices to 3098 coordinate-equivalence classes, a reduction of only 178.",
+    "There are 2924 singleton classes, 172 classes meeting two coordinate slices, and two classes meeting four coordinate slices.",
+    "Exact solution counts are invariant on every such class for all 11 Gold centres, independently validating the contragredient action and the campaign data.",
+    "The extra C10 symmetry of Gold-x3 seed 98 doubles full non-coordinate orbits but creates no additional coordinate-coordinate identifications beyond C5.",
+    "Stabilizer slice orbits do not compactly resolve the two mixed rank-two strata: most coordinate classes remain singletons.",
+    "Because all cached centres lie in distinct centralizer orbits, the next explanatory step must transport full slices to canonical Gold coordinates and use the full canonical EA stabilizer."
+  ]
+}

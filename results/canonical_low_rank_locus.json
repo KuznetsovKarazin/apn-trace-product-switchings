@@ -1,0 +1,1072 @@
+{
+  "schema": "canonical-low-rank-apn-locus-v1",
+  "date": "2026-08-02",
+  "scope": "Complete coefficient-rank <=2 APN enumeration in the canonical 24-dimensional q0,q1,q2 tensor space around Gold x^3 and x^9",
+  "method": {
+    "forbidden_set_criterion": "For fixed Boolean kernels, Delta=sum v_i q_i is APN iff U(y) avoids the exact forbidden set B_y for every y!=0.",
+    "rank_one_test": "v not in B_1",
+    "rank_two_test": "For Delta=v1 Q1+v2 Q2: v1 not in B_01, v2 not in B_10, and v1+v2 not in B_11.",
+    "search_status": "Exhaustive only inside the rank<=2 determinantal subset of GF(256) tensor span(q0,q1,q2); no broad APN/Gr\u00f6bner search."
+  },
+  "provenance": {
+    "kernels_file": "results/evidence/canonical_switching_kernels.json",
+    "kernels_sha256": "c4d37b6a00a72a8bfa34aa4bc1a45b5b894d9a8a43ec2573a3965408070276f4",
+    "archived_signature_file": "results/evidence/scalar_family_completion/scalar_family_signature_classification.json",
+    "archived_signature_sha256": "d214ef157bdc1d6a129f832cafbc294f32e21ef2ba7ce61f481b2ef8d6bf08f9"
+  },
+  "loci": {
+    "x3": {
+      "gold_exponent": 3,
+      "ambient_kernel_space": "GF(256) tensor_F2 span(q0,q1,q2)",
+      "ambient_binary_dimension": 24,
+      "zero_perturbation_excluded": true,
+      "rank_one": {
+        "accepted_count": 7,
+        "by_kernel": [
+          {
+            "kernel_mask": 1,
+            "kernel_mask_binary": "001",
+            "kernel": "q0",
+            "forbidden_size": 252,
+            "accepted_coefficients": [
+              36,
+              136,
+              172
+            ],
+            "accepted_coefficients_hex": [
+              "0x24",
+              "0x88",
+              "0xac"
+            ]
+          },
+          {
+            "kernel_mask": 2,
+            "kernel_mask_binary": "010",
+            "kernel": "q1",
+            "forbidden_size": 252,
+            "accepted_coefficients": [
+              61,
+              143,
+              178
+            ],
+            "accepted_coefficients_hex": [
+              "0x3d",
+              "0x8f",
+              "0xb2"
+            ]
+          },
+          {
+            "kernel_mask": 3,
+            "kernel_mask_binary": "011",
+            "kernel": "q0+q1",
+            "forbidden_size": 255,
+            "accepted_coefficients": [],
+            "accepted_coefficients_hex": []
+          },
+          {
+            "kernel_mask": 4,
+            "kernel_mask_binary": "100",
+            "kernel": "q2",
+            "forbidden_size": 255,
+            "accepted_coefficients": [],
+            "accepted_coefficients_hex": []
+          },
+          {
+            "kernel_mask": 5,
+            "kernel_mask_binary": "101",
+            "kernel": "q0+q2",
+            "forbidden_size": 255,
+            "accepted_coefficients": [],
+            "accepted_coefficients_hex": []
+          },
+          {
+            "kernel_mask": 6,
+            "kernel_mask_binary": "110",
+            "kernel": "q1+q2",
+            "forbidden_size": 255,
+            "accepted_coefficients": [],
+            "accepted_coefficients_hex": []
+          },
+          {
+            "kernel_mask": 7,
+            "kernel_mask_binary": "111",
+            "kernel": "q0+q1+q2",
+            "forbidden_size": 254,
+            "accepted_coefficients": [
+              102
+            ],
+            "accepted_coefficients_hex": [
+              "0x66"
+            ]
+          }
+        ]
+      },
+      "rank_two": {
+        "accepted_count": 2,
+        "by_coefficient_map_kernel": [
+          {
+            "coefficient_map_kernel": 1,
+            "coefficient_map_kernel_binary": "001",
+            "basis_masks": [
+              2,
+              4
+            ],
+            "basis_kernels": [
+              "q1",
+              "q2"
+            ],
+            "forbidden_exact_sizes": {
+              "01": 249,
+              "10": 254,
+              "11": 243
+            },
+            "accepted_pair_count": 0,
+            "accepted_pairs": []
+          },
+          {
+            "coefficient_map_kernel": 2,
+            "coefficient_map_kernel_binary": "010",
+            "basis_masks": [
+              1,
+              4
+            ],
+            "basis_kernels": [
+              "q0",
+              "q2"
+            ],
+            "forbidden_exact_sizes": {
+              "01": 247,
+              "10": 255,
+              "11": 244
+            },
+            "accepted_pair_count": 0,
+            "accepted_pairs": []
+          },
+          {
+            "coefficient_map_kernel": 3,
+            "coefficient_map_kernel_binary": "011",
+            "basis_masks": [
+              3,
+              4
+            ],
+            "basis_kernels": [
+              "q0+q1",
+              "q2"
+            ],
+            "forbidden_exact_sizes": {
+              "01": 251,
+              "10": 250,
+              "11": 252
+            },
+            "accepted_pair_count": 0,
+            "accepted_pairs": []
+          },
+          {
+            "coefficient_map_kernel": 4,
+            "coefficient_map_kernel_binary": "100",
+            "basis_masks": [
+              1,
+              2
+            ],
+            "basis_kernels": [
+              "q0",
+              "q1"
+            ],
+            "forbidden_exact_sizes": {
+              "01": 252,
+              "10": 252,
+              "11": 239
+            },
+            "accepted_pair_count": 2,
+            "accepted_pairs": [
+              {
+                "coefficient_1": 36,
+                "coefficient_1_hex": "0x24",
+                "coefficient_2": 61,
+                "coefficient_2_hex": "0x3d",
+                "projective_slope_hex": "0xed",
+                "projective_slope_order": 5
+              },
+              {
+                "coefficient_1": 136,
+                "coefficient_1_hex": "0x88",
+                "coefficient_2": 143,
+                "coefficient_2_hex": "0x8f",
+                "projective_slope_hex": "0xed",
+                "projective_slope_order": 5
+              }
+            ]
+          },
+          {
+            "coefficient_map_kernel": 5,
+            "coefficient_map_kernel_binary": "101",
+            "basis_masks": [
+              2,
+              5
+            ],
+            "basis_kernels": [
+              "q1",
+              "q0+q2"
+            ],
+            "forbidden_exact_sizes": {
+              "01": 246,
+              "10": 253,
+              "11": 247
+            },
+            "accepted_pair_count": 0,
+            "accepted_pairs": []
+          },
+          {
+            "coefficient_map_kernel": 6,
+            "coefficient_map_kernel_binary": "110",
+            "basis_masks": [
+              1,
+              6
+            ],
+            "basis_kernels": [
+              "q0",
+              "q1+q2"
+            ],
+            "forbidden_exact_sizes": {
+              "01": 247,
+              "10": 252,
+              "11": 239
+            },
+            "accepted_pair_count": 0,
+            "accepted_pairs": []
+          },
+          {
+            "coefficient_map_kernel": 7,
+            "coefficient_map_kernel_binary": "111",
+            "basis_masks": [
+              3,
+              5
+            ],
+            "basis_kernels": [
+              "q0+q1",
+              "q0+q2"
+            ],
+            "forbidden_exact_sizes": {
+              "01": 253,
+              "10": 254,
+              "11": 253
+            },
+            "accepted_pair_count": 0,
+            "accepted_pairs": []
+          }
+        ]
+      },
+      "accepted_total": 9,
+      "accepted_perturbations": [
+        {
+          "label": "R1:q0:0x24",
+          "coefficient_rank": 1,
+          "kernel_mask": 1,
+          "kernel": "q0",
+          "coefficient": 36,
+          "coefficient_hex": "0x24",
+          "coefficient_cube_hex": "0xf2",
+          "coefficient_trace": 1,
+          "perturbation_sha256": "3f136b1bc3e8231f35358b04eb7e0ac1d7c7ed954f144ee3be45cd5b738176cb",
+          "function_sha256": "f0c84e92867af8774484c07f71d309d9d704c2c4a4adcd8fadbeb57f369062b1",
+          "ortho_signature_sha256": "70cfdd8d439ea7ed0b9c3f25d37fb489e41cf99fad78dd7672b062285e0d7870",
+          "signature_compatible_classes": [
+            "CLASS-C"
+          ]
+        },
+        {
+          "label": "R1:q0:0x88",
+          "coefficient_rank": 1,
+          "kernel_mask": 1,
+          "kernel": "q0",
+          "coefficient": 136,
+          "coefficient_hex": "0x88",
+          "coefficient_cube_hex": "0xf2",
+          "coefficient_trace": 1,
+          "perturbation_sha256": "c67f1fc34b18e3156ee98ae831aec5a7bff24b238611c28458d1d5bfeb043996",
+          "function_sha256": "042240f3c2856e66e681831828a9bbbf76dbce0647dbe54340483062c893c5b8",
+          "ortho_signature_sha256": "eb5f91b3ec9eb8257f47fc88a0b1fd1a3f5c730b4653b96b76cad70b66ee3b09",
+          "signature_compatible_classes": [
+            "CLASS-B"
+          ]
+        },
+        {
+          "label": "R1:q0:0xac",
+          "coefficient_rank": 1,
+          "kernel_mask": 1,
+          "kernel": "q0",
+          "coefficient": 172,
+          "coefficient_hex": "0xac",
+          "coefficient_cube_hex": "0xf2",
+          "coefficient_trace": 0,
+          "perturbation_sha256": "3e0972653b29bc40c175263fdc756f97d6c42858dff6179630fae2015ae7ece1",
+          "function_sha256": "be34602440efe6df42995f8a06762a96dfc5e18bc9c66c282cc9a4f1fd65d067",
+          "ortho_signature_sha256": "eb5f91b3ec9eb8257f47fc88a0b1fd1a3f5c730b4653b96b76cad70b66ee3b09",
+          "signature_compatible_classes": [
+            "CLASS-B"
+          ]
+        },
+        {
+          "label": "R1:q1:0x3d",
+          "coefficient_rank": 1,
+          "kernel_mask": 2,
+          "kernel": "q1",
+          "coefficient": 61,
+          "coefficient_hex": "0x3d",
+          "coefficient_cube_hex": "0x6f",
+          "coefficient_trace": 1,
+          "perturbation_sha256": "9e8bbd8cfe514034ba2a06064dddfaa5b311a36c87ca714c01ec9c2fad6c8e6a",
+          "function_sha256": "c3f13206ba8c3a5a765a9b2d119f2e34e9465511aecab4e625a195069bdb3a9c",
+          "ortho_signature_sha256": "70cfdd8d439ea7ed0b9c3f25d37fb489e41cf99fad78dd7672b062285e0d7870",
+          "signature_compatible_classes": [
+            "CLASS-C"
+          ]
+        },
+        {
+          "label": "R1:q1:0x8f",
+          "coefficient_rank": 1,
+          "kernel_mask": 2,
+          "kernel": "q1",
+          "coefficient": 143,
+          "coefficient_hex": "0x8f",
+          "coefficient_cube_hex": "0x6f",
+          "coefficient_trace": 1,
+          "perturbation_sha256": "3bf156d2281d996f3d1866c7d57ab9a1ccf422a52e24ff80352b5322a46099d1",
+          "function_sha256": "72bb33bf3e810e83be106d2b9e940ee4ddfa27cf4ef876cd9966f5ad2107a429",
+          "ortho_signature_sha256": "eb5f91b3ec9eb8257f47fc88a0b1fd1a3f5c730b4653b96b76cad70b66ee3b09",
+          "signature_compatible_classes": [
+            "CLASS-B"
+          ]
+        },
+        {
+          "label": "R1:q1:0xb2",
+          "coefficient_rank": 1,
+          "kernel_mask": 2,
+          "kernel": "q1",
+          "coefficient": 178,
+          "coefficient_hex": "0xb2",
+          "coefficient_cube_hex": "0x6f",
+          "coefficient_trace": 0,
+          "perturbation_sha256": "4c18caa4014cc8126d64dc59a656014f25d085d1a6e02171142cce1d4c5102dc",
+          "function_sha256": "d213be24bf70f35e0906fa8089ad4f5bcade0eac49222b8e45478b7e5cb4525b",
+          "ortho_signature_sha256": "eb5f91b3ec9eb8257f47fc88a0b1fd1a3f5c730b4653b96b76cad70b66ee3b09",
+          "signature_compatible_classes": [
+            "CLASS-B"
+          ]
+        },
+        {
+          "label": "R1:q0+q1+q2:0x66",
+          "coefficient_rank": 1,
+          "kernel_mask": 7,
+          "kernel": "q0+q1+q2",
+          "coefficient": 102,
+          "coefficient_hex": "0x66",
+          "coefficient_cube_hex": "0xb3",
+          "coefficient_trace": 1,
+          "perturbation_sha256": "e28ba194a6e33d5c6289dc647830920616dda3199408c5a11d1a0e76fdbbe553",
+          "function_sha256": "13416eac6b40ebb5d6dc923bcac68a0e7ab9b670d5a8283127979fb2cf8d9977",
+          "ortho_signature_sha256": "70cfdd8d439ea7ed0b9c3f25d37fb489e41cf99fad78dd7672b062285e0d7870",
+          "signature_compatible_classes": [
+            "CLASS-C"
+          ]
+        },
+        {
+          "label": "R2:q0=0x24:q1=0x3d:ker=100",
+          "coefficient_rank": 2,
+          "coefficient_map_kernel": 4,
+          "coefficient_map_kernel_binary": "100",
+          "basis_masks": [
+            1,
+            2
+          ],
+          "basis_kernels": [
+            "q0",
+            "q1"
+          ],
+          "coefficients": [
+            36,
+            61
+          ],
+          "coefficients_hex": [
+            "0x24",
+            "0x3d"
+          ],
+          "projective_slope_hex": "0xed",
+          "perturbation_sha256": "f47fea29c33974f9b09f1659c8dbe8e09216a2e36795ff991c6daa56a17eb335",
+          "function_sha256": "aaa122c7056ce508984db2bc055708ab240e0d4940bdb82d20dca079825c525d",
+          "ortho_signature_sha256": "3c777a145e12811828c1c49afc65dddb5870393c9d46f12b87fa594b1917baaf",
+          "signature_compatible_classes": [
+            "PART2-X3-1"
+          ]
+        },
+        {
+          "label": "R2:q0=0x88:q1=0x8f:ker=100",
+          "coefficient_rank": 2,
+          "coefficient_map_kernel": 4,
+          "coefficient_map_kernel_binary": "100",
+          "basis_masks": [
+            1,
+            2
+          ],
+          "basis_kernels": [
+            "q0",
+            "q1"
+          ],
+          "coefficients": [
+            136,
+            143
+          ],
+          "coefficients_hex": [
+            "0x88",
+            "0x8f"
+          ],
+          "projective_slope_hex": "0xed",
+          "perturbation_sha256": "71d676632f97f924630154939bdd0ba4d7f4563db7567461ce8716c170789074",
+          "function_sha256": "ff3851075cd60973cc3fa773a0effec2c28ac44bec302a1dcffb9efbbb015c7b",
+          "ortho_signature_sha256": "feb7f0cb6e39088a8b63b579e4847c6628d64feda5b4ce9bb416899a2c001519",
+          "signature_compatible_classes": [
+            "PART2-X3-2"
+          ]
+        }
+      ],
+      "gold_stabilizer_orbits": [
+        {
+          "orbit_index": 1,
+          "orbit_size": 340,
+          "stabilizer_size": 1536,
+          "canonical_sha256": "2978f1ce7f4f11eea6ec606387d95c474c3d8aabae24ce7d3d7aeb3fdefeba7e",
+          "accepted_labels_hit": [
+            "R1:q0:0x24",
+            "R1:q1:0x3d"
+          ],
+          "signature_compatible_classes": [
+            "CLASS-C"
+          ]
+        },
+        {
+          "orbit_index": 2,
+          "orbit_size": 174080,
+          "stabilizer_size": 3,
+          "canonical_sha256": "680347e3520755918d671e8cc0e4cee917bf3b44c793c1c23bd75f7ba6ddad1e",
+          "accepted_labels_hit": [
+            "R1:q0+q1+q2:0x66"
+          ],
+          "signature_compatible_classes": [
+            "CLASS-C"
+          ]
+        },
+        {
+          "orbit_index": 3,
+          "orbit_size": 2720,
+          "stabilizer_size": 192,
+          "canonical_sha256": "747d1dd4b6d4a83cebe2110eb4e049c36175baf5960f079c2d530efa911e8e56",
+          "accepted_labels_hit": [
+            "R2:q0=0x88:q1=0x8f:ker=100"
+          ],
+          "signature_compatible_classes": [
+            "PART2-X3-2"
+          ]
+        },
+        {
+          "orbit_index": 4,
+          "orbit_size": 2720,
+          "stabilizer_size": 192,
+          "canonical_sha256": "89590d9862520428c2872a29fd5f1b6da3f102c72c28bd59bf34de9337624f76",
+          "accepted_labels_hit": [
+            "R2:q0=0x24:q1=0x3d:ker=100"
+          ],
+          "signature_compatible_classes": [
+            "PART2-X3-1"
+          ]
+        },
+        {
+          "orbit_index": 5,
+          "orbit_size": 680,
+          "stabilizer_size": 768,
+          "canonical_sha256": "db524715e57fe78d19cb650d2248fec8799b3746400c6ba1f64238951c8ffe31",
+          "accepted_labels_hit": [
+            "R1:q0:0x88",
+            "R1:q0:0xac",
+            "R1:q1:0x8f",
+            "R1:q1:0xb2"
+          ],
+          "signature_compatible_classes": [
+            "CLASS-B"
+          ]
+        }
+      ],
+      "gold_stabilizer_orbit_count": 5,
+      "all_orbit_sizes_divide_group_order": true,
+      "all_signatures_match_archived_classes": true,
+      "classification_warning": "Orthoderivative-signature agreement is a necessary CCZ filter, not an exact CCZ/EA proof for candidates not previously exact-tested."
+    },
+    "x9": {
+      "gold_exponent": 9,
+      "ambient_kernel_space": "GF(256) tensor_F2 span(q0,q1,q2)",
+      "ambient_binary_dimension": 24,
+      "zero_perturbation_excluded": true,
+      "rank_one": {
+        "accepted_count": 7,
+        "by_kernel": [
+          {
+            "kernel_mask": 1,
+            "kernel_mask_binary": "001",
+            "kernel": "q0",
+            "forbidden_size": 254,
+            "accepted_coefficients": [
+              242
+            ],
+            "accepted_coefficients_hex": [
+              "0xf2"
+            ]
+          },
+          {
+            "kernel_mask": 2,
+            "kernel_mask_binary": "010",
+            "kernel": "q1",
+            "forbidden_size": 254,
+            "accepted_coefficients": [
+              111
+            ],
+            "accepted_coefficients_hex": [
+              "0x6f"
+            ]
+          },
+          {
+            "kernel_mask": 3,
+            "kernel_mask_binary": "011",
+            "kernel": "q0+q1",
+            "forbidden_size": 254,
+            "accepted_coefficients": [
+              107
+            ],
+            "accepted_coefficients_hex": [
+              "0x6b"
+            ]
+          },
+          {
+            "kernel_mask": 4,
+            "kernel_mask_binary": "100",
+            "kernel": "q2",
+            "forbidden_size": 254,
+            "accepted_coefficients": [
+              12
+            ],
+            "accepted_coefficients_hex": [
+              "0x0c"
+            ]
+          },
+          {
+            "kernel_mask": 5,
+            "kernel_mask_binary": "101",
+            "kernel": "q0+q2",
+            "forbidden_size": 254,
+            "accepted_coefficients": [
+              41
+            ],
+            "accepted_coefficients_hex": [
+              "0x29"
+            ]
+          },
+          {
+            "kernel_mask": 6,
+            "kernel_mask_binary": "110",
+            "kernel": "q1+q2",
+            "forbidden_size": 254,
+            "accepted_coefficients": [
+              133
+            ],
+            "accepted_coefficients_hex": [
+              "0x85"
+            ]
+          },
+          {
+            "kernel_mask": 7,
+            "kernel_mask_binary": "111",
+            "kernel": "q0+q1+q2",
+            "forbidden_size": 254,
+            "accepted_coefficients": [
+              43
+            ],
+            "accepted_coefficients_hex": [
+              "0x2b"
+            ]
+          }
+        ]
+      },
+      "rank_two": {
+        "accepted_count": 1,
+        "by_coefficient_map_kernel": [
+          {
+            "coefficient_map_kernel": 1,
+            "coefficient_map_kernel_binary": "001",
+            "basis_masks": [
+              2,
+              4
+            ],
+            "basis_kernels": [
+              "q1",
+              "q2"
+            ],
+            "forbidden_exact_sizes": {
+              "01": 245,
+              "10": 252,
+              "11": 240
+            },
+            "accepted_pair_count": 0,
+            "accepted_pairs": []
+          },
+          {
+            "coefficient_map_kernel": 2,
+            "coefficient_map_kernel_binary": "010",
+            "basis_masks": [
+              1,
+              4
+            ],
+            "basis_kernels": [
+              "q0",
+              "q2"
+            ],
+            "forbidden_exact_sizes": {
+              "01": 250,
+              "10": 253,
+              "11": 243
+            },
+            "accepted_pair_count": 0,
+            "accepted_pairs": []
+          },
+          {
+            "coefficient_map_kernel": 3,
+            "coefficient_map_kernel_binary": "011",
+            "basis_masks": [
+              3,
+              4
+            ],
+            "basis_kernels": [
+              "q0+q1",
+              "q2"
+            ],
+            "forbidden_exact_sizes": {
+              "01": 253,
+              "10": 251,
+              "11": 250
+            },
+            "accepted_pair_count": 0,
+            "accepted_pairs": []
+          },
+          {
+            "coefficient_map_kernel": 4,
+            "coefficient_map_kernel_binary": "100",
+            "basis_masks": [
+              1,
+              2
+            ],
+            "basis_kernels": [
+              "q0",
+              "q1"
+            ],
+            "forbidden_exact_sizes": {
+              "01": 253,
+              "10": 253,
+              "11": 239
+            },
+            "accepted_pair_count": 1,
+            "accepted_pairs": [
+              {
+                "coefficient_1": 242,
+                "coefficient_1_hex": "0xf2",
+                "coefficient_2": 111,
+                "coefficient_2_hex": "0x6f",
+                "projective_slope_hex": "0xb0",
+                "projective_slope_order": 5
+              }
+            ]
+          },
+          {
+            "coefficient_map_kernel": 5,
+            "coefficient_map_kernel_binary": "101",
+            "basis_masks": [
+              2,
+              5
+            ],
+            "basis_kernels": [
+              "q1",
+              "q0+q2"
+            ],
+            "forbidden_exact_sizes": {
+              "01": 247,
+              "10": 253,
+              "11": 246
+            },
+            "accepted_pair_count": 0,
+            "accepted_pairs": []
+          },
+          {
+            "coefficient_map_kernel": 6,
+            "coefficient_map_kernel_binary": "110",
+            "basis_masks": [
+              1,
+              6
+            ],
+            "basis_kernels": [
+              "q0",
+              "q1+q2"
+            ],
+            "forbidden_exact_sizes": {
+              "01": 242,
+              "10": 252,
+              "11": 244
+            },
+            "accepted_pair_count": 0,
+            "accepted_pairs": []
+          },
+          {
+            "coefficient_map_kernel": 7,
+            "coefficient_map_kernel_binary": "111",
+            "basis_masks": [
+              3,
+              5
+            ],
+            "basis_kernels": [
+              "q0+q1",
+              "q0+q2"
+            ],
+            "forbidden_exact_sizes": {
+              "01": 246,
+              "10": 252,
+              "11": 248
+            },
+            "accepted_pair_count": 0,
+            "accepted_pairs": []
+          }
+        ]
+      },
+      "accepted_total": 8,
+      "accepted_perturbations": [
+        {
+          "label": "R1:q0:0xf2",
+          "coefficient_rank": 1,
+          "kernel_mask": 1,
+          "kernel": "q0",
+          "coefficient": 242,
+          "coefficient_hex": "0xf2",
+          "coefficient_cube_hex": "0x2d",
+          "coefficient_trace": 0,
+          "perturbation_sha256": "5a70ca899e39d0bf033db5c922500e09b26faffe9eea8ec248ab3abe0cba2a8c",
+          "function_sha256": "22b8c965e480aa532d25d95b116a2ed08f34f764668a8e90d14b93c58ff3bee1",
+          "ortho_signature_sha256": "90b29205fe8a57a852a8f1dbb1923c5d3bfa0a84dbfa63690d6bdcea23158797",
+          "signature_compatible_classes": [
+            "CLASS-D"
+          ]
+        },
+        {
+          "label": "R1:q1:0x6f",
+          "coefficient_rank": 1,
+          "kernel_mask": 2,
+          "kernel": "q1",
+          "coefficient": 111,
+          "coefficient_hex": "0x6f",
+          "coefficient_cube_hex": "0x53",
+          "coefficient_trace": 1,
+          "perturbation_sha256": "a98465f14e67bfaef17fd2c64bd88908c6d5c86123f3cc3e13e139e8a10d3965",
+          "function_sha256": "d4a5b588e618a108cad9be3d64b1eca6f935c810a8e0f9373e78333b5cb19e57",
+          "ortho_signature_sha256": "90b29205fe8a57a852a8f1dbb1923c5d3bfa0a84dbfa63690d6bdcea23158797",
+          "signature_compatible_classes": [
+            "CLASS-D"
+          ]
+        },
+        {
+          "label": "R1:q0+q1:0x6b",
+          "coefficient_rank": 1,
+          "kernel_mask": 3,
+          "kernel": "q0+q1",
+          "coefficient": 107,
+          "coefficient_hex": "0x6b",
+          "coefficient_cube_hex": "0xc7",
+          "coefficient_trace": 1,
+          "perturbation_sha256": "1d10021d311a6a92c49b17fec449cb6ee2a25bc313ff056556811c1b249d8224",
+          "function_sha256": "c75c9187f228de1e579ad1a5ddb824c00b71e51f3e0f54c0b96f102cfeeb5036",
+          "ortho_signature_sha256": "79d2c5fefc6fa9598f8ede853f94f839da808b176d790e4ca8053909cdcf38bc",
+          "signature_compatible_classes": [
+            "PART2-X9-1"
+          ]
+        },
+        {
+          "label": "R1:q2:0x0c",
+          "coefficient_rank": 1,
+          "kernel_mask": 4,
+          "kernel": "q2",
+          "coefficient": 12,
+          "coefficient_hex": "0x0c",
+          "coefficient_cube_hex": "0xed",
+          "coefficient_trace": 0,
+          "perturbation_sha256": "5f8b97cd63b4ca19973c88428b4861dfdbe13eec1b76a5b2bbf5c40c63c07939",
+          "function_sha256": "e359b76d8710a2e2c5bcce2c68339025579dac773deeea9cd55324d79b38117f",
+          "ortho_signature_sha256": "79d2c5fefc6fa9598f8ede853f94f839da808b176d790e4ca8053909cdcf38bc",
+          "signature_compatible_classes": [
+            "PART2-X9-1"
+          ]
+        },
+        {
+          "label": "R1:q0+q2:0x29",
+          "coefficient_rank": 1,
+          "kernel_mask": 5,
+          "kernel": "q0+q2",
+          "coefficient": 41,
+          "coefficient_hex": "0x29",
+          "coefficient_cube_hex": "0x89",
+          "coefficient_trace": 1,
+          "perturbation_sha256": "82f79944fa2adfec4a11ce22ff4d918b46dec66ef43f6712f60151fe12e2a05e",
+          "function_sha256": "e83dae3bf35917810da668d0f1080491069bc5b1e51d09e537561e32a3168cb6",
+          "ortho_signature_sha256": "79d2c5fefc6fa9598f8ede853f94f839da808b176d790e4ca8053909cdcf38bc",
+          "signature_compatible_classes": [
+            "PART2-X9-1"
+          ]
+        },
+        {
+          "label": "R1:q1+q2:0x85",
+          "coefficient_rank": 1,
+          "kernel_mask": 6,
+          "kernel": "q1+q2",
+          "coefficient": 133,
+          "coefficient_hex": "0x85",
+          "coefficient_cube_hex": "0xfc",
+          "coefficient_trace": 1,
+          "perturbation_sha256": "69bdea34b5efb2767668b3ea6ad3f3342b7258a6a5e9a8d358434c49384fd521",
+          "function_sha256": "7583e5d429fd802bd62634d25db05701f3b41bdf34dc956c658f438596a8bc93",
+          "ortho_signature_sha256": "90b29205fe8a57a852a8f1dbb1923c5d3bfa0a84dbfa63690d6bdcea23158797",
+          "signature_compatible_classes": [
+            "CLASS-D"
+          ]
+        },
+        {
+          "label": "R1:q0+q1+q2:0x2b",
+          "coefficient_rank": 1,
+          "kernel_mask": 7,
+          "kernel": "q0+q1+q2",
+          "coefficient": 43,
+          "coefficient_hex": "0x2b",
+          "coefficient_cube_hex": "0x7f",
+          "coefficient_trace": 1,
+          "perturbation_sha256": "bf426d706967dc2f15f06cfc93f5f4f0890ba7dcb81f0497cba2b4aed911cd80",
+          "function_sha256": "f6236409d6a5c68f184c5a44393d759d0c54ee5a10b4ee3fd6f9705440be9bdc",
+          "ortho_signature_sha256": "79d2c5fefc6fa9598f8ede853f94f839da808b176d790e4ca8053909cdcf38bc",
+          "signature_compatible_classes": [
+            "PART2-X9-1"
+          ]
+        },
+        {
+          "label": "R2:q0=0xf2:q1=0x6f:ker=100",
+          "coefficient_rank": 2,
+          "coefficient_map_kernel": 4,
+          "coefficient_map_kernel_binary": "100",
+          "basis_masks": [
+            1,
+            2
+          ],
+          "basis_kernels": [
+            "q0",
+            "q1"
+          ],
+          "coefficients": [
+            242,
+            111
+          ],
+          "coefficients_hex": [
+            "0xf2",
+            "0x6f"
+          ],
+          "projective_slope_hex": "0xb0",
+          "perturbation_sha256": "f9fd0013b39cc12b0ae5e7cdb9b34581a52fda31aa338ae0c6ea369536d01b54",
+          "function_sha256": "03815fcfbd6bb28313e6cbf00976a9997a5643043fb73b5d65624480d6a89292",
+          "ortho_signature_sha256": "13c4f9c4aad12cdcb161aec51d4f31e1914a9cbbaacbec682bbe4765fc6b2348",
+          "signature_compatible_classes": [
+            "PART2-X9-2"
+          ]
+        }
+      ],
+      "gold_stabilizer_orbits": [
+        {
+          "orbit_index": 1,
+          "orbit_size": 2720,
+          "stabilizer_size": 192,
+          "canonical_sha256": "2155ff64b8f95fb040ca512143940d76a557ee5558cf9bd33acccde45b90bd0e",
+          "accepted_labels_hit": [
+            "R2:q0=0xf2:q1=0x6f:ker=100"
+          ],
+          "signature_compatible_classes": [
+            "PART2-X9-2"
+          ]
+        },
+        {
+          "orbit_index": 2,
+          "orbit_size": 43520,
+          "stabilizer_size": 12,
+          "canonical_sha256": "44a4b3008f73df9e0bb9130834f7e9c5eebe6663911a0b6f73121d60638e880e",
+          "accepted_labels_hit": [
+            "R1:q1+q2:0x85"
+          ],
+          "signature_compatible_classes": [
+            "CLASS-D"
+          ]
+        },
+        {
+          "orbit_index": 3,
+          "orbit_size": 43520,
+          "stabilizer_size": 12,
+          "canonical_sha256": "8331b1f29a056f18470e3ce9f87f56b0afa12bc6da0063d779394d9c060750dc",
+          "accepted_labels_hit": [
+            "R1:q0+q2:0x29"
+          ],
+          "signature_compatible_classes": [
+            "PART2-X9-1"
+          ]
+        },
+        {
+          "orbit_index": 4,
+          "orbit_size": 174080,
+          "stabilizer_size": 3,
+          "canonical_sha256": "a734c0f518a57df16f2a00f29e250b463252db4b621adc2b334991e20b01192e",
+          "accepted_labels_hit": [
+            "R1:q0+q1+q2:0x2b"
+          ],
+          "signature_compatible_classes": [
+            "PART2-X9-1"
+          ]
+        },
+        {
+          "orbit_index": 5,
+          "orbit_size": 2720,
+          "stabilizer_size": 192,
+          "canonical_sha256": "a9978f837c4874ec6c391090e4fbe326d2e4c53f068946ed482c321b4f9b7f5e",
+          "accepted_labels_hit": [
+            "R1:q0+q1:0x6b",
+            "R1:q2:0x0c"
+          ],
+          "signature_compatible_classes": [
+            "PART2-X9-1"
+          ]
+        },
+        {
+          "orbit_index": 6,
+          "orbit_size": 340,
+          "stabilizer_size": 1536,
+          "canonical_sha256": "d21846c3d86586541e9935ef9395b4c86d3e023d5e13d1c3f599fdf31e5a395e",
+          "accepted_labels_hit": [
+            "R1:q0:0xf2",
+            "R1:q1:0x6f"
+          ],
+          "signature_compatible_classes": [
+            "CLASS-D"
+          ]
+        }
+      ],
+      "gold_stabilizer_orbit_count": 6,
+      "all_orbit_sizes_divide_group_order": true,
+      "all_signatures_match_archived_classes": true,
+      "classification_warning": "Orthoderivative-signature agreement is a necessary CCZ filter, not an exact CCZ/EA proof for candidates not previously exact-tested."
+    }
+  },
+  "q0_q1_cubic_trace_bridge": {
+    "field_equations": {
+      "x3_q0": "mu is accepted iff mu^3=0xf2 (mu nonzero); the three roots are 0x24*GF(4)^*.",
+      "x3_q1": "nu is accepted iff nu^3=0x6f (nu nonzero); the three roots are 0x3d*GF(4)^*.",
+      "x3_rank_two_q0_q1": "(mu,nu) is accepted iff mu^3=0xf2, nu=0xed*mu, and Tr(mu)=1.",
+      "x9_rank_two_q0_q1": "The unique accepted pair is (0xf2,0x6f), with slope 0xb0."
+    },
+    "lambda": 189,
+    "lambda_hex": "0xbd",
+    "lambda_order": 3,
+    "lambda_squared_hex": "0xbc",
+    "x3_q0_coefficients_hex": [
+      "0x24",
+      "0x88",
+      "0xac"
+    ],
+    "x3_q1_coefficients_hex": [
+      "0x3d",
+      "0x8f",
+      "0xb2"
+    ],
+    "x9_q0_coefficients_hex": [
+      "0xf2"
+    ],
+    "x9_q1_coefficients_hex": [
+      "0x6f"
+    ],
+    "q0_cube_target_hex": "0xf2",
+    "q1_cube_target_hex": "0x6f",
+    "x3_q0_is_full_cube_fibre": true,
+    "x3_q1_is_full_cube_fibre": true,
+    "x3_rank_two_pairs_hex": [
+      [
+        "0x24",
+        "0x3d"
+      ],
+      [
+        "0x88",
+        "0x8f"
+      ]
+    ],
+    "x3_rank_two_expected_by_cube_slope_trace_hex": [
+      [
+        "0x24",
+        "0x3d"
+      ],
+      [
+        "0x88",
+        "0x8f"
+      ]
+    ],
+    "x3_rank_two_exact_trace_characterisation": true,
+    "excluded_third_cube_lift": {
+      "q0_coefficient_hex": "0xac",
+      "q1_coefficient_hex": "0xb2",
+      "common_multiplier_hex": "0xbc",
+      "absolute_trace_q0_coefficient": 0,
+      "reason_in_closed_characterisation": "Tr(0xac)=0"
+    },
+    "x3_slope_hex": "0xed",
+    "x3_slope_order": 5,
+    "x9_slope_hex": "0xb0",
+    "x9_slope_order": 5,
+    "slope_cube_relation": true,
+    "x9_rank_two_pairs_hex": [
+      [
+        "0xf2",
+        "0x6f"
+      ]
+    ],
+    "componentwise_cube_images_of_x3_pairs_hex": [
+      [
+        "0xf2",
+        "0x6f"
+      ]
+    ],
+    "componentwise_cube_collapses_to_unique_x9_pair": true,
+    "interpretation": "The x^3 q0/q1 APN locus is a cubic lift of the x^9 locus. The cube map has kernel GF(4)^*, explaining the three rank-one lifts.  In rank two, a trace-one condition retains two of the three synchronized lifts; componentwise cubing identifies both with the unique x^9 pair and sends the fifth-root slope 0xed to 0xb0."
+  },
+  "main_results": [
+    "Gold x^3 has exactly 7 rank-one and 2 rank-two nonzero APN perturbations in the full q0,q1,q2 kernel tensor space.",
+    "Gold x^9 has exactly 7 rank-one and 1 rank-two nonzero APN perturbations in the same space.",
+    "Every rank-two solution lies in the q0,q1 plane; all other rank-two coefficient-map kernels are empty.",
+    "The q0,q1 x^3 locus admits an exact cube-fibre plus trace-one description, and componentwise cubing maps it to the unique x^9 rank-two point.",
+    "Accepted perturbations split into 5 Gold-stabilizer orbits for x^3 and 6 for x^9, showing that one ordinary signature/class can have several distinct marked local secant orbits."
+  ],
+  "validation": {
+    "x3_counts": {
+      "rank_one": 7,
+      "rank_two": 2,
+      "total": 9
+    },
+    "x9_counts": {
+      "rank_one": 7,
+      "rank_two": 1,
+      "total": 8
+    },
+    "all_rank_two_solutions_are_q0_q1": true,
+    "cube_trace_bridge_exact": true,
+    "all_orbit_sizes_valid": true,
+    "all_signatures_covered_by_archived_classes": true
+  }
+}

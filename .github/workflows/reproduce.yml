@@ -1,0 +1,17 @@
+name: reproduce-core-certificates
+on:
+  push:
+  pull_request:
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - run: pip install -r requirements.txt
+      - run: python src/stage5p_kummer_n6_certificate.py
+      - run: python src/stage5s_projective_equivalence_partition.py
+      - run: python src/stage5t_compact_orbit_certificates.py
+      - run: python src/stage5y_publication_uniform_bound_correction.py

@@ -1,0 +1,155 @@
+{
+  "character_expansion": {
+    "base_curve": "C_theta: X^3+Y^3=theta*Z^3 is smooth of genus 1 for theta!=0",
+    "base_term": "#C_theta(affine)=q-2+e_theta, |e_theta|<=2*sqrt(q)",
+    "formula": "h_n(theta)=1/16 * sum_{u,v in GF(4)} (-1)^Tr_GF4/F2(u) * sum_{a^3+b^3=theta} (-1)^Tr_K/F2(u*a+v*b)",
+    "points_at_infinity": 3
+  },
+  "date": "2026-08-02",
+  "family": {
+    "field": "K=GF(2^n), n even, with GF(4) embedded",
+    "function": "F_theta(x)=x^3+theta*Q(x)",
+    "kernel": "Q(x)=Tr_K/F2(x)*Tr_K/F2(lambda*x), lambda in GF(4)\\GF(2)"
+  },
+  "finite_bridge": [
+    {
+      "all_nonzero_theta_represented": true,
+      "certificate": "exact XOR convolution from Stage 5I",
+      "minimum_h_n_theta": 46,
+      "n": 10,
+      "q": 1024
+    },
+    {
+      "all_nonzero_theta_represented": true,
+      "certificate": "exact XOR convolution from Stage 5I",
+      "minimum_h_n_theta": 208,
+      "n": 12,
+      "q": 4096
+    }
+  ],
+  "nontrivial_sum_bounds": {
+    "axis_bound": "6*sqrt(q)",
+    "axis_pairs": 6,
+    "axis_simple_poles": 3,
+    "justification": "The phase u*x+v*y has simple poles at infinity and cannot be an Artin-Schreier coboundary; the standard Artin-Schreier/Weil bound is (2g-2+sum(m_P+1))*sqrt(q).",
+    "off_axis_bound": "4*sqrt(q)",
+    "off_axis_pairs": 9,
+    "off_axis_simple_poles": 2,
+    "total_error_bound": "74*sqrt(q)"
+  },
+  "previous_exact_reduction": {
+    "S_n": "{a^3+b^3 : Tr_K/GF4(a)=1, Tr_K/GF4(b)=0}",
+    "criterion": "F_theta is APN iff theta is not in S_n",
+    "multiplicity": "h_n(theta)=#{(a,b) in the two trace fibres with a^3+b^3=theta}"
+  },
+  "provenance": {
+    "dimension_scan_file": "results/current/trace_switch_dimension_scan.json",
+    "dimension_scan_sha256": "3d30dd7c91b6e2b82126d9ddbbfc021ef902bcf410c0f77a5010a2f1c8d42f8a"
+  },
+  "schema": "uniform-relative-trace-switch-nonexistence-v1",
+  "theorem": {
+    "APN_consequence": "For every even n>=10, x^3+theta*Q(x) is not APN for any theta!=0.",
+    "exceptional_dimension": "n=8 is the last nontrivial dimension of this fixed relative-trace rank-one construction; there the APN coefficients are exactly GF(4)^*.",
+    "statement": "For every even n>=10 and every theta!=0, h_n(theta)>0; equivalently S_n=GF(2^n)^*.",
+    "status": "uniform theorem, using the curve bound for n>=14 and exact finite certificates for n=10,12"
+  },
+  "uniform_lower_bound": {
+    "first_even_dimension_proved_positive_by_bound": 14,
+    "formula": "h_n(theta) >= (q-2-74*sqrt(q))/16 for every theta!=0",
+    "threshold_table": [
+      {
+        "lower_bound_h": -84.125,
+        "lower_bound_numerator": -1346,
+        "n": 10,
+        "q": 1024,
+        "sqrt_q": 32,
+        "strictly_positive": false
+      },
+      {
+        "lower_bound_h": -40.125,
+        "lower_bound_numerator": -642,
+        "n": 12,
+        "q": 4096,
+        "sqrt_q": 64,
+        "strictly_positive": false
+      },
+      {
+        "lower_bound_h": 431.875,
+        "lower_bound_numerator": 6910,
+        "n": 14,
+        "q": 16384,
+        "sqrt_q": 128,
+        "strictly_positive": true
+      },
+      {
+        "lower_bound_h": 2911.875,
+        "lower_bound_numerator": 46590,
+        "n": 16,
+        "q": 65536,
+        "sqrt_q": 256,
+        "strictly_positive": true
+      },
+      {
+        "lower_bound_h": 14015.875,
+        "lower_bound_numerator": 224254,
+        "n": 18,
+        "q": 262144,
+        "sqrt_q": 512,
+        "strictly_positive": true
+      },
+      {
+        "lower_bound_h": 60799.875,
+        "lower_bound_numerator": 972798,
+        "n": 20,
+        "q": 1048576,
+        "sqrt_q": 1024,
+        "strictly_positive": true
+      },
+      {
+        "lower_bound_h": 252671.875,
+        "lower_bound_numerator": 4042750,
+        "n": 22,
+        "q": 4194304,
+        "sqrt_q": 2048,
+        "strictly_positive": true
+      },
+      {
+        "lower_bound_h": 1029631.875,
+        "lower_bound_numerator": 16474110,
+        "n": 24,
+        "q": 16777216,
+        "sqrt_q": 4096,
+        "strictly_positive": true
+      },
+      {
+        "lower_bound_h": 4156415.875,
+        "lower_bound_numerator": 66502654,
+        "n": 26,
+        "q": 67108864,
+        "sqrt_q": 8192,
+        "strictly_positive": true
+      },
+      {
+        "lower_bound_h": 16701439.875,
+        "lower_bound_numerator": 267223038,
+        "n": 28,
+        "q": 268435456,
+        "sqrt_q": 16384,
+        "strictly_positive": true
+      },
+      {
+        "lower_bound_h": 66957311.875,
+        "lower_bound_numerator": 1071316990,
+        "n": 30,
+        "q": 1073741824,
+        "sqrt_q": 32768,
+        "strictly_positive": true
+      }
+    ]
+  },
+  "validation": {
+    "bound_positive_for_all_even_n_ge_14_in_table": true,
+    "error_constant_is_74": true,
+    "n10_n12_exactly_closed": true
+  }
+}

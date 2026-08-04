@@ -1,0 +1,373 @@
+{
+  "GL2_F2_decomposition": {
+    "description": "GL(2,2)={y->alpha*y} disjoint_union {y->alpha*y^2}, alpha in GF(4)^*.",
+    "maps": [
+      {
+        "Tr_K_F16_a_hex": "0xe0",
+        "Tr_K_F16_b_hex": "0x00",
+        "alpha_hex": "0x01",
+        "images_of_1_lambda_hex": [
+          "0x01",
+          "0xbd"
+        ],
+        "kind": "linear",
+        "order": 1
+      },
+      {
+        "Tr_K_F16_a_hex": "0x5c",
+        "Tr_K_F16_b_hex": "0x00",
+        "alpha_hex": "0xbc",
+        "images_of_1_lambda_hex": [
+          "0xbc",
+          "0x01"
+        ],
+        "kind": "linear",
+        "order": 3
+      },
+      {
+        "Tr_K_F16_a_hex": "0xe1",
+        "Tr_K_F16_b_hex": "0x00",
+        "alpha_hex": "0xbd",
+        "images_of_1_lambda_hex": [
+          "0xbd",
+          "0xbc"
+        ],
+        "kind": "linear",
+        "order": 3
+      },
+      {
+        "Tr_K_F16_a_hex": "0x5d",
+        "Tr_K_F16_b_hex": "0xbd",
+        "alpha_hex": "0x01",
+        "images_of_1_lambda_hex": [
+          "0x01",
+          "0xbc"
+        ],
+        "kind": "semilinear",
+        "order": 2
+      },
+      {
+        "Tr_K_F16_a_hex": "0x5d",
+        "Tr_K_F16_b_hex": "0x01",
+        "alpha_hex": "0xbc",
+        "images_of_1_lambda_hex": [
+          "0xbc",
+          "0xbd"
+        ],
+        "kind": "semilinear",
+        "order": 2
+      },
+      {
+        "Tr_K_F16_a_hex": "0x5d",
+        "Tr_K_F16_b_hex": "0xbc",
+        "alpha_hex": "0xbd",
+        "images_of_1_lambda_hex": [
+          "0xbd",
+          "0x01"
+        ],
+        "kind": "semilinear",
+        "order": 2
+      }
+    ]
+  },
+  "date": "2026-08-02",
+  "field_identities": {
+    "GF16_basis": [
+      "1",
+      "r",
+      "r^2",
+      "r^3"
+    ],
+    "artin_schreier_w_hex": "0xf2",
+    "lambda_expression": "r^2+r^3",
+    "lambda_hex": "0xbd",
+    "lambda_squared_expression": "r+r^4",
+    "lambda_squared_hex": "0xbc",
+    "r_hex": "0xb0",
+    "r_order": 5,
+    "w_equations": "w^2+w=r and w^16+w=1"
+  },
+  "linear_transition_proof": {
+    "argument": "For b in GF(16) and a=s(u+w), a^3+b^3 in GF(16) would require g(u)=0, g(u)=u^2+u+1+r. Since Tr_GF16/F2(1+r)=1, g has no GF(16) root.",
+    "conclusion": "No linear transition can meet any target eta*(1+r^2) in GF(16).",
+    "maps": "y->alpha*y (orders 1,3,3)",
+    "trace_1_plus_r": 1
+  },
+  "proof_status": {
+    "agreement_with_stage5g": true,
+    "finite_calculation_size": "16 reduced (u,v) pairs, organized by four y-values",
+    "replacement": "The 10,795-subspace exhaustive certificate is replaced by a two-family proof and a four-row GF(16) table."
+  },
+  "provenance": {
+    "stage5g_file": "results/current/trace_coordinate_theory.json",
+    "stage5g_sha256": "dfdf92cf9096f5ff105824f308404c102c23ca851409ea1ef8f2e21dd0c3234d"
+  },
+  "schema": "rank-two-selector-proof-v1",
+  "semilinear_transition_proof": {
+    "candidate_y_set": [
+      {
+        "expression": "1+r+r^2+r^3",
+        "hex": "0x0c"
+      },
+      {
+        "expression": "r^3",
+        "hex": "0x50"
+      },
+      {
+        "expression": "r",
+        "hex": "0xb0"
+      },
+      {
+        "expression": "1+r^2",
+        "hex": "0xec"
+      }
+    ],
+    "conclusion": "Only eta=lambda^2 occurs, exactly four times for each semilinear involution; alpha disappears because alpha^3=1.",
+    "equations": {
+      "membership_in_GF16": "g(u)=r^3*g(v), g(z)=z^2+z+1+r",
+      "normalized_product": "(a^3+b^3)/r^2=(u+v)g(u)+(1+r^3)",
+      "target": "eta*(1+r^3)"
+    },
+    "four_row_table": [
+      {
+        "normalized_products": [
+          {
+            "expression": "r+r^2",
+            "hex": "0x5d",
+            "multiplicity": 2
+          },
+          {
+            "expression": "r",
+            "hex": "0xb0",
+            "multiplicity": 2
+          }
+        ],
+        "r3_y_equals_g_u_hex": "0xed",
+        "r3_y_expression": "r^2",
+        "u_roots_expressions": [
+          "1+r+r^2+r^3",
+          "r+r^2+r^3"
+        ],
+        "u_roots_hex": [
+          "0x0c",
+          "0x0d"
+        ],
+        "v_roots_expressions": [
+          "r+r^3",
+          "1+r+r^3"
+        ],
+        "v_roots_hex": [
+          "0xe0",
+          "0xe1"
+        ],
+        "y_equals_g_v_hex": "0x0c",
+        "y_expression": "1+r+r^2+r^3"
+      },
+      {
+        "normalized_products": [
+          {
+            "expression": "r+r^2",
+            "hex": "0x5d",
+            "multiplicity": 2
+          },
+          {
+            "expression": "r^2",
+            "hex": "0xed",
+            "multiplicity": 2
+          }
+        ],
+        "r3_y_equals_g_u_hex": "0xb0",
+        "r3_y_expression": "r",
+        "u_roots_expressions": [
+          "1+r^2+r^3",
+          "r^2+r^3"
+        ],
+        "u_roots_hex": [
+          "0xbc",
+          "0xbd"
+        ],
+        "v_roots_expressions": [
+          "1+r^2",
+          "r^2"
+        ],
+        "v_roots_hex": [
+          "0xec",
+          "0xed"
+        ],
+        "y_equals_g_v_hex": "0x50",
+        "y_expression": "r^3"
+      },
+      {
+        "normalized_products": [
+          {
+            "expression": "r+r^3",
+            "hex": "0xe0",
+            "multiplicity": 2
+          },
+          {
+            "expression": "1+r^2",
+            "hex": "0xec",
+            "multiplicity": 2
+          }
+        ],
+        "r3_y_equals_g_u_hex": "0x0c",
+        "r3_y_expression": "1+r+r^2+r^3",
+        "u_roots_expressions": [
+          "r+r^3",
+          "1+r+r^3"
+        ],
+        "u_roots_hex": [
+          "0xe0",
+          "0xe1"
+        ],
+        "v_roots_expressions": [
+          "1+r^2+r^3",
+          "r^2+r^3"
+        ],
+        "v_roots_hex": [
+          "0xbc",
+          "0xbd"
+        ],
+        "y_equals_g_v_hex": "0xb0",
+        "y_expression": "r"
+      },
+      {
+        "normalized_products": [
+          {
+            "expression": "r+r^2+r^3",
+            "hex": "0x0d",
+            "multiplicity": 2
+          },
+          {
+            "expression": "1+r+r^2",
+            "hex": "0x5c",
+            "multiplicity": 2
+          }
+        ],
+        "r3_y_equals_g_u_hex": "0x51",
+        "r3_y_expression": "1+r^3",
+        "u_roots_expressions": [
+          "r^3",
+          "1+r^3"
+        ],
+        "u_roots_hex": [
+          "0x50",
+          "0x51"
+        ],
+        "v_roots_expressions": [
+          "r",
+          "1+r"
+        ],
+        "v_roots_hex": [
+          "0xb0",
+          "0xb1"
+        ],
+        "y_equals_g_v_hex": "0xec",
+        "y_expression": "1+r^2"
+      }
+    ],
+    "maps": "y->alpha*y^2 (the three involutions)",
+    "normalized_product_multiset": [
+      {
+        "expression": "r+r^2+r^3",
+        "hex": "0x0d",
+        "multiplicity": 2
+      },
+      {
+        "expression": "1+r+r^2",
+        "hex": "0x5c",
+        "multiplicity": 2
+      },
+      {
+        "expression": "r+r^2",
+        "hex": "0x5d",
+        "multiplicity": 4
+      },
+      {
+        "expression": "r",
+        "hex": "0xb0",
+        "multiplicity": 2
+      },
+      {
+        "expression": "r+r^3",
+        "hex": "0xe0",
+        "multiplicity": 2
+      },
+      {
+        "expression": "1+r^2",
+        "hex": "0xec",
+        "multiplicity": 2
+      },
+      {
+        "expression": "r^2",
+        "hex": "0xed",
+        "multiplicity": 2
+      }
+    ],
+    "reductions": [
+      {
+        "alpha_hex": "0x01",
+        "h_hex": "0xbd",
+        "h_over_s_hex": "0xb0",
+        "kappa_hex": "0x50",
+        "s_hex": "0x5d"
+      },
+      {
+        "alpha_hex": "0xbc",
+        "h_hex": "0x01",
+        "h_over_s_hex": "0xec",
+        "kappa_hex": "0x50",
+        "s_hex": "0x5d"
+      },
+      {
+        "alpha_hex": "0xbd",
+        "h_hex": "0xbc",
+        "h_over_s_hex": "0x5c",
+        "kappa_hex": "0x50",
+        "s_hex": "0x5d"
+      }
+    ],
+    "target_intersections": [
+      {
+        "eta_expression": "1",
+        "eta_hex": "0x01",
+        "normalized_target_expression": "1+r^3",
+        "normalized_target_hex": "0x51",
+        "sections_per_involution": 0
+      },
+      {
+        "eta_expression": "r^2+r^3",
+        "eta_hex": "0xbd",
+        "normalized_target_expression": "1+r+r^2+r^3",
+        "normalized_target_hex": "0x0c",
+        "sections_per_involution": 0
+      },
+      {
+        "eta_expression": "1+r^2+r^3",
+        "eta_hex": "0xbc",
+        "normalized_target_expression": "r+r^2",
+        "normalized_target_hex": "0x5d",
+        "sections_per_involution": 4
+      }
+    ]
+  },
+  "statement": {
+    "accepted_eta_hex": [
+      "0x01",
+      "0xbd"
+    ],
+    "excluded_eta_hex": "0xbc",
+    "excluded_witness_count": 12,
+    "family": "x^3 + eta*(Q_1+r^2*Q_r), eta in GF(4)^*",
+    "theorem": "The family is APN iff Tr_GF4/F2(lambda*eta)=1.",
+    "witness_distribution": "four sections for each of the three involutions in GL(2,2)"
+  },
+  "validation": {
+    "field_tower_identities": true,
+    "four_row_table_exact": true,
+    "linear_maps_excluded_symbolically": true,
+    "semilinear_reduction_independent_of_alpha": true,
+    "six_GL2_maps_recovered": true,
+    "stage5g_transition_counts_reproduced": true
+  }
+}

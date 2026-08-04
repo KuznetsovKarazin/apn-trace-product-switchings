@@ -1,0 +1,33 @@
+{
+  "date": "2026-08-02",
+  "interpretation": "The published dimension-eight hyperplane modification has the same portable orthoderivative signature as CLASS-B. The checkpoint already contains an independent exact CCZ witness identifying CLASS-B with Edel--Pott catalogue representative No. 6, x^9+Tr(x^3). Therefore this example is not evidence for a new CCZ class in the present project; it is a literature-overlap anchor.",
+  "local_match": {
+    "exact_ccz_previously_verified": true,
+    "historical_family": "Edel\u2013Pott switching construction",
+    "historical_origin": "Trace-switching representative No. 6 in the Edel\u2013Pott 2009 dimension-8 list.",
+    "internal_id": "CLASS-B",
+    "known_representative_number": 6,
+    "matched_canonical_low_rank_entries": [
+      "R1:q0:0x88",
+      "R1:q0:0xac",
+      "R1:q1:0x8f",
+      "R1:q1:0xb2"
+    ],
+    "representative_formula_latex": "x^9+\\operatorname{Tr}(x^3)"
+  },
+  "published_example": {
+    "apn_verified": true,
+    "field_model": "GF(2)[z]/(z^8+z^4+z^3+z+1)",
+    "function_sha256": "f6309ae76274c4d1f304dd2cb9d6245a57202c3bd81ddbc5d966ba90e6d1bafb",
+    "lambda_hex": "0xbd",
+    "normalized_formula": "G(x)=x^3+lambda*Tr_{GF(256)/GF(2)}(x)*Tr_{GF(256)/GF(4)}(x)",
+    "orthoderivative_signature": {
+      "absolute_walsh_spectrum": "{0:12162, 8:23208, 16:16346, 24:8400, 32:3910, 40:1008, 48:222, 56:24}",
+      "differential_spectrum": "{0:38592, 2:21426, 4:4590, 6:654, 8:18}",
+      "serialization": "{\"absolute_walsh_spectrum\":\"{0:12162, 8:23208, 16:16346, 24:8400, 32:3910, 40:1008, 48:222, 56:24}\",\"differential_spectrum\":\"{0:38592, 2:21426, 4:4590, 6:654, 8:18}\"}",
+      "sha256": "eb5f91b3ec9eb8257f47fc88a0b1fd1a3f5c730b4653b96b76cad70b66ee3b09"
+    },
+    "source": "Taniguchi--Polujan--Pott--Arshad, Changing Almost Perfect Nonlinear Functions on Affine Subspaces of Small Codimensions, Example 4.2"
+  },
+  "schema": "literature-overlap-comparison-v1"
+}

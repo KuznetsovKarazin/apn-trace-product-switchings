@@ -1,0 +1,143 @@
+{
+  "accepted_Frobenius_orbits": [
+    [
+      {
+        "eta_hex": "0x01",
+        "s_hex": "0x0c"
+      },
+      {
+        "eta_hex": "0x01",
+        "s_hex": "0x50"
+      },
+      {
+        "eta_hex": "0x01",
+        "s_hex": "0xb0"
+      },
+      {
+        "eta_hex": "0x01",
+        "s_hex": "0xed"
+      }
+    ],
+    [
+      {
+        "eta_hex": "0xbd",
+        "s_hex": "0x0c"
+      },
+      {
+        "eta_hex": "0xbc",
+        "s_hex": "0x50"
+      },
+      {
+        "eta_hex": "0xbd",
+        "s_hex": "0xb0"
+      },
+      {
+        "eta_hex": "0xbc",
+        "s_hex": "0xed"
+      }
+    ]
+  ],
+  "coordinate_free_theorem": {
+    "APN_criterion": "F_{p,eta,zeta} is APN iff eta=zeta and Tr_E/F2(delta(p)*eta)=1.",
+    "family": "F_{p,eta,zeta}=x^3+eta*q_[1]+zeta*rho^(-3)*q_[rho], eta,zeta in E^*",
+    "global_count": "There are 8 marked rank-two switchings, split into 2 Frobenius orbits of length 4.",
+    "local_count": "Each of the 4 non-base projective points supports exactly 2 APN normalized coefficients.",
+    "well_definedness": "Changing rho to alpha*rho with alpha in E^* changes neither rho^(-3), s(p), delta(p), nor the quadratic form modulo affine-linear terms."
+  },
+  "date": "2026-08-02",
+  "field_tower": "GF(2) subset E=GF(4) subset L=GF(16) subset K=GF(256)",
+  "objects": {
+    "base_point": "p_infinity=[1]",
+    "canonical_displacement": "s(p)=rho^6 in mu_5 for p=[rho] != p_infinity",
+    "projective_parameter_space": "P(L/E)=P^1(E), with 5 points",
+    "projective_quadratic_form": "q_[c](x)=Tr_E/F2(ell_c(x))*Tr_E/F2(lambda*ell_c(x)), modulo affine-linear Boolean forms",
+    "relative_trace_functional": "ell_c(x)=Tr_K/E(c*x)",
+    "selector": "delta(p)=Tr_L/E(s(p))^2 in E^*"
+  },
+  "projective_records": [
+    {
+      "accepted_normalized_coefficients_hex": [
+        "0x01",
+        "0xbd"
+      ],
+      "canonical_mu5_representative_hex": "0x0c",
+      "projective_members_hex": [
+        "0x0c",
+        "0x51",
+        "0x5d"
+      ],
+      "rejected_normalized_coefficient_hex": "0xbc",
+      "relative_trace_L_over_E_hex": "0xbc",
+      "representative_independent_rho_inverse_cube_hex": "0x50",
+      "selector_delta_hex": "0xbd"
+    },
+    {
+      "accepted_normalized_coefficients_hex": [
+        "0x01",
+        "0xbc"
+      ],
+      "canonical_mu5_representative_hex": "0xed",
+      "projective_members_hex": [
+        "0x0d",
+        "0xe0",
+        "0xed"
+      ],
+      "rejected_normalized_coefficient_hex": "0xbd",
+      "relative_trace_L_over_E_hex": "0xbd",
+      "representative_independent_rho_inverse_cube_hex": "0x0c",
+      "selector_delta_hex": "0xbc"
+    },
+    {
+      "accepted_normalized_coefficients_hex": [
+        "0x01",
+        "0xbc"
+      ],
+      "canonical_mu5_representative_hex": "0x50",
+      "projective_members_hex": [
+        "0x50",
+        "0xb1",
+        "0xe1"
+      ],
+      "rejected_normalized_coefficient_hex": "0xbd",
+      "relative_trace_L_over_E_hex": "0xbd",
+      "representative_independent_rho_inverse_cube_hex": "0xb0",
+      "selector_delta_hex": "0xbc"
+    },
+    {
+      "accepted_normalized_coefficients_hex": [
+        "0x01",
+        "0xbd"
+      ],
+      "canonical_mu5_representative_hex": "0xb0",
+      "projective_members_hex": [
+        "0x5c",
+        "0xb0",
+        "0xec"
+      ],
+      "rejected_normalized_coefficient_hex": "0xbc",
+      "relative_trace_L_over_E_hex": "0xbc",
+      "representative_independent_rho_inverse_cube_hex": "0xed",
+      "selector_delta_hex": "0xbd"
+    }
+  ],
+  "proof_dependencies": [
+    "general low-rank derivative-incidence criterion",
+    "relative-trace normal form for q_[c]",
+    "rank-one coefficient theorem in n=8",
+    "rank-two involution selector proof",
+    "GF(4)^*-scaling invariance and Frobenius transport"
+  ],
+  "provenance": {
+    "stage5j_file": "results/current/projective_displacement_theorem.json",
+    "stage5j_sha256": "e433d50e94c88345f916d565cdb18bf7af72b499c1c77c89b0a0709bf20df852"
+  },
+  "schema": "coordinate-free-projective-trace-switch-theory-v1",
+  "validation": {
+    "all_4_nonbase_points_constructed": true,
+    "all_5_projective_points_constructed": true,
+    "eight_marked_switchings_recovered": true,
+    "representative_independence_checked_for_all_12_nonbase_representatives": true,
+    "selector_reproduces_all_stage5j_accepted_pairs": true,
+    "two_Frobenius_orbits_recovered": true
+  }
+}

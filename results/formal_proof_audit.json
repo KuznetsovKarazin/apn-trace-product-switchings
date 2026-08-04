@@ -1,0 +1,1147 @@
+{
+  "claim_status": [
+    {
+      "claim": "General low-rank derivative-incidence criterion",
+      "required_wording": "Use L_aF(x)=F(x+a)+F(x)+F(a)+F(0), or explicitly assume F(0)=0 and q_i(0)=0.  The criterion works for every normalized quadratic APN centre, not only Gold.",
+      "status": "proved after normalization correction"
+    },
+    {
+      "claim": "n=4 coefficient classification and Gold EA reduction",
+      "evidence": "all 15 nonzero coefficients directly checked; closed-form output map proves the safe EA reduction",
+      "status": "proved with exhaustive finite necessity check"
+    },
+    {
+      "claim": "n=6 order-nine coefficient classification",
+      "evidence": "256-case Kummer certificate over GF(4), independently matched by all 63 direct APN checks",
+      "status": "computer-assisted exact theorem"
+    },
+    {
+      "claim": "n=8 rank-one coefficient set GF(4)^*",
+      "evidence": "symbolic Bezout certificate for sufficiency; 4096-section exact certificate for necessity",
+      "status": "computer-assisted exact theorem"
+    },
+    {
+      "claim": "n=8 projective rank-two selector",
+      "evidence": "linear cases excluded symbolically; involutions reduced to a 16-pair/four-row table; projective transport checked",
+      "status": "computer-assisted exact theorem"
+    },
+    {
+      "claim": "nonexistence for every even n>=10",
+      "evidence": "Artin-Schreier character bound gives constant 74 from n>=14; exact convolution closes n=10,12",
+      "status": "proof architecture valid; manuscript expansion required"
+    },
+    {
+      "claim": "permutation-class exclusion",
+      "required_wording": "The theorem permits arbitrary complementary dimensions.  The new full scan checks every split; conclusions remain negative for all six n=6 trace switchings and all sixteen n=8 representatives.",
+      "status": "corrected and revalidated"
+    },
+    {
+      "claim": "n=6 identification with Banff class 2",
+      "required_wording": "State that the orthoderivative differential spectrum equals the unique class-2 row in the published exhaustive Banff table; cite that classification.",
+      "status": "external-classification dependent"
+    },
+    {
+      "claim": "eight n=8 projective switchings are eight distinct classes",
+      "required_wording": "They are eight marked parameter points in two Frobenius orbits; exact EA/CCZ partition remains separate.",
+      "status": "not proved and must not be claimed"
+    }
+  ],
+  "date": "2026-08-02",
+  "normalization_and_projective_checks": {
+    "formal_correction": "q_[c] is an equivalence class modulo linear Boolean functions; the resulting vectorial switching is representative-independent only up to addition of a linear map, which preserves APN.",
+    "pairs_checked": 45,
+    "q_alpha_c_plus_q_c_is_linear": true,
+    "rho_inverse_cube_representative_independent": true,
+    "rho_sixth_power_representative_independent": true
+  },
+  "permutation_condition_correction": {
+    "actual_condition": "two subspaces of arbitrary dimensions summing to n",
+    "conclusions_survive": true,
+    "n6_full_screen": {
+      "all_fail": false,
+      "ambient_dimension": 6,
+      "records": [
+        {
+          "contained_subspaces_by_dimension": {
+            "1": 21,
+            "2": 28,
+            "3": 0,
+            "4": 0,
+            "5": 0
+          },
+          "dimension_splits": [
+            {
+              "complementary_pairs": 0,
+              "contained_first": 21,
+              "contained_second": 0,
+              "dimension_split": "1+5",
+              "sample_pair_bases_hex": null
+            },
+            {
+              "complementary_pairs": 0,
+              "contained_first": 28,
+              "contained_second": 0,
+              "dimension_split": "2+4",
+              "sample_pair_bases_hex": null
+            },
+            {
+              "complementary_pairs": 0,
+              "contained_first": 0,
+              "contained_second": 0,
+              "dimension_split": "3+3",
+              "sample_pair_bases_hex": null
+            }
+          ],
+          "id": "0x06",
+          "non_bent_component_count": 21,
+          "passes_actual_necessary_condition": false,
+          "total_complementary_pairs": 0
+        },
+        {
+          "contained_subspaces_by_dimension": {
+            "1": 21,
+            "2": 28,
+            "3": 0,
+            "4": 0,
+            "5": 0
+          },
+          "dimension_splits": [
+            {
+              "complementary_pairs": 0,
+              "contained_first": 21,
+              "contained_second": 0,
+              "dimension_split": "1+5",
+              "sample_pair_bases_hex": null
+            },
+            {
+              "complementary_pairs": 0,
+              "contained_first": 28,
+              "contained_second": 0,
+              "dimension_split": "2+4",
+              "sample_pair_bases_hex": null
+            },
+            {
+              "complementary_pairs": 0,
+              "contained_first": 0,
+              "contained_second": 0,
+              "dimension_split": "3+3",
+              "sample_pair_bases_hex": null
+            }
+          ],
+          "id": "0x0b",
+          "non_bent_component_count": 21,
+          "passes_actual_necessary_condition": false,
+          "total_complementary_pairs": 0
+        },
+        {
+          "contained_subspaces_by_dimension": {
+            "1": 21,
+            "2": 28,
+            "3": 0,
+            "4": 0,
+            "5": 0
+          },
+          "dimension_splits": [
+            {
+              "complementary_pairs": 0,
+              "contained_first": 21,
+              "contained_second": 0,
+              "dimension_split": "1+5",
+              "sample_pair_bases_hex": null
+            },
+            {
+              "complementary_pairs": 0,
+              "contained_first": 28,
+              "contained_second": 0,
+              "dimension_split": "2+4",
+              "sample_pair_bases_hex": null
+            },
+            {
+              "complementary_pairs": 0,
+              "contained_first": 0,
+              "contained_second": 0,
+              "dimension_split": "3+3",
+              "sample_pair_bases_hex": null
+            }
+          ],
+          "id": "0x14",
+          "non_bent_component_count": 21,
+          "passes_actual_necessary_condition": false,
+          "total_complementary_pairs": 0
+        },
+        {
+          "contained_subspaces_by_dimension": {
+            "1": 21,
+            "2": 28,
+            "3": 0,
+            "4": 0,
+            "5": 0
+          },
+          "dimension_splits": [
+            {
+              "complementary_pairs": 0,
+              "contained_first": 21,
+              "contained_second": 0,
+              "dimension_split": "1+5",
+              "sample_pair_bases_hex": null
+            },
+            {
+              "complementary_pairs": 0,
+              "contained_first": 28,
+              "contained_second": 0,
+              "dimension_split": "2+4",
+              "sample_pair_bases_hex": null
+            },
+            {
+              "complementary_pairs": 0,
+              "contained_first": 0,
+              "contained_second": 0,
+              "dimension_split": "3+3",
+              "sample_pair_bases_hex": null
+            }
+          ],
+          "id": "0x1a",
+          "non_bent_component_count": 21,
+          "passes_actual_necessary_condition": false,
+          "total_complementary_pairs": 0
+        },
+        {
+          "contained_subspaces_by_dimension": {
+            "1": 21,
+            "2": 28,
+            "3": 0,
+            "4": 0,
+            "5": 0
+          },
+          "dimension_splits": [
+            {
+              "complementary_pairs": 0,
+              "contained_first": 21,
+              "contained_second": 0,
+              "dimension_split": "1+5",
+              "sample_pair_bases_hex": null
+            },
+            {
+              "complementary_pairs": 0,
+              "contained_first": 28,
+              "contained_second": 0,
+              "dimension_split": "2+4",
+              "sample_pair_bases_hex": null
+            },
+            {
+              "complementary_pairs": 0,
+              "contained_first": 0,
+              "contained_second": 0,
+              "dimension_split": "3+3",
+              "sample_pair_bases_hex": null
+            }
+          ],
+          "id": "0x1c",
+          "non_bent_component_count": 21,
+          "passes_actual_necessary_condition": false,
+          "total_complementary_pairs": 0
+        },
+        {
+          "contained_subspaces_by_dimension": {
+            "1": 21,
+            "2": 28,
+            "3": 0,
+            "4": 0,
+            "5": 0
+          },
+          "dimension_splits": [
+            {
+              "complementary_pairs": 0,
+              "contained_first": 21,
+              "contained_second": 0,
+              "dimension_split": "1+5",
+              "sample_pair_bases_hex": null
+            },
+            {
+              "complementary_pairs": 0,
+              "contained_first": 28,
+              "contained_second": 0,
+              "dimension_split": "2+4",
+              "sample_pair_bases_hex": null
+            },
+            {
+              "complementary_pairs": 0,
+              "contained_first": 0,
+              "contained_second": 0,
+              "dimension_split": "3+3",
+              "sample_pair_bases_hex": null
+            }
+          ],
+          "id": "0x1f",
+          "non_bent_component_count": 21,
+          "passes_actual_necessary_condition": false,
+          "total_complementary_pairs": 0
+        },
+        {
+          "contained_subspaces_by_dimension": {
+            "1": 21,
+            "2": 28,
+            "3": 3,
+            "4": 0,
+            "5": 0
+          },
+          "dimension_splits": [
+            {
+              "complementary_pairs": 0,
+              "contained_first": 21,
+              "contained_second": 0,
+              "dimension_split": "1+5",
+              "sample_pair_bases_hex": null
+            },
+            {
+              "complementary_pairs": 0,
+              "contained_first": 28,
+              "contained_second": 0,
+              "dimension_split": "2+4",
+              "sample_pair_bases_hex": null
+            },
+            {
+              "complementary_pairs": 3,
+              "contained_first": 3,
+              "contained_second": 3,
+              "dimension_split": "3+3",
+              "sample_pair_bases_hex": [
+                [
+                  "0x39",
+                  "0x12",
+                  "0x2c"
+                ],
+                [
+                  "0x19",
+                  "0x2a",
+                  "0x24"
+                ]
+              ]
+            }
+          ],
+          "id": "Kim-positive-control",
+          "non_bent_component_count": 21,
+          "passes_actual_necessary_condition": true,
+          "total_complementary_pairs": 3
+        }
+      ],
+      "subspaces_enumerated_by_dimension": {
+        "1": 63,
+        "2": 651,
+        "3": 1395,
+        "4": 651,
+        "5": 63
+      },
+      "theorem_checked": "NB(F) union {0} contains subspaces V,W of arbitrary complementary dimensions with V direct_sum W = F_2^n"
+    },
+    "n6_metadata": {
+      "family_count": 6,
+      "positive_control_included": true
+    },
+    "n8_full_screen": {
+      "all_fail": true,
+      "ambient_dimension": 8,
+      "records": [
+        {
+          "contained_subspaces_by_dimension": {
+            "1": 85,
+            "2": 340,
+            "3": 8,
+            "4": 0,
+            "5": 0,
+            "6": 0,
+            "7": 0
+          },
+          "dimension_splits": [
+            {
+              "complementary_pairs": 0,
+              "contained_first": 85,
+              "contained_second": 0,
+              "dimension_split": "1+7",
+              "sample_pair_bases_hex": null
+            },
+            {
+              "complementary_pairs": 0,
+              "contained_first": 340,
+              "contained_second": 0,
+              "dimension_split": "2+6",
+              "sample_pair_bases_hex": null
+            },
+            {
+              "complementary_pairs": 0,
+              "contained_first": 8,
+              "contained_second": 0,
+              "dimension_split": "3+5",
+              "sample_pair_bases_hex": null
+            },
+            {
+              "complementary_pairs": 0,
+              "contained_first": 0,
+              "contained_second": 0,
+              "dimension_split": "4+4",
+              "sample_pair_bases_hex": null
+            }
+          ],
+          "id": "projective-0x0c-0x01",
+          "non_bent_component_count": 85,
+          "passes_actual_necessary_condition": false,
+          "total_complementary_pairs": 0
+        },
+        {
+          "contained_subspaces_by_dimension": {
+            "1": 85,
+            "2": 340,
+            "3": 0,
+            "4": 0,
+            "5": 0,
+            "6": 0,
+            "7": 0
+          },
+          "dimension_splits": [
+            {
+              "complementary_pairs": 0,
+              "contained_first": 85,
+              "contained_second": 0,
+              "dimension_split": "1+7",
+              "sample_pair_bases_hex": null
+            },
+            {
+              "complementary_pairs": 0,
+              "contained_first": 340,
+              "contained_second": 0,
+              "dimension_split": "2+6",
+              "sample_pair_bases_hex": null
+            },
+            {
+              "complementary_pairs": 0,
+              "contained_first": 0,
+              "contained_second": 0,
+              "dimension_split": "3+5",
+              "sample_pair_bases_hex": null
+            },
+            {
+              "complementary_pairs": 0,
+              "contained_first": 0,
+              "contained_second": 0,
+              "dimension_split": "4+4",
+              "sample_pair_bases_hex": null
+            }
+          ],
+          "id": "projective-0x0c-0xbd",
+          "non_bent_component_count": 85,
+          "passes_actual_necessary_condition": false,
+          "total_complementary_pairs": 0
+        },
+        {
+          "contained_subspaces_by_dimension": {
+            "1": 85,
+            "2": 340,
+            "3": 8,
+            "4": 0,
+            "5": 0,
+            "6": 0,
+            "7": 0
+          },
+          "dimension_splits": [
+            {
+              "complementary_pairs": 0,
+              "contained_first": 85,
+              "contained_second": 0,
+              "dimension_split": "1+7",
+              "sample_pair_bases_hex": null
+            },
+            {
+              "complementary_pairs": 0,
+              "contained_first": 340,
+              "contained_second": 0,
+              "dimension_split": "2+6",
+              "sample_pair_bases_hex": null
+            },
+            {
+              "complementary_pairs": 0,
+              "contained_first": 8,
+              "contained_second": 0,
+              "dimension_split": "3+5",
+              "sample_pair_bases_hex": null
+            },
+            {
+              "complementary_pairs": 0,
+              "contained_first": 0,
+              "contained_second": 0,
+              "dimension_split": "4+4",
+              "sample_pair_bases_hex": null
+            }
+          ],
+          "id": "projective-0x50-0x01",
+          "non_bent_component_count": 85,
+          "passes_actual_necessary_condition": false,
+          "total_complementary_pairs": 0
+        },
+        {
+          "contained_subspaces_by_dimension": {
+            "1": 85,
+            "2": 340,
+            "3": 0,
+            "4": 0,
+            "5": 0,
+            "6": 0,
+            "7": 0
+          },
+          "dimension_splits": [
+            {
+              "complementary_pairs": 0,
+              "contained_first": 85,
+              "contained_second": 0,
+              "dimension_split": "1+7",
+              "sample_pair_bases_hex": null
+            },
+            {
+              "complementary_pairs": 0,
+              "contained_first": 340,
+              "contained_second": 0,
+              "dimension_split": "2+6",
+              "sample_pair_bases_hex": null
+            },
+            {
+              "complementary_pairs": 0,
+              "contained_first": 0,
+              "contained_second": 0,
+              "dimension_split": "3+5",
+              "sample_pair_bases_hex": null
+            },
+            {
+              "complementary_pairs": 0,
+              "contained_first": 0,
+              "contained_second": 0,
+              "dimension_split": "4+4",
+              "sample_pair_bases_hex": null
+            }
+          ],
+          "id": "projective-0x50-0xbc",
+          "non_bent_component_count": 85,
+          "passes_actual_necessary_condition": false,
+          "total_complementary_pairs": 0
+        },
+        {
+          "contained_subspaces_by_dimension": {
+            "1": 85,
+            "2": 340,
+            "3": 8,
+            "4": 0,
+            "5": 0,
+            "6": 0,
+            "7": 0
+          },
+          "dimension_splits": [
+            {
+              "complementary_pairs": 0,
+              "contained_first": 85,
+              "contained_second": 0,
+              "dimension_split": "1+7",
+              "sample_pair_bases_hex": null
+            },
+            {
+              "complementary_pairs": 0,
+              "contained_first": 340,
+              "contained_second": 0,
+              "dimension_split": "2+6",
+              "sample_pair_bases_hex": null
+            },
+            {
+              "complementary_pairs": 0,
+              "contained_first": 8,
+              "contained_second": 0,
+              "dimension_split": "3+5",
+              "sample_pair_bases_hex": null
+            },
+            {
+              "complementary_pairs": 0,
+              "contained_first": 0,
+              "contained_second": 0,
+              "dimension_split": "4+4",
+              "sample_pair_bases_hex": null
+            }
+          ],
+          "id": "projective-0xb0-0x01",
+          "non_bent_component_count": 85,
+          "passes_actual_necessary_condition": false,
+          "total_complementary_pairs": 0
+        },
+        {
+          "contained_subspaces_by_dimension": {
+            "1": 85,
+            "2": 340,
+            "3": 0,
+            "4": 0,
+            "5": 0,
+            "6": 0,
+            "7": 0
+          },
+          "dimension_splits": [
+            {
+              "complementary_pairs": 0,
+              "contained_first": 85,
+              "contained_second": 0,
+              "dimension_split": "1+7",
+              "sample_pair_bases_hex": null
+            },
+            {
+              "complementary_pairs": 0,
+              "contained_first": 340,
+              "contained_second": 0,
+              "dimension_split": "2+6",
+              "sample_pair_bases_hex": null
+            },
+            {
+              "complementary_pairs": 0,
+              "contained_first": 0,
+              "contained_second": 0,
+              "dimension_split": "3+5",
+              "sample_pair_bases_hex": null
+            },
+            {
+              "complementary_pairs": 0,
+              "contained_first": 0,
+              "contained_second": 0,
+              "dimension_split": "4+4",
+              "sample_pair_bases_hex": null
+            }
+          ],
+          "id": "projective-0xb0-0xbd",
+          "non_bent_component_count": 85,
+          "passes_actual_necessary_condition": false,
+          "total_complementary_pairs": 0
+        },
+        {
+          "contained_subspaces_by_dimension": {
+            "1": 85,
+            "2": 340,
+            "3": 8,
+            "4": 0,
+            "5": 0,
+            "6": 0,
+            "7": 0
+          },
+          "dimension_splits": [
+            {
+              "complementary_pairs": 0,
+              "contained_first": 85,
+              "contained_second": 0,
+              "dimension_split": "1+7",
+              "sample_pair_bases_hex": null
+            },
+            {
+              "complementary_pairs": 0,
+              "contained_first": 340,
+              "contained_second": 0,
+              "dimension_split": "2+6",
+              "sample_pair_bases_hex": null
+            },
+            {
+              "complementary_pairs": 0,
+              "contained_first": 8,
+              "contained_second": 0,
+              "dimension_split": "3+5",
+              "sample_pair_bases_hex": null
+            },
+            {
+              "complementary_pairs": 0,
+              "contained_first": 0,
+              "contained_second": 0,
+              "dimension_split": "4+4",
+              "sample_pair_bases_hex": null
+            }
+          ],
+          "id": "projective-0xed-0x01",
+          "non_bent_component_count": 85,
+          "passes_actual_necessary_condition": false,
+          "total_complementary_pairs": 0
+        },
+        {
+          "contained_subspaces_by_dimension": {
+            "1": 85,
+            "2": 340,
+            "3": 0,
+            "4": 0,
+            "5": 0,
+            "6": 0,
+            "7": 0
+          },
+          "dimension_splits": [
+            {
+              "complementary_pairs": 0,
+              "contained_first": 85,
+              "contained_second": 0,
+              "dimension_split": "1+7",
+              "sample_pair_bases_hex": null
+            },
+            {
+              "complementary_pairs": 0,
+              "contained_first": 340,
+              "contained_second": 0,
+              "dimension_split": "2+6",
+              "sample_pair_bases_hex": null
+            },
+            {
+              "complementary_pairs": 0,
+              "contained_first": 0,
+              "contained_second": 0,
+              "dimension_split": "3+5",
+              "sample_pair_bases_hex": null
+            },
+            {
+              "complementary_pairs": 0,
+              "contained_first": 0,
+              "contained_second": 0,
+              "dimension_split": "4+4",
+              "sample_pair_bases_hex": null
+            }
+          ],
+          "id": "projective-0xed-0xbc",
+          "non_bent_component_count": 85,
+          "passes_actual_necessary_condition": false,
+          "total_complementary_pairs": 0
+        },
+        {
+          "contained_subspaces_by_dimension": {
+            "1": 85,
+            "2": 340,
+            "3": 0,
+            "4": 0,
+            "5": 0,
+            "6": 0,
+            "7": 0
+          },
+          "dimension_splits": [
+            {
+              "complementary_pairs": 0,
+              "contained_first": 85,
+              "contained_second": 0,
+              "dimension_split": "1+7",
+              "sample_pair_bases_hex": null
+            },
+            {
+              "complementary_pairs": 0,
+              "contained_first": 340,
+              "contained_second": 0,
+              "dimension_split": "2+6",
+              "sample_pair_bases_hex": null
+            },
+            {
+              "complementary_pairs": 0,
+              "contained_first": 0,
+              "contained_second": 0,
+              "dimension_split": "3+5",
+              "sample_pair_bases_hex": null
+            },
+            {
+              "complementary_pairs": 0,
+              "contained_first": 0,
+              "contained_second": 0,
+              "dimension_split": "4+4",
+              "sample_pair_bases_hex": null
+            }
+          ],
+          "id": "CLASS-A",
+          "non_bent_component_count": 85,
+          "passes_actual_necessary_condition": false,
+          "total_complementary_pairs": 0
+        },
+        {
+          "contained_subspaces_by_dimension": {
+            "1": 85,
+            "2": 340,
+            "3": 0,
+            "4": 0,
+            "5": 0,
+            "6": 0,
+            "7": 0
+          },
+          "dimension_splits": [
+            {
+              "complementary_pairs": 0,
+              "contained_first": 85,
+              "contained_second": 0,
+              "dimension_split": "1+7",
+              "sample_pair_bases_hex": null
+            },
+            {
+              "complementary_pairs": 0,
+              "contained_first": 340,
+              "contained_second": 0,
+              "dimension_split": "2+6",
+              "sample_pair_bases_hex": null
+            },
+            {
+              "complementary_pairs": 0,
+              "contained_first": 0,
+              "contained_second": 0,
+              "dimension_split": "3+5",
+              "sample_pair_bases_hex": null
+            },
+            {
+              "complementary_pairs": 0,
+              "contained_first": 0,
+              "contained_second": 0,
+              "dimension_split": "4+4",
+              "sample_pair_bases_hex": null
+            }
+          ],
+          "id": "CLASS-B",
+          "non_bent_component_count": 85,
+          "passes_actual_necessary_condition": false,
+          "total_complementary_pairs": 0
+        },
+        {
+          "contained_subspaces_by_dimension": {
+            "1": 85,
+            "2": 340,
+            "3": 16,
+            "4": 0,
+            "5": 0,
+            "6": 0,
+            "7": 0
+          },
+          "dimension_splits": [
+            {
+              "complementary_pairs": 0,
+              "contained_first": 85,
+              "contained_second": 0,
+              "dimension_split": "1+7",
+              "sample_pair_bases_hex": null
+            },
+            {
+              "complementary_pairs": 0,
+              "contained_first": 340,
+              "contained_second": 0,
+              "dimension_split": "2+6",
+              "sample_pair_bases_hex": null
+            },
+            {
+              "complementary_pairs": 0,
+              "contained_first": 16,
+              "contained_second": 0,
+              "dimension_split": "3+5",
+              "sample_pair_bases_hex": null
+            },
+            {
+              "complementary_pairs": 0,
+              "contained_first": 0,
+              "contained_second": 0,
+              "dimension_split": "4+4",
+              "sample_pair_bases_hex": null
+            }
+          ],
+          "id": "CLASS-C",
+          "non_bent_component_count": 85,
+          "passes_actual_necessary_condition": false,
+          "total_complementary_pairs": 0
+        },
+        {
+          "contained_subspaces_by_dimension": {
+            "1": 85,
+            "2": 340,
+            "3": 16,
+            "4": 0,
+            "5": 0,
+            "6": 0,
+            "7": 0
+          },
+          "dimension_splits": [
+            {
+              "complementary_pairs": 0,
+              "contained_first": 85,
+              "contained_second": 0,
+              "dimension_split": "1+7",
+              "sample_pair_bases_hex": null
+            },
+            {
+              "complementary_pairs": 0,
+              "contained_first": 340,
+              "contained_second": 0,
+              "dimension_split": "2+6",
+              "sample_pair_bases_hex": null
+            },
+            {
+              "complementary_pairs": 0,
+              "contained_first": 16,
+              "contained_second": 0,
+              "dimension_split": "3+5",
+              "sample_pair_bases_hex": null
+            },
+            {
+              "complementary_pairs": 0,
+              "contained_first": 0,
+              "contained_second": 0,
+              "dimension_split": "4+4",
+              "sample_pair_bases_hex": null
+            }
+          ],
+          "id": "CLASS-D",
+          "non_bent_component_count": 85,
+          "passes_actual_necessary_condition": false,
+          "total_complementary_pairs": 0
+        },
+        {
+          "contained_subspaces_by_dimension": {
+            "1": 85,
+            "2": 340,
+            "3": 8,
+            "4": 0,
+            "5": 0,
+            "6": 0,
+            "7": 0
+          },
+          "dimension_splits": [
+            {
+              "complementary_pairs": 0,
+              "contained_first": 85,
+              "contained_second": 0,
+              "dimension_split": "1+7",
+              "sample_pair_bases_hex": null
+            },
+            {
+              "complementary_pairs": 0,
+              "contained_first": 340,
+              "contained_second": 0,
+              "dimension_split": "2+6",
+              "sample_pair_bases_hex": null
+            },
+            {
+              "complementary_pairs": 0,
+              "contained_first": 8,
+              "contained_second": 0,
+              "dimension_split": "3+5",
+              "sample_pair_bases_hex": null
+            },
+            {
+              "complementary_pairs": 0,
+              "contained_first": 0,
+              "contained_second": 0,
+              "dimension_split": "4+4",
+              "sample_pair_bases_hex": null
+            }
+          ],
+          "id": "PART2-X3-1",
+          "non_bent_component_count": 85,
+          "passes_actual_necessary_condition": false,
+          "total_complementary_pairs": 0
+        },
+        {
+          "contained_subspaces_by_dimension": {
+            "1": 85,
+            "2": 340,
+            "3": 0,
+            "4": 0,
+            "5": 0,
+            "6": 0,
+            "7": 0
+          },
+          "dimension_splits": [
+            {
+              "complementary_pairs": 0,
+              "contained_first": 85,
+              "contained_second": 0,
+              "dimension_split": "1+7",
+              "sample_pair_bases_hex": null
+            },
+            {
+              "complementary_pairs": 0,
+              "contained_first": 340,
+              "contained_second": 0,
+              "dimension_split": "2+6",
+              "sample_pair_bases_hex": null
+            },
+            {
+              "complementary_pairs": 0,
+              "contained_first": 0,
+              "contained_second": 0,
+              "dimension_split": "3+5",
+              "sample_pair_bases_hex": null
+            },
+            {
+              "complementary_pairs": 0,
+              "contained_first": 0,
+              "contained_second": 0,
+              "dimension_split": "4+4",
+              "sample_pair_bases_hex": null
+            }
+          ],
+          "id": "PART2-X3-2",
+          "non_bent_component_count": 85,
+          "passes_actual_necessary_condition": false,
+          "total_complementary_pairs": 0
+        },
+        {
+          "contained_subspaces_by_dimension": {
+            "1": 85,
+            "2": 340,
+            "3": 4,
+            "4": 0,
+            "5": 0,
+            "6": 0,
+            "7": 0
+          },
+          "dimension_splits": [
+            {
+              "complementary_pairs": 0,
+              "contained_first": 85,
+              "contained_second": 0,
+              "dimension_split": "1+7",
+              "sample_pair_bases_hex": null
+            },
+            {
+              "complementary_pairs": 0,
+              "contained_first": 340,
+              "contained_second": 0,
+              "dimension_split": "2+6",
+              "sample_pair_bases_hex": null
+            },
+            {
+              "complementary_pairs": 0,
+              "contained_first": 4,
+              "contained_second": 0,
+              "dimension_split": "3+5",
+              "sample_pair_bases_hex": null
+            },
+            {
+              "complementary_pairs": 0,
+              "contained_first": 0,
+              "contained_second": 0,
+              "dimension_split": "4+4",
+              "sample_pair_bases_hex": null
+            }
+          ],
+          "id": "PART2-X9-1",
+          "non_bent_component_count": 85,
+          "passes_actual_necessary_condition": false,
+          "total_complementary_pairs": 0
+        },
+        {
+          "contained_subspaces_by_dimension": {
+            "1": 85,
+            "2": 340,
+            "3": 12,
+            "4": 0,
+            "5": 0,
+            "6": 0,
+            "7": 0
+          },
+          "dimension_splits": [
+            {
+              "complementary_pairs": 0,
+              "contained_first": 85,
+              "contained_second": 0,
+              "dimension_split": "1+7",
+              "sample_pair_bases_hex": null
+            },
+            {
+              "complementary_pairs": 0,
+              "contained_first": 340,
+              "contained_second": 0,
+              "dimension_split": "2+6",
+              "sample_pair_bases_hex": null
+            },
+            {
+              "complementary_pairs": 0,
+              "contained_first": 12,
+              "contained_second": 0,
+              "dimension_split": "3+5",
+              "sample_pair_bases_hex": null
+            },
+            {
+              "complementary_pairs": 0,
+              "contained_first": 0,
+              "contained_second": 0,
+              "dimension_split": "4+4",
+              "sample_pair_bases_hex": null
+            }
+          ],
+          "id": "PART2-X9-2",
+          "non_bent_component_count": 85,
+          "passes_actual_necessary_condition": false,
+          "total_complementary_pairs": 0
+        }
+      ],
+      "subspaces_enumerated_by_dimension": {
+        "1": 255,
+        "2": 10795,
+        "3": 97155,
+        "4": 200787,
+        "5": 97155,
+        "6": 10795,
+        "7": 255
+      },
+      "theorem_checked": "NB(F) union {0} contains subspaces V,W of arbitrary complementary dimensions with V direct_sum W = F_2^n"
+    },
+    "n8_metadata": {
+      "archived_count": 8,
+      "projective_count": 8
+    },
+    "old_incorrect_restriction": "only n/2+n/2 complementary subspaces were searched"
+  },
+  "provenance_sha256": {
+    "results/current/coordinate_free_projective_theory.json": "3f99d75a89f831cadc35575875652f0342de8064b87b88362663013e4f648eff",
+    "results/current/kummer_n6_trace_switch_certificate.json": "52527c7c5b305c9b866c40170f573e68e64a2d6f1db434f8c599b59d090f4ccc",
+    "results/current/low_rank_derivative_criterion.json": "6037c5815284f76a45b54e7fca8ee4234b633f24a3d6a648c79bde93816ad9cf",
+    "results/current/projective_displacement_theorem.json": "e433d50e94c88345f916d565cdb18bf7af72b499c1c77c89b0a0709bf20df852",
+    "results/current/rank_two_selector_proof.json": "0f3f07f65896d217818bbe8dc99c2165ad405b88581860de29ff4f03ff7d89c1",
+    "results/current/small_dimension_trace_switch_structure.json": "6b19213b4ab3dfbc65ca186edc67de0cb9afb0b6d5c1d96bee316bfe2686d3ca",
+    "results/current/trace_coordinate_theory.json": "dfdf92cf9096f5ff105824f308404c102c23ca851409ea1ef8f2e21dd0c3234d",
+    "results/current/trace_switch_dimension_scan.json": "3d30dd7c91b6e2b82126d9ddbbfc021ef902bcf410c0f77a5010a2f1c8d42f8a",
+    "results/current/uniform_trace_switch_nonexistence.json": "cc9855f0e6bb5e249f708ceb587fc4cee35bef689a2e4c55b93a6faf29e9e1fe"
+  },
+  "publication_readiness": {
+    "must_be_removed_or_weakened": [
+      "equal-half formulation of the permutation condition",
+      "claim that eight marked switchings are eight inequivalent classes",
+      "unqualified use of P(L/E) instead of P_E(L)"
+    ],
+    "ready_as_computer_assisted_theorem": [
+      "n=4 exact classification",
+      "n=6 order-nine theorem",
+      "n=8 rank-one theorem",
+      "n=8 projective rank-two theorem"
+    ],
+    "ready_as_pure_theorem": [
+      "general low-rank criterion after wording correction"
+    ],
+    "requires_external_citation_or_exact_equivalence": [
+      "Banff class-2 identification"
+    ],
+    "requires_full_written_proof": [
+      "uniform n>=10 Artin-Schreier/Weil bound"
+    ]
+  },
+  "schema": "formal-proof-audit-stage5-v1",
+  "scope": "Stages 5E--5P, including the corrected CCZ-permutation necessary-condition screen",
+  "small_dimension_exact_checks": {
+    "all_predictions_match_direct_APN": true,
+    "n4_all_15_nonzero_coefficients_checked": true,
+    "n4_safe_count": 7,
+    "n6_all_63_nonzero_coefficients_checked": true,
+    "n6_safe_count": 6
+  },
+  "uniform_bound_audit": {
+    "Hasse_error_constant": 2,
+    "axis_bound_constant_each": 6,
+    "axis_character_pairs": 6,
+    "finite_bridge_minima": {
+      "10": 46,
+      "12": 208
+    },
+    "first_even_dimension_with_positive_uniform_bound": 14,
+    "off_axis_bound_constant_each": 4,
+    "off_axis_character_pairs": 9,
+    "status": "numerics verified; final paper must state and cite the Artin-Schreier sum theorem and prove the pole counts",
+    "total_sqrt_constant": 74
+  },
+  "validation": {
+    "Kim_positive_control_passes_corrected_screen": true,
+    "all_assertions_passed": true,
+    "all_small_dimension_coefficients_checked": true,
+    "n6_negative_conclusion_survives_corrected_screen": true,
+    "n8_negative_conclusions_survive_corrected_screen": true,
+    "projective_representative_independence_checked": true
+  }
+}

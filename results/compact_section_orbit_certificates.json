@@ -1,0 +1,966 @@
+{
+  "date": "2026-08-02",
+  "n6": {
+    "field": "GF(64)=GF(4)[u]/(u^3-lambda)",
+    "represented_element_count": 57,
+    "represented_orbit_count": 12,
+    "rows": [
+      {
+        "minimal_polynomial_exponents": [
+          0,
+          1
+        ],
+        "multiplicative_order": 1,
+        "orbit_size": 1,
+        "representation_multiplicity": 10,
+        "representative_code": 1,
+        "representative_coordinates": [
+          1,
+          0,
+          0
+        ],
+        "section_witness": {
+          "a": [
+            1,
+            0,
+            0
+          ],
+          "b": [
+            0,
+            0,
+            0
+          ]
+        }
+      },
+      {
+        "minimal_polynomial_exponents": [
+          0,
+          1,
+          2
+        ],
+        "multiplicative_order": 3,
+        "orbit_size": 2,
+        "representation_multiplicity": 3,
+        "representative_code": 2,
+        "representative_coordinates": [
+          2,
+          0,
+          0
+        ],
+        "section_witness": {
+          "a": [
+            1,
+            0,
+            0
+          ],
+          "b": [
+            0,
+            0,
+            1
+          ]
+        }
+      },
+      {
+        "minimal_polynomial_exponents": [
+          0,
+          1,
+          3,
+          4,
+          6
+        ],
+        "multiplicative_order": 63,
+        "orbit_size": 6,
+        "representation_multiplicity": 6,
+        "representative_code": 5,
+        "representative_coordinates": [
+          1,
+          1,
+          0
+        ],
+        "section_witness": {
+          "a": [
+            1,
+            1,
+            2
+          ],
+          "b": [
+            0,
+            1,
+            1
+          ]
+        }
+      },
+      {
+        "minimal_polynomial_exponents": [
+          0,
+          5,
+          6
+        ],
+        "multiplicative_order": 63,
+        "orbit_size": 6,
+        "representation_multiplicity": 3,
+        "representative_code": 6,
+        "representative_coordinates": [
+          2,
+          1,
+          0
+        ],
+        "section_witness": {
+          "a": [
+            1,
+            3,
+            0
+          ],
+          "b": [
+            0,
+            1,
+            1
+          ]
+        }
+      },
+      {
+        "minimal_polynomial_exponents": [
+          0,
+          1,
+          2,
+          5,
+          6
+        ],
+        "multiplicative_order": 63,
+        "orbit_size": 6,
+        "representation_multiplicity": 3,
+        "representative_code": 7,
+        "representative_coordinates": [
+          3,
+          1,
+          0
+        ],
+        "section_witness": {
+          "a": [
+            1,
+            0,
+            1
+          ],
+          "b": [
+            0,
+            1,
+            2
+          ]
+        }
+      },
+      {
+        "minimal_polynomial_exponents": [
+          0,
+          1,
+          2,
+          4,
+          6
+        ],
+        "multiplicative_order": 21,
+        "orbit_size": 6,
+        "representation_multiplicity": 4,
+        "representative_code": 20,
+        "representative_coordinates": [
+          0,
+          1,
+          1
+        ],
+        "section_witness": {
+          "a": [
+            1,
+            1,
+            0
+          ],
+          "b": [
+            0,
+            0,
+            1
+          ]
+        }
+      },
+      {
+        "minimal_polynomial_exponents": [
+          0,
+          1,
+          6
+        ],
+        "multiplicative_order": 63,
+        "orbit_size": 6,
+        "representation_multiplicity": 6,
+        "representative_code": 21,
+        "representative_coordinates": [
+          1,
+          1,
+          1
+        ],
+        "section_witness": {
+          "a": [
+            1,
+            1,
+            0
+          ],
+          "b": [
+            0,
+            1,
+            0
+          ]
+        }
+      },
+      {
+        "minimal_polynomial_exponents": [
+          0,
+          1,
+          4,
+          5,
+          6
+        ],
+        "multiplicative_order": 63,
+        "orbit_size": 6,
+        "representation_multiplicity": 3,
+        "representative_code": 22,
+        "representative_coordinates": [
+          2,
+          1,
+          1
+        ],
+        "section_witness": {
+          "a": [
+            1,
+            2,
+            1
+          ],
+          "b": [
+            0,
+            1,
+            0
+          ]
+        }
+      },
+      {
+        "minimal_polynomial_exponents": [
+          0,
+          2,
+          4,
+          5,
+          6
+        ],
+        "multiplicative_order": 21,
+        "orbit_size": 6,
+        "representation_multiplicity": 7,
+        "representative_code": 23,
+        "representative_coordinates": [
+          3,
+          1,
+          1
+        ],
+        "section_witness": {
+          "a": [
+            1,
+            1,
+            0
+          ],
+          "b": [
+            0,
+            0,
+            0
+          ]
+        }
+      },
+      {
+        "minimal_polynomial_exponents": [
+          0,
+          1,
+          3
+        ],
+        "multiplicative_order": 7,
+        "orbit_size": 3,
+        "representation_multiplicity": 4,
+        "representative_code": 28,
+        "representative_coordinates": [
+          0,
+          3,
+          1
+        ],
+        "section_witness": {
+          "a": [
+            1,
+            0,
+            0
+          ],
+          "b": [
+            0,
+            1,
+            2
+          ]
+        }
+      },
+      {
+        "minimal_polynomial_exponents": [
+          0,
+          2,
+          3
+        ],
+        "multiplicative_order": 7,
+        "orbit_size": 3,
+        "representation_multiplicity": 6,
+        "representative_code": 29,
+        "representative_coordinates": [
+          1,
+          3,
+          1
+        ],
+        "section_witness": {
+          "a": [
+            1,
+            2,
+            2
+          ],
+          "b": [
+            0,
+            1,
+            1
+          ]
+        }
+      },
+      {
+        "minimal_polynomial_exponents": [
+          0,
+          2,
+          3,
+          5,
+          6
+        ],
+        "multiplicative_order": 63,
+        "orbit_size": 6,
+        "representation_multiplicity": 3,
+        "representative_code": 30,
+        "representative_coordinates": [
+          2,
+          3,
+          1
+        ],
+        "section_witness": {
+          "a": [
+            1,
+            1,
+            3
+          ],
+          "b": [
+            0,
+            1,
+            0
+          ]
+        }
+      }
+    ],
+    "safe_description": "six roots of X^6+X^3+1, equivalently elements of order 9",
+    "safe_polynomial_exponents": [
+      0,
+      3,
+      6
+    ]
+  },
+  "n8": {
+    "field": "GF(256)=GF(2)[z]/(z^8+z^4+z^3+z+1)",
+    "represented_element_count": 252,
+    "represented_orbit_count": 33,
+    "rows": [
+      {
+        "minimal_polynomial_exponents": [
+          0,
+          1,
+          3,
+          4,
+          8
+        ],
+        "orbit_size": 8,
+        "representation_multiplicity": 18,
+        "representative": 2,
+        "representative_hex": "0x02",
+        "section_witness": {
+          "r_hex": "0x1d",
+          "s_hex": "0x48"
+        }
+      },
+      {
+        "minimal_polynomial_exponents": [
+          0,
+          2,
+          3,
+          4,
+          8
+        ],
+        "orbit_size": 8,
+        "representation_multiplicity": 18,
+        "representative": 3,
+        "representative_hex": "0x03",
+        "section_witness": {
+          "r_hex": "0x03",
+          "s_hex": "0x50"
+        }
+      },
+      {
+        "minimal_polynomial_exponents": [
+          0,
+          1,
+          3,
+          5,
+          8
+        ],
+        "orbit_size": 8,
+        "representation_multiplicity": 24,
+        "representative": 6,
+        "representative_hex": "0x06",
+        "section_witness": {
+          "r_hex": "0x4a",
+          "s_hex": "0x18"
+        }
+      },
+      {
+        "minimal_polynomial_exponents": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          8
+        ],
+        "orbit_size": 8,
+        "representation_multiplicity": 16,
+        "representative": 7,
+        "representative_hex": "0x07",
+        "section_witness": {
+          "r_hex": "0x09",
+          "s_hex": "0x06"
+        }
+      },
+      {
+        "minimal_polynomial_exponents": [
+          0,
+          3,
+          4,
+          5,
+          8
+        ],
+        "orbit_size": 8,
+        "representation_multiplicity": 10,
+        "representative": 8,
+        "representative_hex": "0x08",
+        "section_witness": {
+          "r_hex": "0x02",
+          "s_hex": "0x00"
+        }
+      },
+      {
+        "minimal_polynomial_exponents": [
+          0,
+          2,
+          3,
+          5,
+          8
+        ],
+        "orbit_size": 8,
+        "representation_multiplicity": 18,
+        "representative": 9,
+        "representative_hex": "0x09",
+        "section_witness": {
+          "r_hex": "0x02",
+          "s_hex": "0x01"
+        }
+      },
+      {
+        "minimal_polynomial_exponents": [
+          0,
+          1,
+          2,
+          3,
+          4
+        ],
+        "orbit_size": 4,
+        "representation_multiplicity": 12,
+        "representative": 12,
+        "representative_hex": "0x0c",
+        "section_witness": {
+          "r_hex": "0x09",
+          "s_hex": "0x49"
+        }
+      },
+      {
+        "minimal_polynomial_exponents": [
+          0,
+          3,
+          4
+        ],
+        "orbit_size": 4,
+        "representation_multiplicity": 12,
+        "representative": 13,
+        "representative_hex": "0x0d",
+        "section_witness": {
+          "r_hex": "0x08",
+          "s_hex": "0xa4"
+        }
+      },
+      {
+        "minimal_polynomial_exponents": [
+          0,
+          4,
+          5,
+          6,
+          8
+        ],
+        "orbit_size": 8,
+        "representation_multiplicity": 18,
+        "representative": 14,
+        "representative_hex": "0x0e",
+        "section_witness": {
+          "r_hex": "0x03",
+          "s_hex": "0x01"
+        }
+      },
+      {
+        "minimal_polynomial_exponents": [
+          0,
+          1,
+          2,
+          4,
+          5,
+          6,
+          8
+        ],
+        "orbit_size": 8,
+        "representation_multiplicity": 10,
+        "representative": 15,
+        "representative_hex": "0x0f",
+        "section_witness": {
+          "r_hex": "0x03",
+          "s_hex": "0x00"
+        }
+      },
+      {
+        "minimal_polynomial_exponents": [
+          0,
+          3,
+          5,
+          6,
+          8
+        ],
+        "orbit_size": 8,
+        "representation_multiplicity": 24,
+        "representative": 18,
+        "representative_hex": "0x12",
+        "section_witness": {
+          "r_hex": "0x4a",
+          "s_hex": "0x42"
+        }
+      },
+      {
+        "minimal_polynomial_exponents": [
+          0,
+          2,
+          5,
+          6,
+          8
+        ],
+        "orbit_size": 8,
+        "representation_multiplicity": 12,
+        "representative": 24,
+        "representative_hex": "0x18",
+        "section_witness": {
+          "r_hex": "0xa0",
+          "s_hex": "0x06"
+        }
+      },
+      {
+        "minimal_polynomial_exponents": [
+          0,
+          1,
+          5,
+          6,
+          8
+        ],
+        "orbit_size": 8,
+        "representation_multiplicity": 12,
+        "representative": 25,
+        "representative_hex": "0x19",
+        "section_witness": {
+          "r_hex": "0x1c",
+          "s_hex": "0x14"
+        }
+      },
+      {
+        "minimal_polynomial_exponents": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          7,
+          8
+        ],
+        "orbit_size": 8,
+        "representation_multiplicity": 15,
+        "representative": 32,
+        "representative_hex": "0x20",
+        "section_witness": {
+          "r_hex": "0x54",
+          "s_hex": "0x0c"
+        }
+      },
+      {
+        "minimal_polynomial_exponents": [
+          0,
+          1,
+          2,
+          5,
+          6,
+          7,
+          8
+        ],
+        "orbit_size": 8,
+        "representation_multiplicity": 15,
+        "representative": 33,
+        "representative_hex": "0x21",
+        "section_witness": {
+          "r_hex": "0x02",
+          "s_hex": "0x18"
+        }
+      },
+      {
+        "minimal_polynomial_exponents": [
+          0,
+          2,
+          3,
+          7,
+          8
+        ],
+        "orbit_size": 8,
+        "representation_multiplicity": 15,
+        "representative": 34,
+        "representative_hex": "0x22",
+        "section_witness": {
+          "r_hex": "0x1a",
+          "s_hex": "0x12"
+        }
+      },
+      {
+        "minimal_polynomial_exponents": [
+          0,
+          2,
+          4,
+          5,
+          6,
+          7,
+          8
+        ],
+        "orbit_size": 8,
+        "representation_multiplicity": 15,
+        "representative": 35,
+        "representative_hex": "0x23",
+        "section_witness": {
+          "r_hex": "0x02",
+          "s_hex": "0x45"
+        }
+      },
+      {
+        "minimal_polynomial_exponents": [
+          0,
+          2,
+          3,
+          4,
+          6,
+          7,
+          8
+        ],
+        "orbit_size": 8,
+        "representation_multiplicity": 7,
+        "representative": 36,
+        "representative_hex": "0x24",
+        "section_witness": {
+          "r_hex": "0x52",
+          "s_hex": "0x00"
+        }
+      },
+      {
+        "minimal_polynomial_exponents": [
+          0,
+          4,
+          5,
+          7,
+          8
+        ],
+        "orbit_size": 8,
+        "representation_multiplicity": 15,
+        "representative": 37,
+        "representative_hex": "0x25",
+        "section_witness": {
+          "r_hex": "0x52",
+          "s_hex": "0x01"
+        }
+      },
+      {
+        "minimal_polynomial_exponents": [
+          0,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8
+        ],
+        "orbit_size": 8,
+        "representation_multiplicity": 15,
+        "representative": 38,
+        "representative_hex": "0x26",
+        "section_witness": {
+          "r_hex": "0x03",
+          "s_hex": "0x18"
+        }
+      },
+      {
+        "minimal_polynomial_exponents": [
+          0,
+          1,
+          2,
+          7,
+          8
+        ],
+        "orbit_size": 8,
+        "representation_multiplicity": 15,
+        "representative": 39,
+        "representative_hex": "0x27",
+        "section_witness": {
+          "r_hex": "0x46",
+          "s_hex": "0x14"
+        }
+      },
+      {
+        "minimal_polynomial_exponents": [
+          0,
+          2,
+          3,
+          4,
+          5,
+          7,
+          8
+        ],
+        "orbit_size": 8,
+        "representation_multiplicity": 19,
+        "representative": 46,
+        "representative_hex": "0x2e",
+        "section_witness": {
+          "r_hex": "0x0f",
+          "s_hex": "0x00"
+        }
+      },
+      {
+        "minimal_polynomial_exponents": [
+          0,
+          1,
+          2,
+          4,
+          6,
+          7,
+          8
+        ],
+        "orbit_size": 8,
+        "representation_multiplicity": 19,
+        "representative": 47,
+        "representative_hex": "0x2f",
+        "section_witness": {
+          "r_hex": "0x4a",
+          "s_hex": "0x00"
+        }
+      },
+      {
+        "minimal_polynomial_exponents": [
+          0,
+          1,
+          6,
+          7,
+          8
+        ],
+        "orbit_size": 8,
+        "representation_multiplicity": 15,
+        "representative": 48,
+        "representative_hex": "0x30",
+        "section_witness": {
+          "r_hex": "0xa0",
+          "s_hex": "0xb0"
+        }
+      },
+      {
+        "minimal_polynomial_exponents": [
+          0,
+          3,
+          5,
+          7,
+          8
+        ],
+        "orbit_size": 8,
+        "representation_multiplicity": 15,
+        "representative": 49,
+        "representative_hex": "0x31",
+        "section_witness": {
+          "r_hex": "0x58",
+          "s_hex": "0xa4"
+        }
+      },
+      {
+        "minimal_polynomial_exponents": [
+          0,
+          1,
+          3,
+          7,
+          8
+        ],
+        "orbit_size": 8,
+        "representation_multiplicity": 15,
+        "representative": 50,
+        "representative_hex": "0x32",
+        "section_witness": {
+          "r_hex": "0x03",
+          "s_hex": "0x42"
+        }
+      },
+      {
+        "minimal_polynomial_exponents": [
+          0,
+          1,
+          4,
+          5,
+          6,
+          7,
+          8
+        ],
+        "orbit_size": 8,
+        "representation_multiplicity": 15,
+        "representative": 51,
+        "representative_hex": "0x33",
+        "section_witness": {
+          "r_hex": "0x02",
+          "s_hex": "0xa4"
+        }
+      },
+      {
+        "minimal_polynomial_exponents": [
+          0,
+          1,
+          3,
+          4,
+          5,
+          6,
+          8
+        ],
+        "orbit_size": 8,
+        "representation_multiplicity": 16,
+        "representative": 66,
+        "representative_hex": "0x42",
+        "section_witness": {
+          "r_hex": "0x09",
+          "s_hex": "0x42"
+        }
+      },
+      {
+        "minimal_polynomial_exponents": [
+          0,
+          2,
+          3,
+          6,
+          8
+        ],
+        "orbit_size": 8,
+        "representation_multiplicity": 18,
+        "representative": 70,
+        "representative_hex": "0x46",
+        "section_witness": {
+          "r_hex": "0x10",
+          "s_hex": "0x0c"
+        }
+      },
+      {
+        "minimal_polynomial_exponents": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          6,
+          8
+        ],
+        "orbit_size": 8,
+        "representation_multiplicity": 18,
+        "representative": 71,
+        "representative_hex": "0x47",
+        "section_witness": {
+          "r_hex": "0x0e",
+          "s_hex": "0xa8"
+        }
+      },
+      {
+        "minimal_polynomial_exponents": [
+          0,
+          1,
+          4
+        ],
+        "orbit_size": 4,
+        "representation_multiplicity": 24,
+        "representative": 92,
+        "representative_hex": "0x5c",
+        "section_witness": {
+          "r_hex": "0x41",
+          "s_hex": "0x12"
+        }
+      },
+      {
+        "minimal_polynomial_exponents": [
+          0,
+          1,
+          2,
+          3,
+          6,
+          7,
+          8
+        ],
+        "orbit_size": 8,
+        "representation_multiplicity": 27,
+        "representative": 110,
+        "representative_hex": "0x6e",
+        "section_witness": {
+          "r_hex": "0x05",
+          "s_hex": "0xa4"
+        }
+      },
+      {
+        "minimal_polynomial_exponents": [
+          0,
+          1,
+          5,
+          7,
+          8
+        ],
+        "orbit_size": 8,
+        "representation_multiplicity": 19,
+        "representative": 111,
+        "representative_hex": "0x6f",
+        "section_witness": {
+          "r_hex": "0x40",
+          "s_hex": "0x50"
+        }
+      }
+    ],
+    "safe_description": "GF(4), roots of X^4+X",
+    "safe_polynomial_exponents": [
+      1,
+      4
+    ],
+    "safe_subfield": [
+      0,
+      1,
+      188,
+      189
+    ]
+  },
+  "principle": "The section-product set is Frobenius invariant. One explicit section witness for each Frobenius orbit proves coverage of the whole orbit.",
+  "schema": "compact-section-orbit-certificates-v1"
+}

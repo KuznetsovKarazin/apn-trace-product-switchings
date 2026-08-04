@@ -1,0 +1,265 @@
+{
+  "between_orbits": {
+    "CCZ_inequivalent_for_quadratic_APN": true,
+    "EA_inequivalent": true,
+    "different_orthoderivative_absolute_walsh_spectra": true,
+    "different_orthoderivative_differential_spectra": true
+  },
+  "date": "2026-08-02",
+  "objects": "eight marked projective APN switchings",
+  "partition": [
+    {
+      "EA_equivalent_within_orbit": true,
+      "common_signature_sha256": "3c777a145e12811828c1c49afc65dddb5870393c9d46f12b87fa594b1917baaf",
+      "explicit_EA_cycle": [
+        {
+          "identity_verified_on_256_inputs": true,
+          "input_linear_map": "x -> x^(2^7)",
+          "linear_correction_formula": "eta^2 Tr(x) + (eta*rho^(-3))^2 Tr(rho^2 x)",
+          "linear_correction_rank": 2,
+          "output_linear_map": "y -> y^2",
+          "source": [
+            "0x0c",
+            "0x01"
+          ],
+          "target": [
+            "0x50",
+            "0x01"
+          ]
+        },
+        {
+          "identity_verified_on_256_inputs": true,
+          "input_linear_map": "x -> x^(2^7)",
+          "linear_correction_formula": "eta^2 Tr(x) + (eta*rho^(-3))^2 Tr(rho^2 x)",
+          "linear_correction_rank": 2,
+          "output_linear_map": "y -> y^2",
+          "source": [
+            "0x50",
+            "0x01"
+          ],
+          "target": [
+            "0xb0",
+            "0x01"
+          ]
+        },
+        {
+          "identity_verified_on_256_inputs": true,
+          "input_linear_map": "x -> x^(2^7)",
+          "linear_correction_formula": "eta^2 Tr(x) + (eta*rho^(-3))^2 Tr(rho^2 x)",
+          "linear_correction_rank": 2,
+          "output_linear_map": "y -> y^2",
+          "source": [
+            "0xb0",
+            "0x01"
+          ],
+          "target": [
+            "0xed",
+            "0x01"
+          ]
+        },
+        {
+          "identity_verified_on_256_inputs": true,
+          "input_linear_map": "x -> x^(2^7)",
+          "linear_correction_formula": "eta^2 Tr(x) + (eta*rho^(-3))^2 Tr(rho^2 x)",
+          "linear_correction_rank": 2,
+          "output_linear_map": "y -> y^2",
+          "source": [
+            "0xed",
+            "0x01"
+          ],
+          "target": [
+            "0x0c",
+            "0x01"
+          ]
+        }
+      ],
+      "members": [
+        {
+          "eta_hex": "0x01",
+          "function_sha256": "175c20cddfab9f2d68de9b5fb0a729a630e0f9cb472ec9955feed06a32a9c667",
+          "orthoderivative_signature": {
+            "absolute_walsh_spectrum": "{0:12930, 8:22536, 16:15974, 24:8532, 32:4006, 40:1188, 48:114}",
+            "differential_spectrum": "{0:38184, 2:22179, 4:4338, 6:531, 8:48}",
+            "serialization": "{\"absolute_walsh_spectrum\":\"{0:12930, 8:22536, 16:15974, 24:8532, 32:4006, 40:1188, 48:114}\",\"differential_spectrum\":\"{0:38184, 2:22179, 4:4338, 6:531, 8:48}\"}",
+            "sha256": "3c777a145e12811828c1c49afc65dddb5870393c9d46f12b87fa594b1917baaf"
+          },
+          "rho_hex": "0x0c"
+        },
+        {
+          "eta_hex": "0x01",
+          "function_sha256": "8c9543bfe74fbff3d41bef85d163e80da00075debf43773d9a4f8487da7a5b80",
+          "orthoderivative_signature": {
+            "absolute_walsh_spectrum": "{0:12930, 8:22536, 16:15974, 24:8532, 32:4006, 40:1188, 48:114}",
+            "differential_spectrum": "{0:38184, 2:22179, 4:4338, 6:531, 8:48}",
+            "serialization": "{\"absolute_walsh_spectrum\":\"{0:12930, 8:22536, 16:15974, 24:8532, 32:4006, 40:1188, 48:114}\",\"differential_spectrum\":\"{0:38184, 2:22179, 4:4338, 6:531, 8:48}\"}",
+            "sha256": "3c777a145e12811828c1c49afc65dddb5870393c9d46f12b87fa594b1917baaf"
+          },
+          "rho_hex": "0x50"
+        },
+        {
+          "eta_hex": "0x01",
+          "function_sha256": "99b3f423e2cbd932c948b179632c5f138127c6159e29755150b93628ec3ccdf5",
+          "orthoderivative_signature": {
+            "absolute_walsh_spectrum": "{0:12930, 8:22536, 16:15974, 24:8532, 32:4006, 40:1188, 48:114}",
+            "differential_spectrum": "{0:38184, 2:22179, 4:4338, 6:531, 8:48}",
+            "serialization": "{\"absolute_walsh_spectrum\":\"{0:12930, 8:22536, 16:15974, 24:8532, 32:4006, 40:1188, 48:114}\",\"differential_spectrum\":\"{0:38184, 2:22179, 4:4338, 6:531, 8:48}\"}",
+            "sha256": "3c777a145e12811828c1c49afc65dddb5870393c9d46f12b87fa594b1917baaf"
+          },
+          "rho_hex": "0xb0"
+        },
+        {
+          "eta_hex": "0x01",
+          "function_sha256": "bd75885d707e9a047de3054258c2ceff5a3dcc760439e40257b10bbf969de97f",
+          "orthoderivative_signature": {
+            "absolute_walsh_spectrum": "{0:12930, 8:22536, 16:15974, 24:8532, 32:4006, 40:1188, 48:114}",
+            "differential_spectrum": "{0:38184, 2:22179, 4:4338, 6:531, 8:48}",
+            "serialization": "{\"absolute_walsh_spectrum\":\"{0:12930, 8:22536, 16:15974, 24:8532, 32:4006, 40:1188, 48:114}\",\"differential_spectrum\":\"{0:38184, 2:22179, 4:4338, 6:531, 8:48}\"}",
+            "sha256": "3c777a145e12811828c1c49afc65dddb5870393c9d46f12b87fa594b1917baaf"
+          },
+          "rho_hex": "0xed"
+        }
+      ],
+      "orbit_id": 1
+    },
+    {
+      "EA_equivalent_within_orbit": true,
+      "common_signature_sha256": "feb7f0cb6e39088a8b63b579e4847c6628d64feda5b4ce9bb416899a2c001519",
+      "explicit_EA_cycle": [
+        {
+          "identity_verified_on_256_inputs": true,
+          "input_linear_map": "x -> x^(2^7)",
+          "linear_correction_formula": "eta^2 Tr(x) + (eta*rho^(-3))^2 Tr(rho^2 x)",
+          "linear_correction_rank": 2,
+          "output_linear_map": "y -> y^2",
+          "source": [
+            "0x0c",
+            "0xbd"
+          ],
+          "target": [
+            "0x50",
+            "0xbc"
+          ]
+        },
+        {
+          "identity_verified_on_256_inputs": true,
+          "input_linear_map": "x -> x^(2^7)",
+          "linear_correction_formula": "eta^2 Tr(x) + (eta*rho^(-3))^2 Tr(rho^2 x)",
+          "linear_correction_rank": 2,
+          "output_linear_map": "y -> y^2",
+          "source": [
+            "0x50",
+            "0xbc"
+          ],
+          "target": [
+            "0xb0",
+            "0xbd"
+          ]
+        },
+        {
+          "identity_verified_on_256_inputs": true,
+          "input_linear_map": "x -> x^(2^7)",
+          "linear_correction_formula": "eta^2 Tr(x) + (eta*rho^(-3))^2 Tr(rho^2 x)",
+          "linear_correction_rank": 2,
+          "output_linear_map": "y -> y^2",
+          "source": [
+            "0xb0",
+            "0xbd"
+          ],
+          "target": [
+            "0xed",
+            "0xbc"
+          ]
+        },
+        {
+          "identity_verified_on_256_inputs": true,
+          "input_linear_map": "x -> x^(2^7)",
+          "linear_correction_formula": "eta^2 Tr(x) + (eta*rho^(-3))^2 Tr(rho^2 x)",
+          "linear_correction_rank": 2,
+          "output_linear_map": "y -> y^2",
+          "source": [
+            "0xed",
+            "0xbc"
+          ],
+          "target": [
+            "0x0c",
+            "0xbd"
+          ]
+        }
+      ],
+      "members": [
+        {
+          "eta_hex": "0xbd",
+          "function_sha256": "b8b05b3269d25efc105d887681c74e28866260d407e5d2601ba3c6f50f9e6286",
+          "orthoderivative_signature": {
+            "absolute_walsh_spectrum": "{0:13377, 8:22044, 16:15914, 24:8712, 32:3955, 40:1116, 48:162}",
+            "differential_spectrum": "{0:38256, 2:22116, 4:4230, 6:648, 8:30}",
+            "serialization": "{\"absolute_walsh_spectrum\":\"{0:13377, 8:22044, 16:15914, 24:8712, 32:3955, 40:1116, 48:162}\",\"differential_spectrum\":\"{0:38256, 2:22116, 4:4230, 6:648, 8:30}\"}",
+            "sha256": "feb7f0cb6e39088a8b63b579e4847c6628d64feda5b4ce9bb416899a2c001519"
+          },
+          "rho_hex": "0x0c"
+        },
+        {
+          "eta_hex": "0xbc",
+          "function_sha256": "d2acb3c4ba066cdcd851b6efe38ce0196d3d588c367b323e05c220a9a6ac9e7a",
+          "orthoderivative_signature": {
+            "absolute_walsh_spectrum": "{0:13377, 8:22044, 16:15914, 24:8712, 32:3955, 40:1116, 48:162}",
+            "differential_spectrum": "{0:38256, 2:22116, 4:4230, 6:648, 8:30}",
+            "serialization": "{\"absolute_walsh_spectrum\":\"{0:13377, 8:22044, 16:15914, 24:8712, 32:3955, 40:1116, 48:162}\",\"differential_spectrum\":\"{0:38256, 2:22116, 4:4230, 6:648, 8:30}\"}",
+            "sha256": "feb7f0cb6e39088a8b63b579e4847c6628d64feda5b4ce9bb416899a2c001519"
+          },
+          "rho_hex": "0x50"
+        },
+        {
+          "eta_hex": "0xbd",
+          "function_sha256": "d70be6ea344ae419219a93048366ba3e1733f4266abd686ab2be0c30bf6a5363",
+          "orthoderivative_signature": {
+            "absolute_walsh_spectrum": "{0:13377, 8:22044, 16:15914, 24:8712, 32:3955, 40:1116, 48:162}",
+            "differential_spectrum": "{0:38256, 2:22116, 4:4230, 6:648, 8:30}",
+            "serialization": "{\"absolute_walsh_spectrum\":\"{0:13377, 8:22044, 16:15914, 24:8712, 32:3955, 40:1116, 48:162}\",\"differential_spectrum\":\"{0:38256, 2:22116, 4:4230, 6:648, 8:30}\"}",
+            "sha256": "feb7f0cb6e39088a8b63b579e4847c6628d64feda5b4ce9bb416899a2c001519"
+          },
+          "rho_hex": "0xb0"
+        },
+        {
+          "eta_hex": "0xbc",
+          "function_sha256": "35485165f63e717ed8133c1aa16119e07b7d3f4ea19324c785c899568f5a24af",
+          "orthoderivative_signature": {
+            "absolute_walsh_spectrum": "{0:13377, 8:22044, 16:15914, 24:8712, 32:3955, 40:1116, 48:162}",
+            "differential_spectrum": "{0:38256, 2:22116, 4:4230, 6:648, 8:30}",
+            "serialization": "{\"absolute_walsh_spectrum\":\"{0:13377, 8:22044, 16:15914, 24:8712, 32:3955, 40:1116, 48:162}\",\"differential_spectrum\":\"{0:38256, 2:22116, 4:4230, 6:648, 8:30}\"}",
+            "sha256": "feb7f0cb6e39088a8b63b579e4847c6628d64feda5b4ce9bb416899a2c001519"
+          },
+          "rho_hex": "0xed"
+        }
+      ],
+      "orbit_id": 2
+    }
+  ],
+  "proof_dependencies": {
+    "between_classes": "distinct orthoderivative differential/Walsh spectra; these are EA invariants, and EA=CCZ for quadratic APN functions",
+    "within_class": "explicit EA identities verified on all field elements"
+  },
+  "provenance": {
+    "sha256": "e433d50e94c88345f916d565cdb18bf7af72b499c1c77c89b0a0709bf20df852",
+    "stage5j": "results/current/projective_displacement_theorem.json"
+  },
+  "schema": "projective-equivalence-partition-v1",
+  "theorem": {
+    "CCZ_classes": 2,
+    "EA_classes": 2,
+    "class_sizes_among_marked_points": [
+      4,
+      4
+    ],
+    "identification": [
+      "PART2-X3-1",
+      "PART2-X3-2"
+    ]
+  },
+  "validation": {
+    "all_EA_arrows_verified": true,
+    "eight_points": true,
+    "signatures_separate_orbits": true,
+    "two_frobenius_orbits": true
+  }
+}
